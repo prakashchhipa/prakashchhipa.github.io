@@ -2,16 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 
 
 profile:
   align: right
   image: prakashchhipa.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>A35374</p>
-    <p>Luleå Universtiy of Technology</p>
-    <p>Luleå Sweden</p>
+    <p>A35374, Luleå Universtiy of Technology, Sweden</p>
+  
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"

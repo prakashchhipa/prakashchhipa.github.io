@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - prakashchhipa
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - prakashchhipa/Magnification-Prior-Self-Supervised-Method
+  - prakashchhipa/Depth-Contrast-Self-Supervised-Method
+  - prakashchhipa/Robsutness-Evaluation-of-Self-supervised-Methods-Distribution-Shifts-and-Corruptions
+  - prakashchhipa/Functional_Knowledge_Transfer_SSL
+  - prakashchhipa/Learning-Self-Supervised-Representations-for-Label-Efficient-Cross-Domain-Knowledge-Transfer-on-DRF
+  

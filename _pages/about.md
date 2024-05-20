@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle: <a href='https://www.ltu.se/en/staff/p/prakash-chandra-chhipa'>Luleå Universtiy of Technology, Sweden</a>
 
 profile:
   align: right

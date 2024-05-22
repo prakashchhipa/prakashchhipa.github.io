@@ -1,0 +1,7 @@
+# _data/academic_research.yml
+- image: "path_to_university_logo.jpg"
+  name: "University Logo"
+  description: "Pursuing PhD at Luleå University of Technology, advised by Prof. Marcus Liwicki."
+- image: "path_to_other_logo.jpg"
+  name: "Other Logo"
+  description: "Another important aspect of my education."

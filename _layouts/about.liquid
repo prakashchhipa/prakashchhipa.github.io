@@ -39,6 +39,21 @@ layout: default
     {% endif %}
 
     <div class="clearfix">{{ content }}</div>
+    
+    <!-- custom-section.html -->
+    <div class="custom-section">
+      {% for item in site.data.education %}
+        <div class="row">
+          <div class="image">
+            <img src="{{ item.image }}" alt="{{ item.name }}"/>
+          </div>
+          <div class="text">
+            <p>{{ item.description }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}

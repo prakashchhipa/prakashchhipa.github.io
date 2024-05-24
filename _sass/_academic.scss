@@ -1,8 +1,7 @@
 .academic {
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin-bottom: 20px;
-    background-color: #f9f9f9;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border: 1px solid #ccc; /* Optional: adds a light border for better definition */
+    background-color: var(--background-color); /* Adapts to the theme, ensure variable is defined */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.19); /* Double-layer shadow for 3D effect */
+    margin-bottom: 20px; /* Space between rows */
+    border-radius: 5px; /* Optional: rounds the corners for a smoother look */
 }

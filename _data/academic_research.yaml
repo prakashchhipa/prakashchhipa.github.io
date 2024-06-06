@@ -4,9 +4,9 @@
 
 - image: "assets/img/ltu.png"
   name: "LTU Logo"
-  description: "PhD candidate at ML Group Luleå University of Technology, Sweden. Defended licentiate thesis in April 2023 and working towards doctoral thesis. (2020-)"
+  description: "PhD candidate at ML Group Luleå University of Technology, Sweden. Defended my  <a href='https://www.diva-portal.org/smash/get/diva2:1732072/FULLTEXT02.pdf'>licentiate thesis</a> in March 2023 and working towards my doctoral thesis. (2020-). Published multiple <a href='https://prakashchhipa.github.io/publications/'>research articles</a> on self-supervised representation learning. Has been a reviewer in multiple conferences. Accomplished industrial research with multiple organizations. Recevied multiple grants." 
 
 - image: "assets/img/ucf_crcv.png"
   name: "CRCV Logo"
-  description: "Visiting Researcher at Center for Research on Computer Vision, University of Central Florida, USA, I am guided by host Prof. Mubarak Shah and working on robust representation learning and also focusing Geo-localization domain. (Mar-June 2024)"
+  description: "Visiting Researcher at Center for Research on Computer Vision, University of Central Florida, USA. Guided by host Prof. Mubarak Shah and working on robust representation learning and also focusing Geo-localization domain. (Mar-June 2024)"
 

@@ -1110,20 +1110,19 @@ swiper-container {
   }
 }
 
-.logo-small img {
-  width: 100px; /* Adjust the width as needed */
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.text {
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 10px; /* Adjust margin as needed */
-}
-
-.row {
+.about-row {
   display: flex;
   align-items: center;
+  margin-bottom: 10px; /* Optional */
 }
+
+.logo-small img {
+  width: 100px; /* Adjust as needed */
+  margin-right: 10px; /* Optional */
+}
+
+.about-text {
+  flex: 1;
+}
+
 

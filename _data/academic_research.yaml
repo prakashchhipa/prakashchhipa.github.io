@@ -1,4 +1,8 @@
 # _data/academic_research.yml
+- image: ""
+  name: "empty"
+  description: ""
+
 - image: "assets/img/ltu.png"
   name: "LTU Logo"
   description: "PhD candidate at ML Group Luleå University of Technology, Sweden. (2020-)"

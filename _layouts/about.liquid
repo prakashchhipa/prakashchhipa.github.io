@@ -43,11 +43,11 @@ layout: default
     <!-- custom-section.html -->
     <div class="table table-cv table-sm table-borderless table-responsive table-cv-map academic>
       {% for item in site.data.academic_research %}
-        <div class="row">
+        <div class="about-row align-items-center">
           <div class="image logo-small">
             <img src="{{ item.image }}" alt="{{ item.name }}"/>
           </div>
-          <div class="text">
+          <div class="about-text">
             <p>{{ item.description }}</p>
           </div>
         </div>

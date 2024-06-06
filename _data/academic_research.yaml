@@ -1,5 +1,9 @@
 # _data/academic_research.yml
 - image: "assets/img/ltu.png"
   name: "LTU Logo"
-  description: "Pursuing PhD at Luleå University of Technology, Sweden., focusing representation learning"
+  description: "PhD candidate at ML Group Luleå University of Technology, Sweden. (2020-)"
+
+- image: "assets/img/ucf_crcv.png"
+  name: "CRCV Logo"
+  description: "Visiting Researcher at Center of Research on Computer Vision, University of Central Florida, USA. (Mar-June 2024)"
 

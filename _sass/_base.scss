@@ -1109,3 +1109,21 @@ swiper-container {
     border-bottom: 2px solid var(--global-text-color);
   }
 }
+
+.logo-small img {
+  width: 100px; /* Adjust the width as needed */
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.text {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px; /* Adjust margin as needed */
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+

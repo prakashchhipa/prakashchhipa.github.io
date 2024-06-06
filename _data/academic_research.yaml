@@ -1,13 +1,12 @@
 # _data/academic_research.yml
-- image: ""
-  name: "empty"
+- name: "empty"
   description: ""
 
 - image: "assets/img/ltu.png"
   name: "LTU Logo"
-  description: "PhD candidate at ML Group Luleå University of Technology, Sweden. (2020-)"
+  description: "PhD candidate at ML Group Luleå University of Technology, Sweden. Defended licentiate thesis in April 2023 and working towards doctoral thesis. (2020-)"
 
 - image: "assets/img/ucf_crcv.png"
   name: "CRCV Logo"
-  description: "Visiting Researcher at Center for Research on Computer Vision, University of Central Florida, USA. Explored robust representation learning and Geo localization challenges, advised by host Prof. Mubarak Shah. (Mar-June 2024)"
+  description: "Visiting Researcher at Center for Research on Computer Vision, University of Central Florida, USA, I am guided by host Prof. Mubarak Shah and working on robust representation learning and also focusing Geo-localization domain. (Mar-June 2024)"
 

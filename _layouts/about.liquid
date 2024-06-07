@@ -56,7 +56,21 @@ layout: default
       {% endfor %}
     </div>
 
-
+<h2 class="academic-research-heading">Industrial R&D Work</h2>
+    
+    <!-- custom-section.html -->
+    <div class="table table-cv table-sm table-borderless table-responsive table-cv-map academic>
+      {% for item in site.data.industrial_rnd %}
+        <div class="academic-row align-items-center">
+          <div class="image logo-small">
+            <img src="{{ item.image }}" alt="{{ item.name }}"/>
+          </div>
+          <div class="about-text">
+            <p>{{ item.description }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>

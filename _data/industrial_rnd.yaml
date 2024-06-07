@@ -4,7 +4,7 @@
 
 - image: "assets/img/arkray.jpg"
   name: "arkray Logo"
-  description: "" 
+  description: "Applied research and development of vision methods in domain of microscopic histopathology images for urine analysis." 
 
 - image: "assets/img/samsung_research.jpg"
   name: "samsung logo"

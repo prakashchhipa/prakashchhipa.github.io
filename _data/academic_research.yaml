@@ -4,9 +4,9 @@
 
 - image: "assets/img/ltu.png"
   name: "LTU Logo"
-  description: "PhD candidate at ML Group Luleå University of Technology, Sweden. Defended my  <a href='https://www.diva-portal.org/smash/get/diva2:1732072/FULLTEXT02.pdf'>licentiate thesis</a> in March 2023 and working towards my doctoral thesis. (2020-). Published multiple <a href='https://prakashchhipa.github.io/publications/'>research articles</a> on self-supervised representation learning. Has been a reviewer in multiple conferences. Accomplished industrial research with multiple organizations. Recevied multiple grants." 
+  description: "PhD candidate at <a href='https://www.ltu.se/en/research/research-subjects/machine-learning'>ML Group, Luleå University of Technology, Sweden</a>. Defended my <a href='https://www.diva-portal.org/smash/get/diva2:1732072/FULLTEXT02.pdf'>licentiate thesis</a> in March 2023 and working towards my doctoral thesis. Published multiple <a href='https://prakashchhipa.github.io/publications/'>research articles</a> on self-supervised representation learning. Reviewer in multiple conferences, accomplished industrial research, and won multiple grants." 
 
 - image: "assets/img/ucf_crcv.png"
   name: "CRCV Logo"
-  description: "Visiting Researcher at Center for Research on Computer Vision, University of Central Florida, USA. Guided by host Prof. Mubarak Shah and working on robust representation learning and also focusing Geo-localization domain. (Mar-June 2024)"
+  description: "Visiting Researcher at <a href = 'https://www.crcv.ucf.edu/'>Center for Research in Computer Vision (CRCV), University of Central Florida, USA</a>. Guided by host <a href = 'https://www.crcv.ucf.edu/person/mubarak-shah/'>Prof. Mubarak Shah</a>. Working on robust representation learning and also focusing Geo-localization domain. (Mar-June 2024)"
 

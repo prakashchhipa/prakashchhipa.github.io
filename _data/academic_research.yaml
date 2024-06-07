@@ -1,6 +1,4 @@
 # _data/academic_research.yml
-- name: "empty"
-  description: ""
 
 - image: "assets/img/ltu.png"
   name: "LTU Logo"

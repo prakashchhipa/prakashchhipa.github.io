@@ -1,0 +1,14 @@
+# _data/academic_research.yml
+
+- image: "assets/img/ltu.png"
+  name: "LTU Logo"
+  description: "PhD candidate at <a href='https://www.ltu.se/en/research/research-subjects/machine-learning'>ML Group, Luleå University of Technology, Sweden</a>. Defended my <a href='https://www.diva-portal.org/smash/get/diva2:1732072/FULLTEXT02.pdf'>licentiate thesis</a> in March 2023 and working towards my doctoral thesis. Published multiple <a href='https://prakashchhipa.github.io/publications/'>research articles</a> on self-supervised representation learning. Reviewer in multiple conferences, accomplished industrial research, and secured multiple grants." 
+
+- image: "assets/img/ucf_crcv.png"
+  name: "CRCV Logo"
+  description: "Visiting Researcher at <a href = 'https://www.crcv.ucf.edu/'>Center for Research in Computer Vision (CRCV), University of Central Florida, USA</a>. Guided by host <a href = 'https://www.crcv.ucf.edu/person/mubarak-shah/'>Prof. Mubarak Shah</a>. Working on robust representation learning and also focusing Geo-localization domain. (Mar-June 2024)"
+
+- image: "assets/img/cam_mirai_embl.png"
+  name: "mix Logo"
+  description: "Accepted and participated in <a href = 'https://www.ellis.eng.cam.ac.uk/summer-school-23/'>machine learning school at Cambridge University, UK</a> and other prestigius venues. Invited talk at <a href=''>EMBL-European Bioinformatics Institute at Cambridge, UK</a> and <a href='https://www.mirai.nu/'>MIRAI 2.0 Research and Innovation week at Kyushu University, Fukuoka, Japan</a>."
+

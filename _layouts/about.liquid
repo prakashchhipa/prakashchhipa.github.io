@@ -47,7 +47,12 @@ layout: default
       {% for item in site.data.academic_research %}
         <div class="academic-row align-items-center">
           <div class="image logo-small">
-            <img src="{{ item.image }}" alt="{{ item.name }}"/>
+            {% if item.image %}
+              <img src="{{ item.image }}" alt="{{ item.name }}"/>
+            {% else %}
+              <!-- Placeholder content if no image is provided -->
+              <span></span>
+            {% endif %}
           </div>
           <div class="about-text">
             <p>{{ item.description }}</p>
@@ -63,7 +68,12 @@ layout: default
       {% for item in site.data.industrial_rnd %}
         <div class="academic-row align-items-center">
           <div class="image logo-small">
-            <img src="{{ item.image }}" alt="{{ item.name }}"/>
+            {% if item.image %}
+              <img src="{{ item.image }}" alt="{{ item.name }}"/>
+            {% else %}
+              <!-- Placeholder content if no image is provided -->
+              <span></span>
+            {% endif %}
           </div>
           <div class="about-text">
             <p>{{ item.description }}</p>

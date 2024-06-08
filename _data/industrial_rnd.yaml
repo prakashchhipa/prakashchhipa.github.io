@@ -8,9 +8,9 @@
 
 - image: "assets/img/samsung.png"
   name: "samsung logo"
-  description: ""
+  description: "Machine learning at AI & Data Intelligence Group (Now Advanced Research - Vision AI), <a href='https://research.samsung.com/sri-d'>Samsung R&D Institute</a> for 6+ years (2012-2018) in different roles. Have been in forefornt for long terms R&D of successful large scale products <a href='https://image-us.samsung.com/SamsungUS/samsungbusiness/samsung-ads/resources/total-tv-watcher/samsung-ads-resources-2019-total-tv-watcher.pdf'>Samsung ACR and Samsung Ads</a> focusing majorly on computer vision and reinforcement learning. Have been inventor for multiple granted patents/IP applications and awardee for Innovator of the Year-2017 for multiple IPs."
 
 - image: "assets/img/hcl.png"
   name: "hcl Logo"
-  description: ""
+  description: "Worked with <a href ='https://www.hcltech.com/'>HCL Technology</a> for two years (2010-2012) and have been contributor for enterprise scale development of platform for leading Telcom service provider <a href='https://www.t-mobile.com/'>T-Mobile</a>."
 

@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
 subtitle: Doctoral Researcher, <a href='https://www.ltu.se/en/staff/p/prakash-chandra-chhipa'>Luleå Universtiy of Technology, Sweden</a>
 

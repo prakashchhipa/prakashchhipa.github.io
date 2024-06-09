@@ -4,15 +4,15 @@
 
 - image: "assets/img/arkray.png"
   name: "arkray Logo"
-  description: "Build team and leaded computer vision research and development in microscopic histopathology visual domain at <a href = 'https://www.arkray.co.jp/english/'>Arkray R&D</a>. Proudly contributed in achieving novel sediment recognition method on low resolution histopathology for successful commercialization of <a href = 'https://www.arkray.co.jp/english/news/2019/release20190708_jp_en.html'>Urinary Sediment Analyzer AUTION EYE AI-4510</a>. Have been inventor for multiple patent applications (2018-2020)."
+  description: "Built a team and led computer vision research and development in the microscopic histopathology visual domain at <a href = 'https://www.arkray.co.jp/english/'>Arkray R&D</a>. Proudly contributed to achieving novel sediment recognition method on low-resolution histopathology for successful commercialization of <a href = 'https://www.arkray.co.jp/english/news/2019/release20190708_jp_en.html'>Urinary Sediment Analyzer AUTION EYE AI-4510</a>. Have been inventor for multiple patent applications (2018-2020)."
 
 - image: "assets/img/samsung.png"
   name: "samsung logo"
-  description: "Machine learning at AI & Data Intelligence Group (Now Advanced Research - Vision AI), <a href='https://research.samsung.com/sri-d'>Samsung R&D Institute</a> for 6+ years (2012-2018) in different roles. Have been in forefornt for long terms R&D of successful large scale products <a href='https://image-us.samsung.com/SamsungUS/samsungbusiness/samsung-ads/resources/total-tv-watcher/samsung-ads-resources-2019-total-tv-watcher.pdf'>Samsung ACR and Samsung Ads</a> focusing majorly on computer vision and reinforcement learning. Have been inventor for multiple granted patents/IP applications and awardee for Innovator of the Year-2017 for multiple IPs."
+  description: "Machine learning at AI & Data Intelligence Group (Now Advanced Research - Vision AI), <a href='https://research.samsung.com/sri-d'>Samsung R&D Institute</a> for 6+ years (2012-2018) in different roles. Have been in forefornt for long-term R&D of successful large-scale products <a href='https://image-us.samsung.com/SamsungUS/samsungbusiness/samsung-ads/resources/total-tv-watcher/samsung-ads-resources-2019-total-tv-watcher.pdf'>Samsung ACR and Samsung Ads</a> focusing majorly on computer vision and reinforcement learning. Have been inventor for multiple granted patents/IP applications and awardee for Innovator of the Year-2017 for multiple IPs."
 
 - image: "assets/img/hcl.png"
   name: "hcl Logo"
-  description: "Worked with <a href ='https://www.hcltech.com/'>HCL Technologies</a> for two years (2010-2012) and have been contributor for enterprise scale development of platform for leading Telcom service provider <a href='https://www.t-mobile.com/'>T-Mobile</a>."
+  description: "Worked with <a href ='https://www.hcltech.com/'>HCL Technologies</a> for two years (2010-2012) and have been a contributor for enterprise-scale development of a platform for leading Telcom service provider <a href='https://www.t-mobile.com/'>T-Mobile</a>."
 
 - name: ""
   description: "" 

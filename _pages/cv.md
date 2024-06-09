@@ -1,7 +1,7 @@
 ---
 layout: cv
 title: CV
-pdf: /assets/cv/my_cv.pdf
+pdf: /assets/cv/CV_Prakash_Chandra_Chhipa_may2024.pdf
 ---
 
 <div id="pdf-container">

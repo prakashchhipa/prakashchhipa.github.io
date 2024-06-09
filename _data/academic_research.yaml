@@ -4,7 +4,7 @@
 
 - image: "assets/img/ltu.png"
   name: "LTU Logo"
-  description: "PhD candidate at <a href='https://www.ltu.se/en/research/research-subjects/machine-learning'>ML Group, Luleå University of Technology, Sweden</a>. Defended my <a href='https://www.diva-portal.org/smash/get/diva2:1732072/FULLTEXT02.pdf'>licentiate thesis</a> in March 2023 and working towards my doctoral thesis. Published multiple <a href='https://prakashchhipa.github.io/publications/'>research articles</a> on self-supervised representation learning. Reviewer in multiple conferences, accomplished industrial research, and secured multiple grants." 
+  description: "PhD candidate at <a href='https://www.ltu.se/en/research/research-subjects/machine-learning'>ML Group, Luleå University of Technology, Sweden</a>. Defended my <a href='https://www.diva-portal.org/smash/get/diva2:1732072/FULLTEXT02.pdf'>licentiate thesis</a> with emphasis on adaptation of self-supervised representation learning methods on beyond natural scene visual domain in March 2023 and now focusing on robust representation learning towards my doctoral thesis. Published multiple <a href='https://prakashchhipa.github.io/publications/'>research articles</a> on both research focus. Have been a reviewer at various conferences, accomplished industrial research, and secured multiple grants." 
 
 - image: "assets/img/ucf_crcv.png"
   name: "CRCV Logo"

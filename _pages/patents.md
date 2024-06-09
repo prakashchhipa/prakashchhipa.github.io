@@ -1,13 +1,13 @@
 ---
 layout: page
-permalink: /publications/
-title: publications
-description: publications by categories in reversed chronological order.
+permalink: /patents/
+title: patents
+description: granted patents and patent applications.
 nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
+<!-- _pages/patents.md -->
 <div class="publications">
 
 {% bibliography %}

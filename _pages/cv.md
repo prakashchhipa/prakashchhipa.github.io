@@ -1,6 +1,7 @@
 ---
-layout: cv
-title: CV
+layout: default
+permalink: /cv/
+title: cv
 pdf: /assets/pdf/CV_Prakash_Chandra_Chhipa_may2024.pdf
 ---
 

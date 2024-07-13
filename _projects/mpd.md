@@ -1,26 +1,17 @@
 ---
 layout: page
-title: Mitigating Perspective Distortions in Representation Learning
-description: with background image
+title: Möbius Transform for Mitigating Perspective Distortions in Representation Learning
+description: ECCV 2024
 img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true
 ---
-
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
+Perspective distortion (PD) causes unprecedented changes in shape, size, orientation, angles, and other spatial relationships of visual concepts in images. Precisely estimating camera intrinsic and extrinsic parameters is a challenging task that prevents synthesizing perspective distortion. Non-availability of
+dedicated training data poses a critical barrier to developing robust computer vision methods. Additionally, distortion correction methods make other computer
+vision tasks a multi-step approach and lack performance. In this work, we propose mitigating perspective distortion (MPD) by employing a fine-grained parameter control on a specific family of Möbius transform to model real-world distortion without estimating camera intrinsic and extrinsic parameters and without the need for actual distorted data. Also, we present a dedicated perspectively distorted benchmark dataset, ImageNet-PD, to benchmark the robustness of deep
+learning models against this new dataset. The proposed method outperforms on existing benchmarks, ImageNet-E and ImageNet-X. Additionally, it significantly
+improves performance on ImageNet-PD while consistently performing on standard data distribution. Further, our method shows improved performance on three PD-affected real-world applications: crowd counting, fisheye image recognition, and person re-identification.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}

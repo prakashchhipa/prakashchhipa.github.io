@@ -7,7 +7,7 @@ importance: 1
 category: work
 related_publications: true
 ---
-Perspective distortion significantly alters the appearance of objects in images. It can change their shape, size, orientation, angles, and the spatial relationships between them in ways that might not be expected.
+**Perspective distortion** significantly alters the appearance of objects in images. It can change their shape, size, orientation, angles, and the spatial relationships between them in ways that might not be expected.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/mpd/PDexample1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -31,11 +31,12 @@ Perspective distortion significantly alters the appearance of objects in images.
     third one
 </div>
 
-Precisely estimating camera intrinsic and extrinsic parameters is a challenging task that prevents synthesizing perspective distortion. Non-availability of
-dedicated training data poses a critical barrier to developing robust computer vision methods. 
-
-Additionally, distortion correction methods make other computer
-vision tasks a multi-step approach and lack performance. In this work, we propose mitigating perspective distortion (MPD) by employing a fine-grained parameter control on a specific family of Möbius transform to model real-world distortion without estimating camera intrinsic and extrinsic parameters and without the need for actual distorted data. Also, we present a dedicated perspectively distorted benchmark dataset, ImageNet-PD, to benchmark the robustness of deep
+**What are the challenges?** 
+1. Data on which vison models are trained do not have exposure to intented perspectively distorted examples so no robustness against unprecedent perspective disrotion.
+2. Estimating camera's intrinsic and extrinsic parameters are challenging and doing it precisely is next to impossible so it prevents synthesizing perspective distortion
+3. Distortion correction methods makes computer vision tasks a multi-step approach, first correction then vision task learning so its not efficient for real-world applications
+   
+In this work, we propose mitigating perspective distortion (MPD) by employing a fine-grained parameter control on a specific family of Möbius transform to model real-world distortion without estimating camera intrinsic and extrinsic parameters and without the need for actual distorted data. Also, we present a dedicated perspectively distorted benchmark dataset, ImageNet-PD, to benchmark the robustness of deep
 learning models against this new dataset. The proposed method outperforms on existing benchmarks, ImageNet-E and ImageNet-X. Additionally, it significantly
 improves performance on ImageNet-PD while consistently performing on standard data distribution. Further, our method shows improved performance on three PD-affected real-world applications: crowd counting, fisheye image recognition, and person re-identification.
 

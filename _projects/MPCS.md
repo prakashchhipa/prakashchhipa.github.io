@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
+title: Magnification Prior: A Self-Supervised Method for Learning Representations on Breast Cancer Histopathological Images
+description: CVF Winter Conference on Applications of Computer Vision 2023
+img: assets/mpcs/mpcs.png
 redirect: https://unsplash.com
 importance: 3
 category: work

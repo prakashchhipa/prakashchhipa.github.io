@@ -7,6 +7,14 @@ importance: 1
 category: work
 related_publications: true
 ---
+<p align="center">
+    <a href="https://arxiv.org/pdf/2405.02296" style="margin-right: 20px;">Read Paper</a>
+    <a href="https://github.com/prakashchhipa/MPD" style="margin-right: 20px;">Source Code @ Github</a>
+    <a href="https://huggingface.co/prakashchhipa/MPD_SSL" style="margin-right: 20px;">Download Pretrained Models</a>
+    <a href="https://huggingface.co/datasets/prakashchhipa/ImageNet-PD">Download ImageNet-PD</a>
+</p>
+
+
 **Perspective distortion** significantly alters the appearance of objects in images. It can change their shape, size, orientation, angles, and the spatial relationships between them in ways that might not be expected.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

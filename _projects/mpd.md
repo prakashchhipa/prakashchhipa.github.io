@@ -27,7 +27,7 @@ related_publications: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/mpd/explain_pd.png" title="MPD" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/mpd/explain_pd.PNG" title="MPD" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -59,7 +59,7 @@ When it comes to adapting MPD to other real-world applications, MPD gets adapted
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/mpd/mpd_cc.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-3 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/mpd/mpd_od.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -74,10 +74,10 @@ When it comes to adapting MPD to other real-world applications, MPD gets adapted
     </div>
 </div>
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/mpd/linear_eval_MPD_SSL_DINO.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/mpd/CC_plot.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

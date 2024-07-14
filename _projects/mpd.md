@@ -56,10 +56,10 @@ related_publications: true
 </div>
 When it comes to adapting MPD to other real-world applications, MPD gets adapted easily with multiple computer vision applications including crowd counting, person re-identificaiton, fisheye view, and object detection.
 <div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/mpd/mpd_cc.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/mpd/mpd_od.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

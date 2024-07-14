@@ -22,6 +22,19 @@ related_publications: true
 <div class="caption">
     left - decribe. right - decribe
 </div>
+
+
+**What are the challenges?** 
+1. Data on which vison models are trained do not have exposure to intented perspectively distorted examples so no robustness against unprecedent perspective disrotion.
+2. Estimating camera's intrinsic and extrinsic parameters are challenging and doing it precisely is next to impossible so it prevents synthesizing perspective distortion
+3. Distortion correction methods makes computer vision tasks a multi-step approach, first correction then vision task learning so its not efficient for real-world applications
+   
+**Proposed methodology**
+This work focus on mittigating perspective distortion by exposing vision models to perspectively distorted examples. These examples are neither created using camera parameters nor naturally collected but synthesized by mathematically modelling the perspective distortion.
+
+**How?** 
+This work shares mitigating perspective distortion (MPD) method by first underatanding the non-linear nature of perspective distortion then employing a fine-grained parameter control on a specific family of Möbius transform to model real-world distortion without estimating camera intrinsic and extrinsic parameters and without the need for actual distorted data. MPD leaverages Möbius conformal and non-linear nature in complex space.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -31,11 +44,8 @@ related_publications: true
     third one
 </div>
 
-**What are the challenges?** 
-1. Data on which vison models are trained do not have exposure to intented perspectively distorted examples so no robustness against unprecedent perspective disrotion.
-2. Estimating camera's intrinsic and extrinsic parameters are challenging and doing it precisely is next to impossible so it prevents synthesizing perspective distortion
-3. Distortion correction methods makes computer vision tasks a multi-step approach, first correction then vision task learning so its not efficient for real-world applications
-   
+
+We mathematically model perspective distortion within deep learning by developing MPD, a method that successfully mimics perspective distortion without estimating the intrinsic and extrinsic camera parameters.
 In this work, we propose mitigating perspective distortion (MPD) by employing a fine-grained parameter control on a specific family of Möbius transform to model real-world distortion without estimating camera intrinsic and extrinsic parameters and without the need for actual distorted data. Also, we present a dedicated perspectively distorted benchmark dataset, ImageNet-PD, to benchmark the robustness of deep
 learning models against this new dataset. The proposed method outperforms on existing benchmarks, ImageNet-E and ImageNet-X. Additionally, it significantly
 improves performance on ImageNet-PD while consistently performing on standard data distribution. Further, our method shows improved performance on three PD-affected real-world applications: crowd counting, fisheye image recognition, and person re-identification.

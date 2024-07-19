@@ -2,6 +2,7 @@ github_users:
   - prakashchhipa
 
 github_repos:
+  - prakashchhipa/MPD
   - prakashchhipa/Magnification-Prior-Self-Supervised-Method
   - prakashchhipa/Depth-Contrast-Self-Supervised-Method
   - prakashchhipa/Robsutness-Evaluation-of-Self-supervised-Methods-Distribution-Shifts-and-Corruptions

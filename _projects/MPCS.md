@@ -4,7 +4,7 @@ title: Magnification Prior- A Self-Supervised Method for Learning Representation
 description: CVF Winter Conference on Applications of Computer Vision 2023
 img: assets/mpcs/mpcs.png
 redirect: https://unsplash.com
-importance: 3
+importance: 2
 category: work
 ---
 

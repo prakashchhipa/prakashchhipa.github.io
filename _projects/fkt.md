@@ -3,7 +3,7 @@ layout: page
 title: Functional Knowledge Transfer with Self-supervised Representation Learning
 description: IEEE International Conference on Image Processing, 2023
 img: assets/fkt/fkt.png
-importance: 2
+importance: 3
 category: work
 giscus_comments: true
 ---

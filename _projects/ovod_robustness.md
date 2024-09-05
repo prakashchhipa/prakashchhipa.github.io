@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Open-Vocabulary Object Detectors: Robustness Challenges under Distribution Shifts
+title: Open Vocabulary Object Detectors: Robustness Challenges under Distribution Shifts
 description: European Conference on Computer Vision Workshops 2024
 img: assets/ovod_robustness/ovod_robustness.jpg
 importance: 4

@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Möbius Transform for Mitigating Perspective Distortions in Representation Learning
-description: European Conference on Computer Vision 2024
-img: assets/mpd/project_main.jpg
+description: European Conference on Computer Vision Workshops 2024
+img: assets/ovod_robustness/project_main.jpg
 importance: 1
 category: work
 related_publications: true

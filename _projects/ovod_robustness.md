@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Möbius Transform for Mitigating Perspective Distortions in Representation Learning
+title: Open-Vocabulary Object Detectors: Robustness Challenges under Distribution Shifts
 description: European Conference on Computer Vision Workshops 2024
-img: assets/ovod_robustness/project_main.jpg
+img: assets/ovod_robustness/ovod_robustness.jpg
 importance: 1
 category: work
 related_publications: true

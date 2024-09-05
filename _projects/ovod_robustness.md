@@ -1,17 +1,15 @@
 ---
 layout: page
-title: Möbius Transform for Mitigating Perspective Distortions in Representation Learning
-description: European Conference on Computer Vision 2024
-img: assets/mpd/project_main.jpg
+title: Open-Vocabulary Object Detectors: Robustness Challenges under Distribution Shifts
+description: European Conference on Computer Vision Workshops 2024
+img: assets/ovod_robustness/ovod_robustness.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 <p align="center">
-    <a href="https://arxiv.org/pdf/2405.02296" style="margin-right: 20px;">Read Paper</a>
-    <a href="https://github.com/prakashchhipa/MPD" style="margin-right: 20px;">Source Code @ Github</a>
-    <a href="https://huggingface.co/prakashchhipa/MPD_SSL" style="margin-right: 20px;">Download Pretrained Models</a>
-    <a href="https://huggingface.co/datasets/prakashchhipa/ImageNet-PD">Download ImageNet-PD</a>
+    <a href="https://arxiv.org/abs/2405.14874" style="margin-right: 20px;">Read Paper</a>
+    <a href="https://github.com/prakashchhipa/OVOD_Robustness" style="margin-right: 20px;">Source Code @ Github</a>
 </p>
 
 

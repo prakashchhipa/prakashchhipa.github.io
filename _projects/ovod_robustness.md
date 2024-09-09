@@ -35,37 +35,26 @@ OVOD models were exposed to three public out-of-ditribution benchmarks which are
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/mpd/PDexample1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/mpd/PDexample2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/mpd/PDexample3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/ovod_robustness/quality_results.jpg" title="MPD" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Example images showing the effect of distortion 
+    Comparing OVOD models on COCO-O subsets examples 
 </div>
 
 
-**MPD offers robustness**- The proposed method MPD outperforms on existing perspective distortion affected benchmarks, ImageNet-E and ImageNet-X. MPD significantly improves performance on ImageNet-PD (check it down) while consistently performing on standard data distribution. MPD improves performance on **three PD-affected real-world applications**: crowd counting, fisheye image recognition, and person re-identification and one PD-affected challenging CV task: object detection.
-<div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/mpd/ImageNet-E-plot.png" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-5 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/ovod_robustness/meta_compare.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/mpd/ImageNet-X-plot.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/mpd/linear_eval_MPD_SSL_DINO.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/mpd/CC_plot.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-5 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/ovod_robustness/cocodc_main.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    Robustness comparison for OWL-ViT, Yolo-World, and Grpounding DINO acorss benchmarks COCO-O and COCO-DC.  
+</div>
+
 
 <p align="center">
     <a href="https://arxiv.org/abs/2405.14874" style="margin-right: 20px;">Read Paper</a>

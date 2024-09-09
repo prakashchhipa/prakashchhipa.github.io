@@ -52,7 +52,7 @@ OVOD models were exposed to three public out-of-ditribution benchmarks which are
     </div>
 </div>
 <div class="caption">
-    Robustness comparison for OWL-ViT, Yolo-World, and Grpounding DINO acorss benchmarks COCO-O and COCO-DC.  
+    Robustness comparison for OWL-ViT, Yolo-World, and Grpounding DINO acorss Out-of-ditribution benchmarks COCO-O, COCO-C and COCO-DC and orginal COCO dataset.  
 </div>
 
 

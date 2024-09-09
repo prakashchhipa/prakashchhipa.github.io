@@ -16,7 +16,7 @@ related_publications: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/ovod_robustness/ovod_robustness.jpg" title="MPD" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/ovod_robustness/ovod_robustness1.jpg" title="MPD" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -39,10 +39,10 @@ OVOD models were exposed to three public out-of-ditribution benchmarks which are
     </div>
 </div>
 <div class="caption">
-    Comparing OVOD models on COCO-O subsets examples 
+    Comparing OVOD models on COCO-O subsets examples. 
 </div>
 
-
+The notable observation suggests that all three open-vocabulary foundation model-based object detectors, when subjected to degradation of image quality and distribution shift, exhibit significant deviations in performance. This indicates an inherent relationship between OV object detectors and the quality of data.
 <div class="row">
     <div class="col-sm mt-5 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/ovod_robustness/meta_compare.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -55,6 +55,7 @@ OVOD models were exposed to three public out-of-ditribution benchmarks which are
     Robustness comparison for OWL-ViT, Yolo-World, and Grpounding DINO acorss Out-of-ditribution benchmarks COCO-O, COCO-C and COCO-DC and orginal COCO dataset.  
 </div>
 
+We explore one of the first approaches to evaluate zero-shot open-vocabulary foundation models from a robustness perspective under distribution shifts. By analyzing three recent object detection models across public benchmarks, we highlight the significant challenges posed by out-of-distribution shifts, which cause performance drops. Our findings suggest the need for further research into this area. Combining vision-language models with effective prompt engineering may pave the way for more robust open-vocabulary detectors, ultimately improving their reliability and enabling broader applications across various fields. Please read the paper for detailed analysis and inisghts.
 
 <p align="center">
     <a href="https://arxiv.org/abs/2405.14874" style="margin-right: 20px;">Read Paper</a>

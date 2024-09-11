@@ -19,7 +19,7 @@ related_publications: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/mpcs/maginfications.JPG" title="MPD" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/mpcs/maginifications.JPG" title="MPD" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -48,15 +48,27 @@ Introducing **Magnification Prior Contrastive Similarity** (MPCS)—a method tha
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/mpcs/breakhis_results.JPG" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+<div class="caption">
+    MPCS outperforms previous methods on BreakHis dataset. 
+</div>
+
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/mpcs/bach_results.JPG" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+<div class="caption">
+    MPCS demonstrate label efficiency consistently when comapred with DPCL method on BACH dataset. 
+</div>
+
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/mpcs/bisque.JPG" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    MPCS outperforms acorss datasets. 
+    MPCS imporves perofmrance significantly on smnall-scale dataset Breast Cancer Cell, demonstrating transfer learning capability. 
 </div>
 
 **The ablation study** shows how each MPCS variant—Random Pair, Ordered Pair, and Fixed Pair—handles varying magnifications and human priors, with Ordered Pair standing out for its balance of flexibility and accuracy. The t-SNE visualizations confirm its strength, showing clear and distinct clustering of malignant and benign samples across magnifications.

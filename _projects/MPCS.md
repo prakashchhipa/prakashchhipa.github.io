@@ -77,9 +77,6 @@ Introducing **Magnification Prior Contrastive Similarity** (MPCS)—a method tha
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/mpcs/opropfp_ablations.JPG" title="MPD" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/mpcs/tsne.JPG" title="MPD" class="img-fluid rounded z-depth-1" %}
-    </div>
 </div>
 <div class="caption">
     Ablations for variants of MPCS method 

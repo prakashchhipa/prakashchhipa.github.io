@@ -2,7 +2,7 @@
 layout: page
 title: Can Self-supervised Representation Learning Methods Withstand Distribution Shifts and Corruptions?
 description: International Conference on Computer Vision Workshops 2023
-img: assets/mpd/project_main.jpg
+img: assets/ssl_robustness/ssl_robustness.JPG
 importance: 6
 category: work
 related_publications: true

@@ -19,12 +19,12 @@ giscus_comments: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/fkt/why_fkt.JPG" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/fkt/hypothesis.JPG" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/fkt/hypothesis.JPG" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/fkt/why_fkt.JPG" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -39,7 +39,15 @@ This work pioneers the shift from conventional representational knowledge transf
     </div>
 </div>
 
-This method **jointly optimizes the contrastive pretraining with supervised learning objectives on small-scale datasets**. By jointly optimizing these tasks, we significantly improve performance across various domains. This approach allows us to harness the power of SSL without requiring vast amounts of data, making it effective even in low-data regimes.
+This method **jointly optimizes the contrastive pretraining with supervised learning objectives on small-scale datasets**. By jointly optimizing these tasks, we significantly improve performance across various domains. 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/fkt/fkt_formulation.JPG" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+This approach allows us to harness the power of SSL without requiring vast amounts of data, making it effective even in low-data regimes.
 To evaluate the effectiveness of functional knowledge transfer, we tested it on three small-scale and diverse datasets: CIFAR10, Intel Image, and Aptos 2019. The results demonstrate consistent improvements in accuracy, precision, and recall, proving that our approach outperforms conventional methods, even in low-data scenarios.
 
 <div class="row">
@@ -51,6 +59,12 @@ To evaluate the effectiveness of functional knowledge transfer, we tested it on 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/fkt/results.JPG" title="MPD" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/fkt/cifar10.jpg" title="MPD" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

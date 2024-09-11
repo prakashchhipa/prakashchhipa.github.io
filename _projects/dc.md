@@ -2,7 +2,7 @@
 layout: page
 title: Depth Contrast - Self-supervised Pretraining on 3DPM Images for Mining Material Classification
 description: European Conference on Computer Vision Workshops 2022
-img: assets/mpd/project_main.jpg
+img: assets/dc/dc.JPG
 importance: 5
 category: work
 related_publications: true

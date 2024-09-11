@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Möbius Transform for Mitigating Perspective Distortions in Representation Learning
-description: European Conference on Computer Vision 2024
+title: Can Self-supervised Representation Learning Methods Withstand Distribution Shifts and Corruptions?
+description: International Conference on Computer Vision Workshops 2023
 img: assets/mpd/project_main.jpg
-importance: 1
+importance: 6
 category: work
 related_publications: true
 ---

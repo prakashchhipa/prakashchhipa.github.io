@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Möbius Transform for Mitigating Perspective Distortions in Representation Learning
-description: European Conference on Computer Vision 2024
+title: Depth Contrast - Self-supervised Pretraining on 3DPM Images for Mining Material Classification
+description: European Conference on Computer Vision Workshops 2022
 img: assets/mpd/project_main.jpg
-importance: 1
+importance: 5
 category: work
 related_publications: true
 ---

@@ -7,13 +7,12 @@ importance: 3
 category: work
 giscus_comments: true
 ---
-
----
 <p align="center">
-    <a href="https://arxiv.org/pdf/2405.02296" style="margin-right: 20px;">Read Paper</a>
-    <a href="https://github.com/prakashchhipa/MPD" style="margin-right: 20px;">Source Code @ Github</a>
-    <a href="https://huggingface.co/prakashchhipa/MPD_SSL" style="margin-right: 20px;">Download Pretrained Models</a>
-    <a href="https://huggingface.co/datasets/prakashchhipa/ImageNet-PD">Download ImageNet-PD</a>
+    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10222142" style="margin-right: 20px;">Read Paper @ IEEE Xplore</a>
+    <a href="https://arxiv.org/pdf/2304.01354" style="margin-right: 20px;">Read Paper @ Arxiv</a>
+    <a href="https://github.com/prakashchhipa/Functional_Knowledge_Transfer_SSL" style="margin-right: 20px;">Source Code @ Github</a>
+    <a href="https://www.youtube.com/watch?v=GlnDm_GrVm0" style="margin-right: 20px;">Watch Video @ Youtube</a>
+    <a href="https://github.com/prakashchhipa/Functional_Knowledge_Transfer_SSL/blob/main/poster_icon.JPG">Check Poster</a>
 </p>
 
 <div class="row">
@@ -51,3 +50,11 @@ giscus_comments: true
         {% include figure.liquid loading="eager" path="assets/fkt/conclusions.JPG" title="MPD" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+<p align="center">
+    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10222142" style="margin-right: 20px;">Read Paper @ IEEE Xplore</a>
+    <a href="https://arxiv.org/pdf/2304.01354" style="margin-right: 20px;">Read Paper @ Arxiv</a>
+    <a href="https://github.com/prakashchhipa/Functional_Knowledge_Transfer_SSL" style="margin-right: 20px;">Source Code @ Github</a>
+    <a href="https://www.youtube.com/watch?v=GlnDm_GrVm0" style="margin-right: 20px;">Watch Video @ Youtube</a>
+    <a href="https://github.com/prakashchhipa/Functional_Knowledge_Transfer_SSL/blob/main/poster_icon.JPG">Check Poster</a>
+</p>

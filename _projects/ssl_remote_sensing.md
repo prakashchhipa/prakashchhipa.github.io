@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Möbius Transform for Mitigating Perspective Distortions in Representation Learning
-description: European Conference on Computer Vision 2024
+title: Domain Adaptable Self-supervised Representation Learning on Remote Sensing Satellite Imagery
+description: International Joint Conference on Neural Networks 2023
 img: assets/mpd/project_main.jpg
-importance: 1
+importance: 7
 category: work
 related_publications: true
 ---

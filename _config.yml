@@ -137,6 +137,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  industrialR&D:
+    output: true
+    permalink: /industrialRnD/:path/
 
 announcements:
   enabled: true

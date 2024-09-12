@@ -1,7 +1,7 @@
 ---
 layout: page
-title: research projects
-permalink: /projects/
+title: Industrial R&D Tenure
+permalink: /industrialRnD/
 description: ' '
 nav: true
 nav_order: 3

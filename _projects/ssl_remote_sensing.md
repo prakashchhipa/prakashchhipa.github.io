@@ -2,7 +2,7 @@
 layout: page
 title: Domain Adaptable Self-supervised Representation Learning on Remote Sensing Satellite Imagery
 description: International Joint Conference on Neural Networks 2023
-img: assets/ssl_remote_sending/ssl_rs.JPG
+img: assets/ssl_remote_sensing/ssl_rs.JPG
 importance: 7
 category: work
 related_publications: true

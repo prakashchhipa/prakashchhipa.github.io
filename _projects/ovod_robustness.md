@@ -11,6 +11,7 @@ related_publications: true
     <a href="https://arxiv.org/abs/2405.14874" style="margin-right: 20px;">Read Paper</a>
     <a href="https://github.com/prakashchhipa/OVOD_Robustness" style="margin-right: 20px;">Source Code @ Github</a>
     <a href="https://github.com/prakashchhipa/OVOD_Robustness/blob/main/ovod_poster.JPG" style="margin-right: 20px;">Check poster</a>
+    <a href="https://www.youtube.com/watch?v=U16MlHVsFmw" style="margin-right: 20px;">Watch Video @ Youtube</a>
 </p>
 
 **VLM-based open-vocabulary object detectors** extends the capabilities of traditional object detection frameworks, enabling the recognition and classification of objects beyond predefined categories. Investigating OOD robustness in recent open-vocabulary object detection is essential to increase the trustworthiness of these models. This study evaluates the zero-shot robustness of three cutting-edge open-vocabulary object detection models—OWL-ViT, YOLO World, and Grounding DINO. We tested their performance across distribution shifts using the COCO-O, COCO-DC, and COCO-C benchmarks. Our experiments reveal challenges related to information loss, corruption, adversarial attacks, and geometrical deformations, driving the ongoing pursuit of improved model robustness in real-world scenarios.
@@ -61,6 +62,8 @@ We explore one of the first approaches to evaluate zero-shot open-vocabulary fou
 <p align="center">
     <a href="https://arxiv.org/abs/2405.14874" style="margin-right: 20px;">Read Paper</a>
     <a href="https://github.com/prakashchhipa/OVOD_Robustness" style="margin-right: 20px;">Source Code @ Github</a>
+    <a href="https://github.com/prakashchhipa/OVOD_Robustness/blob/main/ovod_poster.JPG" style="margin-right: 20px;">Check poster</a>
+    <a href="https://www.youtube.com/watch?v=U16MlHVsFmw" style="margin-right: 20px;">Watch Video @ Youtube</a>
 </p>
 
 

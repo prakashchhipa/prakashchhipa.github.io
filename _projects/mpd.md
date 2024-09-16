@@ -11,6 +11,7 @@ related_publications: true
     <a href="https://arxiv.org/pdf/2405.02296" style="margin-right: 20px;">Read Paper</a>
     <a href="https://github.com/prakashchhipa/MPD" style="margin-right: 20px;">Source Code @ Github</a>
     <a href="https://github.com/prakashchhipa/MPD/blob/main/mpd_poster.JPG" style="margin-right: 20px;">Check poster</a>
+    <a href="https://www.youtube.com/watch?v=MKh9NE_XEMY" style="margin-right: 20px;">Watch Video @ Youtube</a>
     <a href="https://huggingface.co/prakashchhipa/MPD_SSL" style="margin-right: 20px;">Download Pretrained Models</a>
     <a href="https://huggingface.co/datasets/prakashchhipa/ImageNet-PD">Download ImageNet-PD</a>
 </p>
@@ -103,6 +104,8 @@ When it comes to adapting MPD to other real-world applications, MPD gets adapted
 <p align="center">
     <a href="https://arxiv.org/pdf/2405.02296" style="margin-right: 20px;">Read Paper</a>
     <a href="https://github.com/prakashchhipa/MPD" style="margin-right: 20px;">Source Code @ Github</a>
+    <a href="https://github.com/prakashchhipa/MPD/blob/main/mpd_poster.JPG" style="margin-right: 20px;">Check poster</a>
+    <a href="https://www.youtube.com/watch?v=MKh9NE_XEMY" style="margin-right: 20px;">Watch Video @ Youtube</a>
     <a href="https://huggingface.co/prakashchhipa/MPD_SSL" style="margin-right: 20px;">Download Pretrained Models</a>
     <a href="https://huggingface.co/datasets/prakashchhipa/ImageNet-PD">Download ImageNet-PD</a>
 </p>

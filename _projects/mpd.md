@@ -110,5 +110,5 @@ When it comes to adapting MPD to other real-world applications, MPD gets adapted
     <a href="https://huggingface.co/datasets/prakashchhipa/ImageNet-PD">Download ImageNet-PD</a>
 </p>
 
-Chhipa, Prakash Chandra, et al. "M\" obius Transform for Mitigating Perspective Distortions in Representation Learning." arXiv preprint arXiv:2405.02296 (2024).
+Chhipa, Prakash Chandra, et al. "Möbius Transform for Mitigating Perspective Distortions in Representation Learning." arXiv preprint arXiv:2405.02296 (2024).
 

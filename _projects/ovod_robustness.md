@@ -67,3 +67,4 @@ We explore one of the first approaches to evaluate zero-shot open-vocabulary fou
 </p>
 
 
+Chhipa, Prakash Chandra, et al. "Investigating Robustness of Open-Vocabulary Foundation Object Detectors under Distribution Shifts." arXiv preprint arXiv:2405.14874 (2024).

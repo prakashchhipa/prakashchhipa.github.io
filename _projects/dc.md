@@ -108,3 +108,4 @@ When it comes to adapting MPD to other real-world applications, MPD gets adapted
 </p>
 
 
+Chhipa, P.C. et al. (2023). Depth Contrast: Self-supervised Pretraining on 3DPM Images for Mining Material Classification. In: Karlinsky, L., Michaeli, T., Nishino, K. (eds) Computer Vision – ECCV 2022 Workshops. ECCV 2022. Lecture Notes in Computer Science, vol 13807. Springer, Cham. https://doi.org/10.1007/978-3-031-25082-8_14

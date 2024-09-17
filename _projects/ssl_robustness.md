@@ -107,4 +107,4 @@ When it comes to adapting MPD to other real-world applications, MPD gets adapted
     <a href="https://huggingface.co/datasets/prakashchhipa/ImageNet-PD">Download ImageNet-PD</a>
 </p>
 
-
+Chhipa, Prakash Chandra, et al. "Can self-supervised representation learning methodswithstand distribution shifts and corruptions?." Proceedings of the IEEE/CVF International Conference on Computer Vision. 2023.

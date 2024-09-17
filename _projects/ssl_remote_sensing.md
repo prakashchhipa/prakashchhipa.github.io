@@ -108,4 +108,4 @@ When it comes to adapting MPD to other real-world applications, MPD gets adapted
 </p>
 
 
-Chopra, M., Chhipa, P. C., Mengi, G., Gupta, V., & Liwicki, M. (2023, June). Domain adaptable self-supervised representation learning on remote sensing satellite imagery. In 2023 International Joint Conference on Neural Networks (IJCNN) (pp. 1-8). IEEE.
+M. Chopra, P. C. Chhipa, G. Mengi, V. Gupta and M. Liwicki, "Domain Adaptable Self-supervised Representation Learning on Remote Sensing Satellite Imagery," 2023 International Joint Conference on Neural Networks (IJCNN), Gold Coast, Australia, 2023, pp. 1-8, doi: 10.1109/IJCNN54540.2023.10191249.

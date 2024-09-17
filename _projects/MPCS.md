@@ -91,3 +91,5 @@ This domain-aware, self-supervised approach reshapes how we tackle the challenge
     <a href="https://www.youtube.com/watch?v=z9_mjW2JStQ" style="margin-right: 20px;">Watch Video @ Youtube</a>
     <a href="https://github.com/prakashchhipa/Magnification-Prior-Self-Supervised-Method/blob/main/figures/poster.PNG">Check Poster</a>
 </p>
+
+Chhipa, Prakash Chandra, et al. "Magnification prior: a self-supervised method for learning representations on breast cancer histopathological images." Proceedings of the IEEE/CVF winter conference on applications of computer vision. 2023.

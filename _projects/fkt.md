@@ -85,3 +85,5 @@ To dive deeper into the details of this work, **read the paper and watch the vid
     <a href="https://www.youtube.com/watch?v=GlnDm_GrVm0" style="margin-right: 20px;">Watch Video @ Youtube</a>
     <a href="https://github.com/prakashchhipa/Functional_Knowledge_Transfer_SSL/blob/main/poster_icon.JPG">Check Poster</a>
 </p>
+
+Chhipa, Prakash Chandra, et al. "Functional Knowledge Transfer with Self-supervised Representation Learning." 2023 IEEE International Conference on Image Processing (ICIP). IEEE, 2023.

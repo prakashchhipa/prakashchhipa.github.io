@@ -20,4 +20,4 @@ Currently, Prakash Chandra Chhipa is a Computer Vision Researcher, Ph.D. Candida
 
 Prakash's research interest is representation learning in computer vision. His emphasis on doctoral research is two-fold. First, working self-supervised representation learning methods for their efficient adaptations on different visual domains such as medical imaging, remote sensing, RGBD images, and others where visual concepts predominantly differ from natural scenes and human supervision is limited. Second, he is working on understanding the effect of distribution shifts on representation learning due to natural and synthetic causes in the real world and attempting to make representation learning robust by mitigating it.
 
-**[Upated CV](https://drive.google.com/file/d/1HT2ZFGwtV5L7YjvVj_mRT0pRzXF8MOHv/view?usp=sharing)**
+**[Upated CV](https://github.com/prakashchhipa/prakashchhipa.github.io/blob/master/assets/Prakash_Chandra_Chhipa_CV_Oct2024.pdf)**

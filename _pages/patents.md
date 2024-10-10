@@ -2,9 +2,9 @@
 layout: page
 permalink: /patents/
 title: patents
-description: Granted patents and patent applications.
+description: Inventor for granted patents and patent applications.
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 <!-- _pages/patents.md -->
@@ -16,7 +16,7 @@ nav_order: 2
         {% include figure.liquid loading="eager" path="assets/US11024263B2/US11024263B2.png" title="Patent Image 1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <p><strong>This invention led to a method and apparatus for enhancing augmented reality (AR) experiences by dynamically adjusting the AR content based on a user's gaze and interaction patterns. It utilizes machine learning techniques, including Hidden Markov Models (HMM), to predict and adapt the AR content in real-time, ensuring that users receive personalized and contextually relevant information. The HMM-based approach allows the system to analyze eye movements and head tracking data, making it more intuitive and responsive to individual user behaviors, enhancing the overall user experience.</strong></p>
+        <p><strong>This invention presents a method and apparatus for enhancing augmented reality (AR) by dynamically adjusting content based on user gaze and interactions. It leverages machine learning, particularly Hidden Markov Models (HMM), to predict and adapt AR content in real-time, ensuring personalized and context-aware experiences. The HMM approach analyzes eye and head movements, making the system more intuitive and responsive to user behavior.</strong></p>
         <p><strong>Cited By:</strong> 
             <span class="badge" style="background-color: #e74c3c; color: white;">Google</span>
             <span class="badge" style="background-color: #3498db; color: white;">Apple</span>

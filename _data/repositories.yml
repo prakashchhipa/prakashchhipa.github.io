@@ -5,7 +5,8 @@ github_repos:
   - prakashchhipa/MPD
   - prakashchhipa/Magnification-Prior-Self-Supervised-Method
   - prakashchhipa/Depth-Contrast-Self-Supervised-Method
+  - prakashchhipa/OVOD_Robustness
   - prakashchhipa/Robsutness-Evaluation-of-Self-supervised-Methods-Distribution-Shifts-and-Corruptions
   - prakashchhipa/Functional_Knowledge_Transfer_SSL
   - prakashchhipa/Learning-Self-Supervised-Representations-for-Label-Efficient-Cross-Domain-Knowledge-Transfer-on-DRF
-  
+  - muskaan712/Domain-Adaptable-Self-Supervised-Representation-Learning-on-Remote-Sensing-Satellite-Imagery

@@ -17,7 +17,15 @@ nav_order: 2
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <p><strong>This invention led to a method and apparatus for enhancing augmented reality (AR) experiences by dynamically adjusting the AR content based on a user's gaze and interaction patterns. It utilizes machine learning techniques, including Hidden Markov Models (HMM), to predict and adapt the AR content in real-time, ensuring that users receive personalized and contextually relevant information. The HMM-based approach allows the system to analyze eye movements and head tracking data, making it more intuitive and responsive to individual user behaviors, enhancing the overall user experience.</strong></p>
-        <p><strong>Cited By:</strong> <span style="font-weight: bold;">Google, Apple, Meta, Boeing, IBM, Sony</span>, and [more](https://patents.google.com/patent/US11024263B2/citedby)</p>
+        <p><strong>Cited By:</strong> 
+            <span class="badge" style="background-color: #e74c3c; color: white;">Google</span>
+            <span class="badge" style="background-color: #3498db; color: white;">Apple</span>
+            <span class="badge" style="background-color: #f1c40f; color: white;">Meta</span>
+            <span class="badge" style="background-color: #2ecc71; color: white;">Boeing</span>
+            <span class="badge" style="background-color: #9b59b6; color: white;">IBM</span>
+            <span class="badge" style="background-color: #e67e22; color: white;">Sony</span>, 
+            and <a href="https://patents.google.com/patent/US11024263B2/citedby" style="color: #3498db;">more</a>
+        </p>
     </div>
 </div>
 

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper titled 'Open-Vocabulary Object Detectors: Robustness Challenges under Distribution Shifts' accepted in ECCV OOD-CV workshop. 
+Paper titled 'Open-Vocabulary Object Detectors: Robustness Challenges under Distribution Shifts' accepted in ECCV OOD-CV workshop 2024. 

@@ -16,11 +16,11 @@ nav_order: 2
         {% include figure.liquid loading="eager" path="assets/US11024263B2/US11024263B2.png" title="Patent Image 1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <p><strong>Description:</strong> This invention lead to a method and apparatus for enhancing augmented reality (AR) experiences by dynamically adjusting the AR content based on a user's gaze and interaction patterns. It utilizes machine learning techniques, including Hidden Markov Models (HMM), to predict and adapt the AR content in real-time, ensuring that users receive personalized and contextually relevant information. The HMM-based approach allows the system to analyze eye movements and head tracking data, making it more intuitive and responsive to individual user behaviors, enhancing the overall user experience.</p>
+        <p><strong>This invention led to a method and apparatus for enhancing augmented reality (AR) experiences by dynamically adjusting the AR content based on a user's gaze and interaction patterns. It utilizes machine learning techniques, including Hidden Markov Models (HMM), to predict and adapt the AR content in real-time, ensuring that users receive personalized and contextually relevant information. The HMM-based approach allows the system to analyze eye movements and head tracking data, making it more intuitive and responsive to individual user behaviors, enhancing the overall user experience.</strong></p>
+        <p><strong>Cited By:</strong> <span style="font-weight: bold;">Google, Apple, Meta, Boeing, IBM, Sony</span>, and [more](https://patents.google.com/patent/US11024263B2/citedby)</p>
     </div>
 </div>
-**Cited By:** <span style="font-weight: bold; ">Google, Apple, Meta, Boeing, IBM, Sony </span>, and [more](https://patents.google.com/patent/US11024263B2/citedby)
----
+
 
 ## 2. Enhanced Signal Processing for EEG Devices
 **Patent Number:** [US Patent 11769172B2](https://patents.google.com/patent/US11769172B2)  

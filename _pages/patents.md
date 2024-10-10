@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /patents/
-title: granted patents
+title: patents
 description: Granted patents and patent applications.
 nav: true
 nav_order: 2

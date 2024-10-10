@@ -29,34 +29,52 @@ nav_order: 3
     </div>
 </div>
 
-
-## 2. Enhanced Signal Processing for EEG Devices
-**Patent Number:** [US Patent 11769172B2](https://patents.google.com/patent/US11769172B2)  
-<div style="display: flex; align-items: center;">
-    <img src="path/to/image2.png" alt="Patent Image 2" style="width: 200px; margin-right: 20px;">
-    <p><strong>Description:</strong> *Your description goes here.*</p>
+## 2. Display Device for Transmitting Advertisement Content and Method for Controlling Same
+[US Patent US11769172B2](https://patents.google.com/patent/US11769172B2)  
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/US11769172B2/US11769172B2.png" title="Patent Image 1" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <p><strong>This invention formulates a method for display device system for targeted advertising, utilizing machine learning to analyze viewing information and blockchain technology for managing smart contracts. The system dynamically selects relevant ads based on user engagement and executes these ads using smart contracts stored on a blockchain. This approach ensures secure sharing of ad data between display devices and advertisers, enhancing ad personalization and transparency in digital advertising.</strong></p>
+        <p><strong>Cited By:</strong> 
+            <span class="badge" style="background-color: #e74c3c; color: white;">Salesforce</span>
+            <span class="badge" style="background-color: #3498db; color: white;">LG</span>
+            <span class="badge" style="background-color: #f1c40f; color: white;">NEC</span>
+            <span class="badge" style="background-color: #2ecc71; color: white;">Paypal</span>,
+            and <a href="https://patents.google.com/patent/US11769172B2/citedby" style="color: #3498db;">more</a>
+        </p>
+    </div>
 </div>
-**Cited By:** <span style="font-weight: bold; color: #333;">Samsung, IBM, Microsoft</span>, and [8 more](https://patents.google.com/patent/US11769172B2/citations)
 
----
-
-## 3. Neural Network-Based Pattern Recognition
-**Patent Number:** [US Patent 10706632B2](https://patents.google.com/patent/US10706632B2)  
-<div style="display: flex; align-items: center;">
-    <img src="path/to/image3.png" alt="Patent Image 3" style="width: 200px; margin-right: 20px;">
-    <p><strong>Description:</strong> *Your description goes here.*</p>
+## 3. Method and Apparatus for Managing a Wide View Content in a Virtual Reality Environment
+[US Patent 10706632B2](https://patents.google.com/patent/US10706632B2)  
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/10706632B2/10706632B2.png" title="Patent Image 1" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <p><strong>This invention devise a method and system for managing wide-view content in virtual reality (VR) using mathematical modeling. It employs in-focal and out-focal views to display 360-degree digital content, enhancing user interaction with VR scenes. The approach integrates convex projection techniques to create immersive experiences, allowing seamless transitions between viewpoints within the VR environment.</strong></p>
+        <p><strong>Cited By:</strong> 
+            <span class="badge" style="background-color: #9b59b6; color: white;">Canon</span>
+            <span class="badge" style="background-color: #e67e22; color: white;">Xiaomi</span> 
+            <span class="badge" style="background-color: #f1c40f; color: white;">JVC</span>
+            and <a href="https://patents.google.com/patent/10706632B2/citedby" style="color: #3498db;">more</a>
+        </p>
+    </div>
 </div>
-**Cited By:** <span style="font-weight: bold; color: #333;">Intel, Nvidia, Amazon</span>, and [10 more](https://patents.google.com/patent/US10706632B2/citations)
 
----
 
-## 4. Advanced Data Analytics for Medical Imaging
-**Patent Number:** [WIPO Patent IN211803692](https://patentscope.wipo.int/search/en/detail.jsf?docId=IN211803692&_cid=P12-M23BCC-31052-1)  
-<div style="display: flex; align-items: center;">
-    <img src="path/to/image4.png" alt="Patent Image 4" style="width: 200px; margin-right: 20px;">
-    <p><strong>Description:</strong> *Your description goes here.*</p>
+## 4. A System and A Method of Forcasting Actions of Viewers Viweing Advertisements
+[WIPO Patent IN211803692](https://patentscope.wipo.int/search/en/detail.jsf?docId=IN211803692&_cid=P12-M23BCC-31052-1)  
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/IN211803692/IN211803692.png" title="Patent Image 1" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <p><strong>This patent describes a system that utilizes mathematical modeling and machine learning techniques, including Hidden Markov Models (HMM), to forecast viewer actions while engaging with advertisements. It dynamically captures user interest and contextual information to predict behavior patterns. The system then adapts the display schedule of advertisements in real-time, using AI-driven insights to enhance viewer engagement and optimize ad targeting.</strong></p>
+    </div>
 </div>
-**Cited By:** Information on citations not available
 
 ---
 

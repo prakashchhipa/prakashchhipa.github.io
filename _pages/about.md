@@ -20,5 +20,5 @@ Currently, Prakash Chandra Chhipa is a dedicated Computer Vision Researcher and 
 
 Prakash's research is deeply rooted in computer vision and representation learning, with a particular focus on self-supervised learning (SSL). His doctoral work is two-fold: first, he aims to develop domain-aware SSL methods tailored to diverse visual domains, such as medical imaging, remote sensing, and RGB-D images, where visual concepts significantly deviate from natural scenes and labeled data is scarce. Second, he is committed to advancing robust representation learning techniques to handle out-of-distribution (OOD) scenarios, focusing on mitigating the impact of natural and synthetic distribution shifts in real-world applications. Prakash's journey is driven by a genuine desire to bridge the gap between innovative research and impactful real-world solutions. 
 
-For more details, you can view his updated CV [here](https://drive.google.com/file/d/1HT2ZFGwtV5L7YjvVj_mRT0pRzXF8MOHv/view?usp=drive_link).
+For more details, please check his updated CV [here](https://drive.google.com/file/d/1HT2ZFGwtV5L7YjvVj_mRT0pRzXF8MOHv/view?usp=drive_link).
 

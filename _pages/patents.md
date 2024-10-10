@@ -1,8 +1,7 @@
-updated_patents_content_with_theme = """
 ---
 layout: page
 permalink: /patents/
-title: Patents
+title: patents
 description: Granted patents and patent applications.
 nav: true
 nav_order: 2

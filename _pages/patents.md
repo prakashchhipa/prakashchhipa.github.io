@@ -4,7 +4,7 @@ permalink: /patents/
 title: patents
 description: Inventor for granted patents and patent applications.
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 <!-- _pages/patents.md -->

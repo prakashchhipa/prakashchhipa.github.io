@@ -51,7 +51,7 @@ nav_order: 3
 [US Patent 10706632B2](https://patents.google.com/patent/US10706632B2)  
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/10706632B2/10706632B2.png" title="Patent Image 1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/10706632/10706632.png" title="Patent Image 1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <p><strong>This invention devise a method and system for managing wide-view content in virtual reality (VR) using mathematical modeling. It employs in-focal and out-focal views to display 360-degree digital content, enhancing user interaction with VR scenes. The approach integrates convex projection techniques to create immersive experiences, allowing seamless transitions between viewpoints within the VR environment.</strong></p>

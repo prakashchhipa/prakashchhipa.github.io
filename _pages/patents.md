@@ -32,9 +32,7 @@ nav_order: 3
 ## 2. Display Device for Transmitting Advertisement Content and Method for Controlling Same
 [US Patent US11769172B2](https://patents.google.com/patent/US11769172B2)  
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/US11769172B2/US11769172B2.png" title="Patent Image 1" class="img-fluid rounded z-depth-1" %}
-    </div>
+    
     <div class="col-sm mt-3 mt-md-0">
         <p><strong>This invention formulates a method for display device system for targeted advertising, utilizing machine learning to analyze viewing information and blockchain technology for managing smart contracts. The system dynamically selects relevant ads based on user engagement and executes these ads using smart contracts stored on a blockchain. This approach ensures secure sharing of ad data between display devices and advertisers, enhancing ad personalization and transparency in digital advertising.</strong></p>
         <p><strong>Cited By:</strong> 
@@ -44,6 +42,9 @@ nav_order: 3
             <span class="badge" style="background-color: #2ecc71; color: white;">Paypal</span>,
             and <a href="https://patents.google.com/patent/US11769172B2/citedby" style="color: #3498db;">more</a>
         </p>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/US11769172B2/US11769172B2.png" title="Patent Image 1" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -68,11 +69,12 @@ nav_order: 3
 ## 4. A System and A Method of Forcasting Actions of Viewers Viweing Advertisements
 [WIPO Patent IN211803692](https://patentscope.wipo.int/search/en/detail.jsf?docId=IN211803692&_cid=P12-M23BCC-31052-1)  
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/IN211803692/IN211803692.png" title="Patent Image 1" class="img-fluid rounded z-depth-1" %}
-    </div>
+    
     <div class="col-sm mt-3 mt-md-0">
         <p><strong>This patent describes a system that utilizes mathematical modeling and machine learning techniques, including Hidden Markov Models (HMM), to forecast viewer actions while engaging with advertisements. It dynamically captures user interest and contextual information to predict behavior patterns. The system then adapts the display schedule of advertisements in real-time, using AI-driven insights to enhance viewer engagement and optimize ad targeting.</strong></p>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/IN211803692/IN211803692.png" title="Patent Image 1" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

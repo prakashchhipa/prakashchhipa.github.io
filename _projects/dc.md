@@ -20,7 +20,7 @@ To address these challenges, we focus on using domain-specific signals inherent 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/dc/materials.png" title="3DPM Data Collection" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/dc/dc_full.png" title="3DPM Data Collection" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

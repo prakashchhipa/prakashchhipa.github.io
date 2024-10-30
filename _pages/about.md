@@ -22,5 +22,5 @@ Before embarking on his academic journey, Prakash contributed significantly to i
 
 Prakash's research is deeply rooted in computer vision and representation learning, with a particular focus on self-supervised learning (SSL). His doctoral work is two-fold: first, he focuses on robustness in self-supervised representation learning to handle out-of-distribution (OOD) performance, focusing on mitigating the impact of natural and synthetic distribution shifts in real-world scenarios. Second, he aims to develop domain-aware SSL methods tailored to diverse visual domains, such as medical imaging, remote sensing, and RGB-D images, where visual concepts significantly deviate from natural scenes. Prakash's journey is driven by a genuine desire to bridge the gap between innovative research and impactful real-world solutions. 
 
-For more details, please check his updated CV [here](https://drive.google.com/file/d/1j3fNETpLcvwYjdC14_M-vboBptvUZg1Q/view?usp=sharing).
+For more details, please check his updated CV [here](https://drive.google.com/file/d/15n8FS7_U9Wk1ZldK-_zqiasE-GJm-v-j/view?usp=sharing).
 

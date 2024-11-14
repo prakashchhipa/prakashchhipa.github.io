@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper titled 'LCM: Log Conformal Maps for Robust Representation Learning to Mitigate Perspective Distortion' accepted in ACCV 2024. 
+🎉 Paper titled ['LCM: Log Conformal Maps for Robust Representation Learning to Mitigate Perspective Distortion'](https://arxiv.org/pdf/2410.03686) accepted in ACCV 2024. 🎉

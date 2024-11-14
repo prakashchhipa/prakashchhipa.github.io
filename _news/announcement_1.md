@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper titled 'Möbius Transform for Mitigating Perspective Distortions in Representation Learning' accepted in ECCV 2024.
+Paper titled ['Möbius Transform for Mitigating Perspective Distortions in Representation Learning'](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09297.pdf) accepted in ECCV 2024.

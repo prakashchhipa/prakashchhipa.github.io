@@ -12,9 +12,8 @@ Prakash Chandra Chhipa, Gautam Vashishtha, and Jithamanyu Settur  - equal contri
 <p align="center">
     <a href="https://arxiv.org/pdf/2501.02296" style="margin-right: 20px;">Read Paper</a>
     <a href="https://github.com/prakashchhipa/ASTrA" style="margin-right: 20px;">Source Code @ Github</a>
-    <a href="https://github.com/prakashchhipa/ASTrA/blob/main/astra_poster.JPG" style="margin-right: 20px;">Check Poster</a>
-    <a href="https://www.youtube.com/watch?v=MKh9NE_XEMY" style="margin-right: 20px;">Watch Video @ Youtube</a>
-    <a href="https://huggingface.co/prakashchhipa/ASTrA_SSL" style="margin-right: 20px;">Download Pretrained Models</a>
+    <a href="" style="margin-right: 20px;">Check Poster</a>
+    <a href="" style="margin-right: 20px;">Watch Video @ Youtube</a>
 </p>
 
 **Adversarial Training (AT)** emerges as the most prominent defense against adversarial attacks in supervised learning. Inspired by progress in self-supervised learning in recent years, self-supervised adversarial training have positively attempted to leverage unlabelled data for achieving adversarial robustness (self-AT). However exisitng conventional self-supervised adversarial training (Self-AT) methods rely on heuristic attacks, which are static and fail to adapt to varying distributions and models.
@@ -39,7 +38,7 @@ ASTrA introduces a learnable adversarial attack strategy, enabling the generatio
     </div>
 </div>
 
-**Mixed Contrastive Loss:** ASTrA incorporates a mixed contrastive loss to combine clean and adversarial views for robust representation learning.
+**Mixed Contrastive Loss:** ASTrA incorporates a mixed contrastive loss to combine clean and adversarial views for robust representation learning, resulting in robust alignment in representaiton space.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -55,7 +54,7 @@ ASTrA introduces a learnable adversarial attack strategy, enabling the generatio
     </div>
 </div>
 
-**Exploration-Exploitation Phenomena:** ASTrA dynamically balances exploration and exploitation during pretraining, converging to optimal attack parameters regardless of the dataset.
+**Exploration-Exploitation Phenomena:** ASTrA dynamically balances exploration and exploitation during self-supervised pretraining, converging to optimal attack parameters regardless of the dataset. Rather than converging to single atomic value of attack paramters, it leaverges combination of domianant values based on learning dynamics of the model at given instance.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -65,7 +64,7 @@ ASTrA introduces a learnable adversarial attack strategy, enabling the generatio
 
 ### Results
 
-**Standard Linear Finetuning Results**
+**Standard Linear Finetuning Results shows ASTrA outperform other methods on several benchmarks. (more results in paper)**
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -97,10 +96,11 @@ ASTrA introduces a learnable adversarial attack strategy, enabling the generatio
     </div>
 </div>
 
+We encpurage reader to read the full paper and watch video for more details.
 <p align="center">
     <a href="https://arxiv.org/pdf/2501.02296" style="margin-right: 20px;">Read Paper</a>
     <a href="https://github.com/prakashchhipa/ASTrA" style="margin-right: 20px;">Source Code @ Github</a>
-    <a href="https://github.com/prakashchhipa/ASTrA/blob/main/astra_poster.JPG" style="margin-right: 20px;">Check Poster</a>
-    <a href="https://www.youtube.com/watch?v=MKh9NE_XEMY" style="margin-right: 20px;">Watch Video @ Youtube</a>
-    <a href="https://huggingface.co/prakashchhipa/ASTrA_SSL" style="margin-right: 20px;">Download Pretrained Models</a>
+    <a href="" style="margin-right: 20px;">Check Poster</a>
+    <a href="" style="margin-right: 20px;">Watch Video @ Youtube</a>
 </p>
+

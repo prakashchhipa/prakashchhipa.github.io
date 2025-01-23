@@ -3,7 +3,7 @@ layout: page
 title: Magnification Prior- A Self-Supervised Method for Learning Representations on Breast Cancer Histopathological Images
 description: CVF Winter Conference on Applications of Computer Vision 2023
 img: assets/mpcs/mpcs.png
-importance: 2
+importance: 3
 category: work
 related_publications: true
 ---

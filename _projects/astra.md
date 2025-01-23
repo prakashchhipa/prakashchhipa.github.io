@@ -17,7 +17,7 @@ Prakash Chandra Chhipa, Gautam Vashishtha, and Jithamanyu Settur  - equal contri
     <a href="https://huggingface.co/prakashchhipa/ASTrA_SSL" style="margin-right: 20px;">Download Pretrained Models</a>
 </p>
 
-**Adversarial training** plays a critical role in robust self-supervised learning (SSL). Conventional self-supervised adversarial training (Self-AT) methods rely on heuristic attacks, which are static and fail to adapt to varying distributions and models.
+**Adversarial Training (AT)** emerges as the most prominent defense against adversarial attacks in supervised learning. Inspired by progress in self-supervised learning in recent years, self-supervised adversarial training have positively attempted to leverage unlabelled data for achieving adversarial robustness (self-AT). However exisitng conventional self-supervised adversarial training (Self-AT) methods rely on heuristic attacks, which are static and fail to adapt to varying distributions and models.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

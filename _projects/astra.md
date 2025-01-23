@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ASTrA: Adversarial Self-supervised Learning with Learnable Attack Strategy
+title: ASTrA - Adversarial Self-supervised Learning with Learnable Attack Strategy
 description: International Conference on Learning Representations 2025
 img: assets/astra/main_project.jpg
 importance: 1

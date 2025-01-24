@@ -7,7 +7,7 @@ importance: 1
 category: work
 related_publications: true
 ---
-Prakash Chandra Chhipa, Gautam Vashishtha, and Jithamanyu Settur  - equal contribution.
+**Prakash Chandra Chhipa, Gautam Vashishtha, and Jithamanyu Settur  - equal contribution.**
  
 <p align="center">
     <a href="https://openreview.net/forum?id=ZbkqhKbggH&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2025%2FConference%2FAuthors%23your-submissions)" style="margin-right: 20px;">Read Paper</a>

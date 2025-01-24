@@ -8,6 +8,7 @@ category: work
 related_publications: true
 ---
 _Chhipa, P.C.*_, _Vashishtha, G.*_, _Settur, J.*_, _Saini, R._, _Shah, M._, _Liwicki, M._ _ASTrA: Adversarial Self-Supervised Training with Adaptive Attacks. International Conference on Learning Representations. (ICLR 2025)_
+
 **Prakash Chandra Chhipa, Gautam Vashishtha, and Jithamanyu Settur  - equal contribution.**
  
 <p align="center">

@@ -16,7 +16,6 @@ _Chhipa, P.C.*_, _Vashishtha, G.*_, _Settur, J.*_, _Saini, R._, _Shah, M._, _Liw
     <a href="https://github.com/prakashchhipa/ASTrA" style="margin-right: 20px;">Source Code @ Github</a>
     <a href="https://iclr.cc/virtual/2025/poster/29209" style="margin-right: 20px;">Check Poster</a>
     <a href="https://www.youtube.com/watch?v=hY34Eq4KtZE" style="margin-right: 20px;">Watch Video @ Youtube</a>
-    <a href="" style="margin-right: 20px;">Watch Video @ Youtube</a>
 </p>
 
 **Adversarial Training (AT)** emerges as the most prominent defense against adversarial attacks in supervised learning. Inspired by progress in self-supervised learning in recent years, self-supervised adversarial training have positively attempted to leverage unlabelled data for achieving adversarial robustness (self-AT). However exisitng conventional self-supervised adversarial training (Self-AT) methods rely on heuristic attacks, which are static and fail to adapt to varying distributions and models.
@@ -104,6 +103,6 @@ We encpurage reader to read the full paper and watch video for more details.
     <a href=" https://openreview.net/forum?id=ZbkqhKbggH&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2025%2FConference%2FAuthors%23your-submissions)" style="margin-right: 20px;">Read Paper</a>
     <a href="https://github.com/prakashchhipa/ASTrA" style="margin-right: 20px;">Source Code @ Github</a>
     <a href="" style="margin-right: 20px;">Check Poster</a>
-    <a href="" style="margin-right: 20px;">Watch Video @ Youtube</a>
+    <a href="https://www.youtube.com/watch?v=hY34Eq4KtZE" style="margin-right: 20px;">Watch Video @ Youtube</a>
 </p>
 

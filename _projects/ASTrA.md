@@ -15,6 +15,7 @@ _Chhipa, P.C.*_, _Vashishtha, G.*_, _Settur, J.*_, _Saini, R._, _Shah, M._, _Liw
     <a href=" https://openreview.net/forum?id=ZbkqhKbggH&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2025%2FConference%2FAuthors%23your-submissions)" style="margin-right: 20px;">Read Paper</a>
     <a href="https://github.com/prakashchhipa/ASTrA" style="margin-right: 20px;">Source Code @ Github</a>
     <a href="https://iclr.cc/virtual/2025/poster/29209" style="margin-right: 20px;">Check Poster</a>
+    <a href="https://www.youtube.com/watch?v=hY34Eq4KtZE" style="margin-right: 20px;">Watch Video @ Youtube</a>
     <a href="" style="margin-right: 20px;">Watch Video @ Youtube</a>
 </p>
 

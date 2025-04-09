@@ -4,7 +4,7 @@
 
 - image: "assets/img/ltu.png"
   name: "LTU Logo"
-  description: "Defended PhD in Machine Learning at <a href='https://www.ltu.se/en/research/research-subjects/machine-learning'>ML Group, Luleå University of Technology, Sweden</a>. Research focused on robustness and domain-aware self-supervised representation learning. Published <a href='https://prakashchhipa.github.io/publications/'>rsearch works</a> in top conferences including ICLR, ECCV, WACV, ICIP and ICCV/ECCV workshops. Have been a reviewer at CVPR, NeurIPS, ICLR, and other conferences, industrial research with Swedish companies, and secured multiple grants." 
+  description: "Recieved PhD in Computer Vision from <a href='https://www.ltu.se/en/research/research-subjects/machine-learning'>ML Group, Luleå tekniska universitet, Sweden</a>. Research focused on robustness and domain-aware self-supervised representation learning. Published <a href='https://prakashchhipa.github.io/publications/'>rsearch works</a> in top conferences including ICLR, ECCV, WACV, ICIP and ICCV/ECCV workshops. Have been a reviewer at CVPR, NeurIPS, ICLR, and other conferences, industrial research with Swedish companies, and secured multiple grants." 
 
 - image: "assets/img/ucf_crcv.png"
   name: "CRCV Logo"

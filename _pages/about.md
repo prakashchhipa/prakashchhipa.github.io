@@ -24,5 +24,5 @@ At Arkray R&D (2018–2020), he built and led the AI team, significantly contrib
 
 This spectrum of experience—from training large-scale models to leading teams, from prototypes to patents—enables him to drive high-impact AI research and build tangible, scalable products. His combined industry and academic journey makes him uniquely positioned to lead innovation where scientific depth meets product relevance.
 
-Please check his updated CV [here](https://drive.google.com/file/d/1mBhD7d8-l38TsDcnmtU-0hWzzDRKnqef/view?usp=sharing).
+Please check his updated CV [here](https://drive.google.com/file/d/13VGcSuEFGtBDLsdjOFqQvIOsKcnaduJp/view?usp=sharing).
 

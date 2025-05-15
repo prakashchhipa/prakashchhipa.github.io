@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Industrial R&D Tenure
+title: industrial R&D tenure
 permalink: /industrialRnD/
 description: 'Industrial R&D Tenure'
 nav: true

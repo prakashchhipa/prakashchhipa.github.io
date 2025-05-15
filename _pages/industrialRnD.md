@@ -15,7 +15,7 @@ With a decade of industrial experience in AI, computer vision, and large-scale d
 
 ---
 
-### <img src="/assets/img/arkray.png" style="height: 120px; vertical-align: middle;"> &nbsp; ARKRAY R&D, India | Lead Data Scientist (2018 – 2020)
+### <img src="/assets/img/arkray.png" style="height: 90px; vertical-align: middle;"> &nbsp; ARKRAY R&D, India | Lead Data Scientist (2018 – 2020)
 
 As Lead Data Scientist at ARKRAY’s R&D unit, I led the computer vision AI development of the **Aution Eye AI-4510**, a commercially launched urinalysis automation system. I headed a 6-member research team focused on deep learning for micro-level histopathology image analysis, driving significant advancements in:
 
@@ -29,7 +29,7 @@ As Lead Data Scientist at ARKRAY’s R&D unit, I led the computer vision AI deve
 
 ---
 
-### <img src="/assets/img/samsung.png" style="height: 120px; vertical-align: middle;"> &nbsp; Samsung Research Institute, Delhi | Staff Engineer – AI & Data Intelligence (2012 – 2018)
+### <img src="/assets/img/samsung.png" style="height: 90px; vertical-align: middle;"> &nbsp; Samsung Research Institute, Delhi | Staff Engineer – AI & Data Intelligence (2012 – 2018)
 
 Over 6.5 years at Samsung R&D, I spearheaded machine learning and computer vision efforts in the **Samsung ACR (Automatic Content Recognition)** and **Samsung Ads** platform — powering content intelligence in millions of smart TVs globally. My work contributions enabled:
 
@@ -45,7 +45,7 @@ Over 6.5 years at Samsung R&D, I spearheaded machine learning and computer visio
 
 ---
 
-### <img src="/assets/img/hcl.png" style="height: 120px; vertical-align: middle;"> &nbsp; HCL Technologies | Associate Consultant (2010 – 2012)
+### <img src="/assets/img/hcl.png" style="height: 90px; vertical-align: middle;"> &nbsp; HCL Technologies | Associate Consultant (2010 – 2012)
 
 At HCL, I contributed to the SOA-based Retail Services Platform for **T-Mobile USA**, a large-scale enterprise backend system. Key contributions included:
 
@@ -58,10 +58,10 @@ At HCL, I contributed to the SOA-based Retail Services Platform for **T-Mobile U
 ## Why It Matters
 
 These experiences form the foundation of my research-driven entrepreneurial vision:
-- **From prototypes to products**: I’ve led transitions from POCs to fully deployed AI systems.
-- **End-to-end lifecycle**: From data engineering and model development to cloud deployment and IP generation.
-- **Multi-stakeholder collaboration**: Worked with academia, product managers, designers, and end-users.
+- **From prototypes to products**: I’ve led transitions from POCs to fully deployed AI systems navigating through the academic research.
+- **End-to-end lifecycle**: From data engineering and model training to development on cloud deployment finsihing it with IP generation.
+- **Multi-stakeholder collaboration**: Worked with academia, industrial R&D, product managers, designers, and end-users.
 
-Today, I’m building on these foundations to develop **robust, domain-adaptive AI systems** with real-world utility, scaling research into commercially viable impact.
+Today, I’m building on these foundations to develop **robust AI systems** with real-world utility, scaling research into commercially viable impact.
 
 ---

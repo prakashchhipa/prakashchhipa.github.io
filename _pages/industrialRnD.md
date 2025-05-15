@@ -2,7 +2,7 @@
 layout: page
 title: industrial R&D tenure
 permalink: /industrialRnD/
-description: 'Industrial R&D Tenure'
+description: ''
 nav: true
 nav_order: 5
 display_categories: [work]
@@ -11,16 +11,17 @@ horizontal: false
 
 ## Industrial Research & Development
 
-With a decade of industrial experience in AI, computer vision, and large-scale deployment, I have had the privilege to lead and contribute to groundbreaking products, international patents, and multi-disciplinary teams across three global companies. This journey has shaped my current vision to bridge academia with scalable, real-world AI impact.
+With a decade of industrial experience in AI, computer vision, and large-scale deployment, I have had the privilege to lead and contribute to advanced products, international patents, and multi-disciplinary teams across three global companies. This journey has shaped my current vision to bridge academia with scalable, real-world AI impact.
 
 ---
 
-### <img src="/assets/img/arkray.png" style="height: 40px; vertical-align: middle;"> &nbsp; ARKRAY R&D, Japan | *Lead Data Scientist (2018 – 2020)*
+### <img src="/assets/img/arkray.png" style="height: 120px; vertical-align: middle;"> &nbsp; ARKRAY R&D, Japan | *Lead Data Scientist (2018 – 2020)*
 
 As Lead Data Scientist at ARKRAY’s R&D unit, I led the computer vision AI development of the **Aution Eye AI-4510**, a commercially launched urinalysis automation system. I headed a 6-member research team focused on deep learning for micro-level histopathology image analysis, driving significant advancements in:
 
 - Recognizing microorganisms and cells for urinary sediments investigating and employing state-of-the-arts methods in computer vision ficusings CNNs and GANs.
 - Integration of AI workflow on Microsoft Azure cloud for edge-AI deployment.
+- Explored blood glucose estimation models and RNA-based early cancer detection methods.
 - Inventor of two patents for AI-based biomarker discovery and medical image interpretation.
 
 💡 **Impact:** First-of-its-kind AI-enabled urinalysis system successfully launched in the Japanese market.  
@@ -28,7 +29,7 @@ As Lead Data Scientist at ARKRAY’s R&D unit, I led the computer vision AI deve
 
 ---
 
-### <img src="/assets/img/samsung.png" style="height: 40px; vertical-align: middle;"> &nbsp; Samsung Research Institute, India | *Staff Engineer – AI & Data Intelligence (2012 – 2018)*
+### <img src="/assets/img/samsung.png" style="height: 120px; vertical-align: middle;"> &nbsp; Samsung Research Institute, India | *Staff Engineer – AI & Data Intelligence (2012 – 2018)*
 
 Over 6.5 years at Samsung R&D, I spearheaded machine learning and computer vision efforts in the **Samsung ACR (Automatic Content Recognition)** and **Samsung Ads** platform — powering content intelligence in millions of smart TVs globally. My work contributions enabled:
 
@@ -44,7 +45,7 @@ Over 6.5 years at Samsung R&D, I spearheaded machine learning and computer visio
 
 ---
 
-### <img src="/assets/img/hcl.png" style="height: 40px; vertical-align: middle;"> &nbsp; HCL Technologies | *Associate Consultant (2010 – 2012)*
+### <img src="/assets/img/hcl.png" style="height: 120px; vertical-align: middle;"> &nbsp; HCL Technologies | *Associate Consultant (2010 – 2012)*
 
 At HCL, I contributed to the SOA-based Retail Services Platform for **T-Mobile USA**, a large-scale enterprise backend system. Key contributions included:
 

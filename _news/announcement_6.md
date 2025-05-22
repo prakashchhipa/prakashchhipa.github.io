@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎓 Accepted as [DAAD AI-Net Fellow 2024](https://www.daad.de/en/the-daad/postdocnet/fellows/fellows/) on subject 'AI for Science' with networking tour to host German institute for potential collaboration in Artificial Intelligence. 🎓 
+🎓 Received [DAAD AI-Net Fellow 2024](https://www.daad.de/en/the-daad/postdocnet/fellows/fellows/#Chhipa) fellowship to visit and collaborate with host German research institute on Artificial Intelligence. 🇩🇪 

@@ -24,5 +24,5 @@ Before PhD, Prakash spent around decade in industrial R&D, building machine lear
 
 At Arkray R&D (2018–2020), he built and led the machine learning team, significantly contributing in computer vision method development in delivering products urinalysis (Aution eye AI 4510, launched in 2019) and many other projects. He bridged clinical needs and machine learning innovation—contributing to multiple patent filings and pushing AI into real-world healthcare diagnostics.
 
-Open for Research Scientist roles and discussions. Please check his updated CV [here](https://drive.google.com/file/d/13VGcSuEFGtBDLsdjOFqQvIOsKcnaduJp/view?usp=sharing).
+Open for Research Scientist roles and discussions. Please check his updated CV [here](https://drive.google.com/file/d/1aSi2x4Oo0VO2iZWFN7BSEEsMKi62fkF0/view?usp=sharing).
 

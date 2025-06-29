@@ -14,6 +14,7 @@ related_publications: true
     <a href="https://www.youtube.com/watch?v=MKh9NE_XEMY" style="margin-right: 20px;">Watch Video @ Youtube</a>
     <a href="https://huggingface.co/prakashchhipa/MPD_SSL" style="margin-right: 20px;">Download Pretrained Models</a>
     <a href="https://huggingface.co/datasets/prakashchhipa/ImageNet-PD">Download ImageNet-PD</a>
+    <a href="https://pypi.org/project/mobius-mpd/">Möbius-MPD perspective distortion augmentaiton library </a>
 </p>
 
 
@@ -108,6 +109,7 @@ When it comes to adapting MPD to other real-world applications, MPD gets adapted
     <a href="https://www.youtube.com/watch?v=MKh9NE_XEMY" style="margin-right: 20px;">Watch Video @ Youtube</a>
     <a href="https://huggingface.co/prakashchhipa/MPD_SSL" style="margin-right: 20px;">Download Pretrained Models</a>
     <a href="https://huggingface.co/datasets/prakashchhipa/ImageNet-PD">Download ImageNet-PD</a>
+    <a href="https://pypi.org/project/mobius-mpd/">Möbius-MPD perspective distortion augmentaiton library </a>
 </p>
 
 Chhipa, Prakash Chandra, et al. "Möbius Transform for Mitigating Perspective Distortions in Representation Learning." arXiv preprint arXiv:2405.02296 (2024).

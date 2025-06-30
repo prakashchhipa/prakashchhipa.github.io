@@ -26,3 +26,14 @@ At Arkray R&D (2018–2020), he built and led the machine learning team, signifi
 
 Open for Research Scientist roles and discussions. Please check his updated CV [here](https://drive.google.com/file/d/1tgdfG4kvnXXmX0DHGrAMtC9XBq8fBWRx/view?usp=sharing).
 
+
+> **Möbius Perspective Distortion (MPD)** augmentation for PyTorch & Albumentations - [visit PyPI for pip install](https://pypi.org/project/mobius-mpd/) 
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/prakashchhipa/mobius-mpd/main/assets/two_cats_mpd_transition.gif"   width="45%"/>
+<img src="https://raw.githubusercontent.com/prakashchhipa/mobius-mpd/main/assets/burj_mpd_transition.gif"        width="45%"/><br/>
+<img src="https://raw.githubusercontent.com/prakashchhipa/mobius-mpd/main/assets/parking_mpd_transition.gif"     width="45%"/>
+<img src="https://raw.githubusercontent.com/prakashchhipa/mobius-mpd/main/assets/milan_cathedral_mpd_transition.gif" width="45%"/>
+</div>
+
+

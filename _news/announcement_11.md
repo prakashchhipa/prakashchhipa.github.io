@@ -6,4 +6,4 @@ related_posts: false
 ---
 
 
-✈️ Started research visit at Center for Research in Computer Vision (['CRCV'](https://www.cs.ucf.edu/research/center-for-research-in-computer-vision-lab/)), University of Central Florida, hosted by Prof. Mubarak Shah. 🇺🇸
+✈️ Started research visit at Center for Research in Computer Vision (['CRCV'](https://www.crcv.ucf.edu/)), University of Central Florida, hosted by Prof. Mubarak Shah. 🇺🇸

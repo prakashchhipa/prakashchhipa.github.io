@@ -2,7 +2,7 @@
 layout: about
 title: home
 permalink: /
-subtitle: Researcher, <a href='https://www.ltu.se/en/staff/p/prakash-chandra-chhipa'>Luleå Universtiy of Technology, Sweden</a>
+subtitle: Postdoctoral Research Scientist, <a href='https://www.ltu.se/en/staff/p/prakash-chandra-chhipa'>Luleå Universtiy of Technology, Sweden</a>
 
 profile:
   align: right
@@ -16,6 +16,8 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+Click [here](https://drive.google.com/file/d/1kqE9q7owVwNQv9DYjFUKLlNAnBcHQ81K/view?usp=sharing) for updated CV!
+
 Prakash shares spectrum of 13+ years of machine learning R&D experience in the field of computer vision with recent advances in self-supervised representation learning, multi-modality and generative AI—from training large-scale models to leading teams, from idea to research publications, from prototypes to patents—enables him to drive high-impact AI research and build tangible, scalable products. His combined industrial R&D and academic research journey makes him uniquely positioned to lead innovation where scientific depth meets product relevance.
 
 Prakash is computer vision researcher and applied scientist. He recently received PhD in Machine Learning focusing Computer Vision from Luleå Tekniska Universitet, Sweden in 2025, where worked on making self-supervised representation learning robust, domain-aware, and ready for the real world. From distorted camera views to unseen adversarial threats, his research aimed to make self-supervised AI more resilient, adaptable, and aware of the domains it serves—from hospitals to mines. He authored dozens of research works—within and beyond his thesis—with many publications in top-tier conferences including ECCV, ICLR, ACCV, WACV, and more. During this journey, he served as a reviewer, delivered invited talks across continents, and held a visiting researcher position at UCF. He supervised four master’s theses, participated in prestigious summer schools, received multiple grants and fellowships, and featured on credible platforms—all while collaborating with inspiring researchers across the globe.
@@ -24,7 +26,7 @@ Before PhD, Prakash spent around decade in industrial R&D, building machine lear
 
 At Arkray R&D (2018–2020), he built and led the machine learning team, significantly contributing in computer vision method development in delivering products urinalysis (Aution eye AI 4510, launched in 2019) and many other projects. He bridged clinical needs and machine learning innovation—contributing to multiple patent filings and pushing AI into real-world healthcare diagnostics.
 
-Open for Research Scientist roles and discussions. Please check his updated CV [here](https://drive.google.com/file/d/1TrG-k44s1CTwZoY3gSVN7eG0ne9VO_HS/view?usp=sharing).
+Open for Research Scientist roles and discussions. Please check his updated CV [here](https://drive.google.com/file/d/1kqE9q7owVwNQv9DYjFUKLlNAnBcHQ81K/view?usp=sharing).
 
 
 > **Möbius Perspective Distortion (MPD)** augmentation for PyTorch & Albumentations - [visit PyPI for pip install](https://pypi.org/project/mobius-mpd/) 

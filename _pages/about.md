@@ -16,7 +16,7 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-Click [here](https://drive.google.com/file/d/1kqE9q7owVwNQv9DYjFUKLlNAnBcHQ81K/view?usp=sharing) for updated CV!
+Click [here](https://drive.google.com/file/d/1H2qzrKph66lPjYWhRdB0CtHiBCV4BkAl/view?usp=sharing) for updated CV!
 
 Prakash shares spectrum of 13+ years of machine learning R&D experience in the field of computer vision with recent advances in self-supervised representation learning, multi-modality and generative AI—from training large-scale models to leading teams, from idea to research publications, from prototypes to patents—enables him to drive high-impact AI research and build tangible, scalable products. His combined industrial R&D and academic research journey makes him uniquely positioned to lead innovation where scientific depth meets product relevance.
 
@@ -26,7 +26,7 @@ Before PhD, Prakash spent around decade in industrial R&D, building machine lear
 
 At Arkray R&D (2018–2020), he built and led the machine learning team, significantly contributing in computer vision method development in delivering products urinalysis (Aution eye AI 4510, launched in 2019) and many other projects. He bridged clinical needs and machine learning innovation—contributing to multiple patent filings and pushing AI into real-world healthcare diagnostics.
 
-Open for Research Scientist roles and discussions. Please check his updated CV [here](https://drive.google.com/file/d/1kqE9q7owVwNQv9DYjFUKLlNAnBcHQ81K/view?usp=sharing).
+Open for Research Scientist roles and discussions. Please check his updated CV [here](https://drive.google.com/file/d/1H2qzrKph66lPjYWhRdB0CtHiBCV4BkAl/view?usp=sharing).
 
 
 > **Möbius Perspective Distortion (MPD)** augmentation for PyTorch & Albumentations - [visit PyPI for pip install](https://pypi.org/project/mobius-mpd/) 

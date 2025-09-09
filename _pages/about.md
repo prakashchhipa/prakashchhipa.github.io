@@ -2,7 +2,7 @@
 layout: about
 title: home
 permalink: /
-subtitle: Postdoctoral Research Scientist, <a href='https://www.ltu.se/en/staff/p/prakash-chandra-chhipa'>Luleå Universtiy of Technology, Sweden</a>
+subtitle: Wallenberg WASP Postdoctoral Research Scientist, <a href='https://www.ltu.se/en/staff/p/prakash-chandra-chhipa'>Luleå Universtiy of Technology, Sweden</a>
 
 profile:
   align: right
@@ -16,6 +16,10 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+<p align="center">
+  <img src="/assets/WASP-logotype-white.png" alt="WASP Logo" width="200"/>
+</p>
+
 Click [here](https://drive.google.com/file/d/1H2qzrKph66lPjYWhRdB0CtHiBCV4BkAl/view?usp=sharing) for updated CV!
 
 Prakash shares spectrum of 13+ years of machine learning R&D experience in the field of computer vision with recent advances in self-supervised representation learning, multi-modality and generative AI—from training large-scale models to leading teams, from idea to research publications, from prototypes to patents—enables him to drive high-impact AI research and build tangible, scalable products. His combined industrial R&D and academic research journey makes him uniquely positioned to lead innovation where scientific depth meets product relevance.

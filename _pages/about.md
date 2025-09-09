@@ -17,7 +17,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 <p align="center">
-  <img src="/assets/WASP-logotype-white.png" alt="WASP Logo" width="200"/>
+  <a href="https://wasp-sweden.org" target="_blank">
+    <img src="/assets/WASP-logotype-white.png" alt="WASP Logo" width="600"/>
+  </a>
 </p>
 
 Click [here](https://drive.google.com/file/d/1H2qzrKph66lPjYWhRdB0CtHiBCV4BkAl/view?usp=sharing) for updated CV!

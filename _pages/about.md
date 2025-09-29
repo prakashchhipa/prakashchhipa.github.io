@@ -21,6 +21,11 @@ social: true # includes social icons at the bottom of the page
     <img src="/assets/WASP-logotype-white.png" alt="WASP Logo" width="300"/>
   </a>
 </p>
+<p align="center">
+  <a href="https://ellis.eu/members" target="_blank">
+    <img src="/assets/ellis.png" alt="ELLIS Logo" width="340"/>
+  </a>
+</p>
 
 Click [here](https://drive.google.com/file/d/1H2qzrKph66lPjYWhRdB0CtHiBCV4BkAl/view?usp=sharing) for updated CV!
 

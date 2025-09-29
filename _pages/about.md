@@ -18,7 +18,7 @@ social: true # includes social icons at the bottom of the page
 ---
 <p align="center">
   <a href="https://wasp-sweden.org" target="_blank">
-    <img src="/assets/WASP-logotype-white.png" alt="WASP Logo" width="320"/>
+    <img src="/assets/WASP-logotype-white.png" alt="WASP Logo" width="340"/>
   </a>
 </p>
 <p align="center">

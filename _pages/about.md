@@ -22,7 +22,7 @@ social: true # includes social icons at the bottom of the page
   </a>
 </p>
 <p align="center">
-  <a href="https://ellis.eu/members" target="_blank">
+  <a href="https://ellis.eu" target="_blank">
     <img src="/assets/ellis.png" alt="ELLIS Logo" width="300"/>
   </a>
 </p>

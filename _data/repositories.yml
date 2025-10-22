@@ -2,6 +2,8 @@ github_users:
   - prakashchhipa
 
 github_repos:
+  - prakashchhipa/AskAnythingInCharts-Qwen2.5-7B
+  - prakashchhipa/ASTrA
   - prakashchhipa/MPD
   - prakashchhipa/Magnification-Prior-Self-Supervised-Method
   - prakashchhipa/Depth-Contrast-Self-Supervised-Method

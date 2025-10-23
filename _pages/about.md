@@ -29,18 +29,33 @@ social: true # includes social icons at the bottom of the page
 
 Click [here](https://drive.google.com/file/d/1pzAf7G9xs9IzwEk3AyRk8VnPJsVlNH6V/view?usp=sharing) for updated CV!
 
-Prakash shares spectrum of 13+ years of machine learning R&D experience in the field of computer vision with recent advances in self-supervised representation learning, multi-modality and generative AI—from training large-scale models to leading teams, from idea to research publications, from prototypes to patents—enables him to drive high-impact AI research and build tangible, scalable products. His combined industrial R&D and academic research journey makes him uniquely positioned to lead innovation where scientific depth meets product relevance.
+Prakash brings over 13 years of machine learning R&D experience spanning computer vision, self-supervised learning, foundation models, multimodality, and generative AI. From training large-scale models to leading teams and translating ideas into publications, patents, and products—he bridges scientific depth with real-world impact.
 
-Prakash is researcher and applied scientist, currently WASP fellow and ELLIS member. He recently received PhD in Machine Learning from Luleå Tekniska Universitet, Sweden in 2025, where worked on making self-supervised representation learning robust, domain-aware, and ready for the real world. From distorted camera views to unseen adversarial threats, his research aimed to make self-supervised AI more resilient, adaptable, and aware of the domains it serves—from hospitals to mines. He authored dozens of research works—within and beyond his thesis—with many publications in top-tier conferences including ECCV, ICLR, ACCV, WACV, and more. During this journey, he served as a reviewer, delivered invited talks across continents, and held a visiting researcher position at UCF. He supervised four master’s theses, participated in prestigious summer schools, received multiple grants and fellowships, and featured on credible platforms—all while collaborating with inspiring researchers across the globe.
+He is a researcher and applied scientist, currently a WASP Fellow and ELLIS Member, holding a PhD in Machine Learning from Luleå University of Technology, Sweden (2025). His research advances robust, domain-aware self-supervised learning—starting from modeling fundamental yet natural phenomena of scene distortion caused by camera perspective, leading to improved robustness in real-world tasks such as object detection, crowd analytics, and person re-identification; extending to reinforcement learning–driven adversarial attacks, and adapting self-supervised methods across domains—from industrial mines to medical imaging. He has published in ICLR, ECCV, ACCV, WACV, and served as reviewer, invited talk speaker, and visiting researcher at UCF, received multiple grants and fellowships, and collaborated with leading researchers worldwide. He is currently working on multimodal foundation models, aiming to make them more robust, adaptable, and practically useful for real-world applications.
 
-Before PhD, Prakash spent around decade in industrial R&D, building machine learning and computer vision systems from concept to real-world deployment. At Samsung R&D (2012–2018), he worked across roles—from individual contributor to senior staff—on large-scale content recognition for Samsung TVs (ACR systems in the US, EU, and Korea), video/music domain applications in computer vision, and contextual ad recommendations using reinforcement learning. He contributed multiple invention disclosures and 11 international patent applications, including 5 granted patents with multimillion-dollar valuation and some are cited by Google, Meta, Apple, Boeing, Sony.
-
-At Arkray R&D (2018–2020), he built and led the machine learning team, significantly contributing in computer vision method development in delivering products urinalysis (Aution eye AI 4510, launched in 2019) and many other projects. He bridged clinical needs and machine learning innovation—contributing to multiple patent filings and pushing AI into real-world healthcare diagnostics.
+Before academia, he spent a decade in industrial R&D. At Samsung R&D (2012–2018), he built large-scale vision systems and ad-recommendation models, leading to 11 international patents (5 granted) cited by major tech companies. Later at Arkray R&D (2018–2020), he led the ML team developing AI-driven diagnostics (Aution Eye AI 4510), merging healthcare and machine learning innovation.
 
 Open for Research Scientist roles and discussions. Please check his updated CV [here](https://drive.google.com/file/d/1H2qzrKph66lPjYWhRdB0CtHiBCV4BkAl/view?usp=sharing).
 
+> **AskMeAnythingInCharts – Qwen2.5-VL-7B (LoRA) for Chart QA** - get your question asked on charts [Released on Oct 2025]
 
-> **Möbius Perspective Distortion (MPD)** augmentation for PyTorch & Albumentations - [visit PyPI for pip install](https://pypi.org/project/mobius-mpd/) 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/prakashchhipa/AskAnythingInCharts-Qwen2.5-7B/main/demo.gif" alt="AskMeAnythingInCharts Demo" width="90%"/>
+</div>
+
+<p align="center">
+  <a href="https://github.com/prakashchhipa/AskAnythingInCharts-Qwen2.5-7B" target="_blank">GitHub source code</a> •
+  <a href="https://huggingface.co/prakashchhipa/Qwen2.5-VL-7B-ChartQA-LoRA" target="_blank">Open-source model on Hugging Face</a> •
+  <a href="https://huggingface.co/spaces/prakashchhipa/chart-qa-demo-qwen2.5" target="_blank">Try the live demo</a>
+</p>
+
+<ul>
+  <li>Fine-tuned Qwen2.5-VL-7B with LoRA for chart understanding and QA.</li>
+  <li>Open weights and inference-ready pipeline for reproducible results.</li>
+  <li>Hands-on demo on Hugging Face Spaces — upload a chart and ask anything.</li>
+</ul>
+
+> **Möbius Perspective Distortion (MPD)** augmentation for PyTorch & Albumentations [Released on June 2025] - [visit PyPI for pip install](https://pypi.org/project/mobius-mpd/) 
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/prakashchhipa/mobius-mpd/main/assets/two_cats_mpd_transition.gif"   width="45%"/>
@@ -48,5 +63,7 @@ Open for Research Scientist roles and discussions. Please check his updated CV [
 <img src="https://raw.githubusercontent.com/prakashchhipa/mobius-mpd/main/assets/parking_mpd_transition.gif"     width="45%"/>
 <img src="https://raw.githubusercontent.com/prakashchhipa/mobius-mpd/main/assets/milan_cathedral_mpd_transition.gif" width="45%"/>
 </div>
+
+
 
 

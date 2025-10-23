@@ -35,7 +35,7 @@ He is a researcher and applied scientist, currently a WASP Fellow and ELLIS Memb
 
 Before academia, he spent a decade in industrial R&D. At Samsung R&D (2012–2018), he built large-scale vision systems and ad-recommendation models, leading to 11 international patents (5 granted) cited by major tech companies. Later at Arkray R&D (2018–2020), he led the ML team developing AI-driven diagnostics (Aution Eye AI 4510), merging healthcare and machine learning innovation.
 
-Open for Research Scientist roles and discussions. Please check his updated CV [here](https://drive.google.com/file/d/1H2qzrKph66lPjYWhRdB0CtHiBCV4BkAl/view?usp=sharing).
+Open for Research Scientist roles and discussions. Please check his updated CV [here](https://drive.google.com/file/d/1pzAf7G9xs9IzwEk3AyRk8VnPJsVlNH6V/view?usp=sharing).
 
 > **AskMeAnythingInCharts – Qwen2.5-VL-7B (LoRA) for Chart QA** - get your question asked on charts [Opensourced and Released on Oct 2025]
 

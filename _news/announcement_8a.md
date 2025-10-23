@@ -6,4 +6,4 @@ related_posts: false
 ---
 
 
-🎓 Sucessfully defended Licentiate thesis titled ['Self-supervised Representation Learning for Visual Domains Beyond Natural Scenes'](https://www.diva-portal.org/smash/get/diva2:1732072/FULLTEXT02.pdf). 🇸🇪
+🎓 Sucessfully defended Licentiate thesis titled ['Self-supervised Representation Learning for Visual Domains Beyond Natural Scenes'](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1732072). 🇸🇪

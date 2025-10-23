@@ -37,7 +37,7 @@ Before academia, he spent a decade in industrial R&D. At Samsung R&D (2012–201
 
 Open for Research Scientist roles and discussions. Please check his updated CV [here](https://drive.google.com/file/d/1H2qzrKph66lPjYWhRdB0CtHiBCV4BkAl/view?usp=sharing).
 
-> **AskMeAnythingInCharts – Qwen2.5-VL-7B (LoRA) for Chart QA** - get your question asked on charts [Released on Oct 2025]
+> **AskMeAnythingInCharts – Qwen2.5-VL-7B (LoRA) for Chart QA** - get your question asked on charts [Opensourced and Released on Oct 2025]
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/prakashchhipa/AskAnythingInCharts-Qwen2.5-7B/main/demo.gif" alt="AskMeAnythingInCharts Demo" width="90%"/>
@@ -55,7 +55,7 @@ Open for Research Scientist roles and discussions. Please check his updated CV [
   <li>Hands-on demo on Hugging Face Spaces — upload a chart and ask anything.</li>
 </ul>
 
-> **Möbius Perspective Distortion (MPD)** augmentation for PyTorch & Albumentations [Released on June 2025] - [visit PyPI for pip install](https://pypi.org/project/mobius-mpd/) 
+> **Möbius Perspective Distortion (MPD)** augmentation for PyTorch & Albumentations [Opensourced and Released on June 2025] - [visit PyPI for pip install](https://pypi.org/project/mobius-mpd/) 
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/prakashchhipa/mobius-mpd/main/assets/two_cats_mpd_transition.gif"   width="45%"/>

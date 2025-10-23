@@ -37,23 +37,11 @@ Before academia, he spent a decade in industrial R&D. At Samsung R&D (2012–201
 
 Open for Research Scientist roles and discussions. Please check his updated CV [here](https://drive.google.com/file/d/1pzAf7G9xs9IzwEk3AyRk8VnPJsVlNH6V/view?usp=sharing).
 
-> **AskMeAnythingInCharts – Qwen2.5-VL-7B (LoRA) for Chart QA** - get your question asked on charts [Opensourced and released on Oct 2025]
+> **AskMeAnythingInCharts – Qwen2.5-VL-7B (LoRA) for Chart QA** - get your question answered on charts and plots. [Opensourced and released on Oct 2025] - [Open-source model on Hugging Face](https://github.com/prakashchhipa/AskAnythingInCharts-Qwen2.5-7B) [Try the live demo](https://huggingface.co/spaces/prakashchhipa/chart-qa-demo-qwen2.5) [Training code](https://github.com/prakashchhipa/AskAnythingInCharts-Qwen2.5-7B) 
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/prakashchhipa/AskAnythingInCharts-Qwen2.5-7B/main/demo.gif" alt="AskMeAnythingInCharts Demo" width="90%"/>
 </div>
-
-<p align="center">
-  <a href="https://github.com/prakashchhipa/AskAnythingInCharts-Qwen2.5-7B" target="_blank">GitHub source code</a> •
-  <a href="https://huggingface.co/prakashchhipa/Qwen2.5-VL-7B-ChartQA-LoRA" target="_blank">Open-source model on Hugging Face</a> •
-  <a href="https://huggingface.co/spaces/prakashchhipa/chart-qa-demo-qwen2.5" target="_blank">Try the live demo</a>
-</p>
-
-<ul>
-  <li>Fine-tuned Qwen2.5-VL-7B with LoRA for chart understanding and QA.</li>
-  <li>Open weights and inference-ready pipeline for reproducible results.</li>
-  <li>Hands-on demo on Hugging Face Spaces — upload a chart and ask anything.</li>
-</ul>
 
 > **Möbius Perspective Distortion (MPD)** augmentation for PyTorch & Albumentations [Opensourced and released on June 2025] - [visit PyPI for pip install](https://pypi.org/project/mobius-mpd/) 
 

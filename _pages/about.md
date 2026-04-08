@@ -2,7 +2,7 @@
 layout: about
 title: home
 permalink: /
-subtitle: Wallenberg WASP Postdoctoral Research Scientist, <a href='https://www.ltu.se/en/staff/p/prakash-chandra-chhipa'>Luleå Universtiy of Technology, Sweden</a>
+subtitle: AI at <a href='https://www.ri.se/en/artificial-intelligence'>RISE-Scalable Systems, Sweden</a> | Research Scientist – Foundation Models, Computer Vision, & Multimodal AI
 
 profile:
   align: right
@@ -18,7 +18,7 @@ social: true # includes social icons at the bottom of the page
 ---
 <p align="center">
   <a href="https://wasp-sweden.org" target="_blank">
-    <img src="/assets/WASP-logotype-white.png" alt="WASP Logo" width="340"/>
+    <img src="/assets/RISE_AIF.jpg" alt="RISE Logo" width="340"/>
   </a>
 </p>
 <p align="center">
@@ -29,13 +29,16 @@ social: true # includes social icons at the bottom of the page
 
 Click [here](https://drive.google.com/file/d/1pzAf7G9xs9IzwEk3AyRk8VnPJsVlNH6V/view?usp=sharing) for updated CV!
 
-Prakash brings over 13 years of machine learning R&D experience spanning computer vision, self-supervised learning, foundation models, multimodality, and generative AI. From training large-scale models to leading teams and translating ideas into publications, patents, and products—he bridges scientific depth with real-world impact.
+Prakash is a Research Scientist and AI Professional working at the intersection of foundation models, multimodal AI, and computer vision, with a focus on translating advanced research into real-world impact.
 
-He is a researcher and applied scientist, currently a WASP Fellow and ELLIS Member, holding a PhD in Machine Learning from Luleå University of Technology, Sweden (2025). His research advances robust, domain-aware self-supervised learning—starting from modeling fundamental yet natural phenomena of scene distortion caused by camera perspective, leading to improved robustness in real-world tasks such as object detection, crowd analytics, and person re-identification; extending to reinforcement learning–driven adversarial attacks, and adapting self-supervised methods across domains—from industrial mines to medical imaging. He has published in ICLR, ECCV, ACCV, WACV, and served as reviewer, invited talk speaker, and visiting researcher at UCF, received multiple grants and fellowships, and collaborated with leading researchers worldwide. He is currently working on multimodal foundation models, aiming to make them more robust, adaptable, and practically useful for real-world applications.
+With a recent PhD in Machine Learning from Luleå Tekniska Universitet, Sweden, and over 13 years of experience across academia and industrial R&D, I have built and deployed large-scale AI systems—from medical imaging to multimodal models. At Samsung Research, I developed and scaled audio-visual recognition systems for millions of devices, while at ARKRAY R&D I led the research & development of AI for a commercialized medical imaging device for urine sediment analysis along with multiple high impact granted patents. My research work spans self-supervised learning, foundation models, and robust AI systems, with publications at ICLR, ECCV, and WACV. Prakash is also member of European Laboratory for Learning and Intelligent Systems (ELLIS).
 
-Before academia, he spent a decade in industrial R&D. At Samsung R&D (2012–2018), he built large-scale vision systems and ad-recommendation models, leading to 11 international patents (5 granted) cited by major tech companies. Later at Arkray R&D (2018–2020), he led the ML team developing AI-driven diagnostics (Aution Eye AI 4510), merging healthcare and machine learning innovation.
+At RISE Scalable Systems, I contribute to the MIMER AI Factory, enabling AI transformation across industry, public sector, and research. I work on designing, adapting, and deploying foundation models and multimodal systems on high-performance infrastructure, helping organizations move from experimentation to scalable, production-ready AI solutions. 
 
-Open for Research Scientist roles and discussions. Please check his updated CV [here](https://drive.google.com/file/d/1pzAf7G9xs9IzwEk3AyRk8VnPJsVlNH6V/view?usp=sharing).
+Before PhD, he spent a decade in industrial R&D. At Samsung R&D (2012–2018), he built large-scale vision systems and ad-recommendation models, leading to 11 international patents (5 granted) cited by major tech companies. Later at Arkray R&D (2018–2020), he led the ML team developing AI-driven diagnostics (Aution Eye AI 4510), merging healthcare and machine learning innovation.
+
+I am particularly interested in advancing reliable and adaptive AI systems for real-world applications by growing some great ideas to reality, while contributing to foundational research that drives the next generation of multimodal and foundation models. If you are interested, please connect. 
+Please check his updated CV [here](https://drive.google.com/file/d/1pzAf7G9xs9IzwEk3AyRk8VnPJsVlNH6V/view?usp=sharing).
 
 > **AskMeAnythingInCharts – Qwen2.5-VL-7B (LoRA) for Chart QA** - get your question answered on charts and plots. [Opensourced and released on Oct 2025] - [Open-source model on Hugging Face](https://github.com/prakashchhipa/AskAnythingInCharts-Qwen2.5-7B) [Try the live demo](https://huggingface.co/spaces/prakashchhipa/chart-qa-demo-qwen2.5) [Training code](https://github.com/prakashchhipa/AskAnythingInCharts-Qwen2.5-7B) 
 

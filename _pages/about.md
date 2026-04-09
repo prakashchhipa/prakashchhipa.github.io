@@ -18,26 +18,28 @@ social: true # includes social icons at the bottom of the page
 ---
 <p align="center">
   <a href="https://wasp-sweden.org" target="_blank">
-    <img src="/assets/RISE_AIF.jpg" alt="RISE Logo" width="340"/>
+    <img src="/assets/RISE_AIF.jpg" alt="RISE Logo" width="450"/>
   </a>
 </p>
 <p align="center">
   <a href="https://ellis.eu" target="_blank">
-    <img src="/assets/ellis.png" alt="ELLIS Logo" width="300"/>
+    <img src="/assets/ellis.png" alt="ELLIS Logo" width="450"/>
   </a>
 </p>
 
-Click [here](https://drive.google.com/file/d/1pzAf7G9xs9IzwEk3AyRk8VnPJsVlNH6V/view?usp=sharing) for updated CV!
+Prakash is a Research Scientist and AI professional working at the intersection of foundation models, multimodal AI, and computer vision, with over 13 years of experience in machine learning and a strong focus on translating advanced research into real-world impact.
 
-Prakash is a Research Scientist and AI professional working at the intersection of foundation models, multimodal AI, and computer vision, with a strong focus on translating advanced research into real-world impact.
+He recently completed his PhD in Machine Learning from Luleå University of Technology, Sweden, where his research focused on self-supervised learning, robustness, and multimodal systems. During his PhD, he was a visiting researcher at the Center for Research in Computer Vision (CRCV), University of Central Florida, collaborating with Prof. Mubarak Shah. He was also a recipient of the DAAD AI-NET Fellowship.
 
-He recently completed his PhD in Machine Learning from Luleå University of Technology, Sweden, where his research focused on self-supervised learning, robustness, and multimodal systems. His work has been published at top-tier venues including ICLR, ECCV, and WACV, and he is a member of the European Laboratory for Learning and Intelligent Systems (ELLIS).
+His work has been published at top-tier venues including ICLR, ECCV, and WACV, and he has presented his research internationally through invited talks at institutions such as MBZUAI (UAE) and EMBL (Cambridge), as well as at leading conferences. In addition, he actively contributes to the research community as a reviewer for major conferences including CVPR, NeurIPS, ICLR, ICML, and ICCV. He is also a member of the European Laboratory for Learning and Intelligent Systems (ELLIS).
 
-Prior to his PhD, Prakash spent over a decade in industrial R&D, building and deploying large-scale AI systems across domains. At Samsung Research (2012–2018), he developed and scaled audio-visual recognition and recommendation systems used by millions of devices, contributing to 11 international patents (including 5 granted) with citations from major technology companies. He later joined ARKRAY R&D (2018–2020), where he led the development of AI-driven medical imaging systems, resulting in the commercialization of the Aution Eye AI 4510 for urine sediment analysis.
+Prior to his PhD, Prakash spent over a decade in industrial R&D, building and deploying large-scale AI systems across domains. At Samsung Research (2012–2018), he developed and scaled audio-visual recognition and recommendation systems used by millions of devices, while contributing to innovation through multiple international patents with citations from major technology companies. He later joined ARKRAY R&D (2018–2020), where he led the development of AI-driven medical imaging systems, resulting in the commercialization of the Aution Eye AI 4510 for urine sediment analysis.
 
-Currently, Prakash works as an AI Expert at RISE, contributing to the MIMER AI Factory. His work focuses on enabling AI transformation across industry, public sector, and research by designing, adapting, and deploying foundation models and multimodal systems on high-performance computing infrastructure. He helps bridge the gap between cutting-edge research and scalable, production-ready AI solutions.
+Currently, Prakash works as an AI Expert at RISE, contributing to the MIMER AI Factory. His work focuses on enabling AI transformation across industry, the public sector, and research by designing, adapting, and deploying foundation models and multimodal systems on high-performance computing infrastructure. He actively bridges the gap between cutting-edge research and scalable, production-ready AI solutions.
 
-Prakash is particularly interested in advancing reliable, adaptive, and robust AI systems for real-world applications, while contributing to foundational research that shapes the next generation of multimodal and foundation models.
+Prakash is particularly interested in advancing reliable, adaptive, and robust AI systems for real-world applications, while contributing to foundational research that shapes the next generation of multimodal and foundation models. 
+
+He is always open to discussing new ideas, identifying critical gaps, and collaborating on building impactful solutions that can evolve into tomorrow’s products and companies.
 Please check his updated CV [here](https://drive.google.com/file/d/1pzAf7G9xs9IzwEk3AyRk8VnPJsVlNH6V/view?usp=sharing).
 
 > **AskMeAnythingInCharts – Qwen2.5-VL-7B (LoRA) for Chart QA** - get your question answered on charts and plots. [Opensourced and released on Oct 2025] - [Open-source model on Hugging Face](https://github.com/prakashchhipa/AskAnythingInCharts-Qwen2.5-7B) [Try the live demo](https://huggingface.co/spaces/prakashchhipa/chart-qa-demo-qwen2.5) [Training code](https://github.com/prakashchhipa/AskAnythingInCharts-Qwen2.5-7B) 

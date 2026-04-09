@@ -27,6 +27,7 @@ social: true # includes social icons at the bottom of the page
   </a>
 </p>
 
+
 Prakash is a Research Scientist and AI professional working at the intersection of foundation models, multimodal AI, and computer vision, with over 13 years of experience in machine learning and a strong focus on translating advanced research into real-world impact.
 
 He recently completed his PhD in Machine Learning from Luleå University of Technology, Sweden, where his research focused on self-supervised learning, robustness, and multimodal systems with real-world tasks such as object detection, crowd analytics, and person re-identification; extending to reinforcement learning–driven adversarial attacks, and adapting self-supervised methods across domains—from industrial mines to medical imaging. During his PhD, he was a visiting researcher at the Center for Research in Computer Vision (CRCV), University of Central Florida, USA, collaborating with  <a href='https://www.ucf.edu/expert/mubarak-shah/'>Prof. Mubarak Shah</a>, a prominent and widely recognized leader in the field of computer vision. He was also a recipient of the DAAD AI-NET Fellowship.

@@ -2,7 +2,7 @@
 layout: about
 title: home
 permalink: /
-subtitle: AI at <a href='https://www.ri.se/en/artificial-intelligence'>RISE-Scalable Systems, Sweden</a> | Research Scientist – Foundation Models, Computer Vision, & Multimodal AI
+subtitle: Building AI at <a href='https://www.ri.se/en/artificial-intelligence'>RISE-Scalable Systems, Sweden</a> | Research Scientist – Foundation Models, Computer Vision, & Multimodal AI
 
 profile:
   align: right

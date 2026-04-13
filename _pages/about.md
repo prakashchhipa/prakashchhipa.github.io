@@ -9,7 +9,7 @@ profile:
   image: prakashchhipa.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Research Intitutes of Sweden (RISE), Luleå Science Park, Aurorum 2, Luleå, Sweden</p>
+    <p>Office: Research Intitutes of Sweden (RISE), Luleå Science Park, Aurorum 2, Luleå, Sweden</p>
   
 
 news: true # includes a list of news items
@@ -37,8 +37,6 @@ His work has been published at top-tier venues including ICLR, ECCV, CVPR, and W
 Prior to his PhD, Prakash spent over a decade in industrial R&D, building and deploying large-scale AI systems across domains. At Samsung Research (2012–2018), he developed and scaled audio-visual recognition and recommendation systems used by millions of devices, while contributing to innovation through multiple international patents with citations from major technology companies. He later joined ARKRAY R&D (2018–2020), where he led the development of AI-driven medical imaging systems, resulting in the commercialization of the Aution Eye AI 4510 for urine sediment analysis.
 
 Currently, Prakash works as an AI Expert at RISE, contributing to the MIMER AIF. His work focuses on enabling AI transformation across industry, the public sector, and research by designing, adapting, and deploying foundation models and multimodal systems on high-performance computing infrastructure. He actively bridges the gap between cutting-edge research and scalable, production-ready AI solutions.
-
-Prakash is particularly interested in advancing reliable, adaptive, and robust AI systems for real-world applications, while contributing to foundational research that shapes the next generation of multimodal and foundation models. 
 
 He is always open to discussing new ideas, identifying critical gaps, and collaborating on building impactful solutions that can evolve into tomorrow’s products and companies.
 Please check his updated CV [here](https://drive.google.com/file/d/1pzAf7G9xs9IzwEk3AyRk8VnPJsVlNH6V/view?usp=sharing).

@@ -9,7 +9,7 @@ profile:
   image: prakashchhipa.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Scalable Systemsm , RISE, Luleå Science Park, Aurorum 2, Sweden</p>
+    <p>Research Intitutes of Sweden (RISE), Luleå Science Park, Aurorum 2, Luleå, Sweden</p>
   
 
 news: true # includes a list of news items

@@ -39,29 +39,8 @@ layout: default
     {% endif %}
 
     <div class="clearfix">{{ content }}</div>
-
-   <h2 class="academic-research-heading">Academic Research Highlights</h2>
-    
-    <!-- custom-section.html -->
-    <div class="table table-cv table-sm table-borderless table-responsive table-cv-map academic">
-      {% for item in site.data.academic_research %}
-        <div class="academic-row align-items-center">
-          <div class="image logo-small">
-            {% if item.image %}
-              <img src="{{ item.image }}" alt="{{ item.name }}"/>
-            {% else %}
-              <!-- Placeholder content if no image is provided -->
-              <span></span>
-            {% endif %}
-          </div>
-          <div class="about-text">
-            <p>{{ item.description }}</p>
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-
-<h2 class="academic-research-heading">Industrial R&D Work Tenure</h2>
+   
+<h2 class="academic-research-heading">Work Tenure</h2>
     
     <!-- custom-section.html -->
     <div class="table table-cv table-sm table-borderless table-responsive table-cv-map academic">

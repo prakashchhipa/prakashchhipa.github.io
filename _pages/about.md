@@ -28,7 +28,7 @@ social: true # includes social icons at the bottom of the page
 </p>
 
 
-Prakash is a Research Scientist and AI professional working at the intersection of foundation models, multimodal AI, and computer vision, with over 13 years of experience in machine learning and a strong focus on translating advanced research into real-world impact.
+Prakash is a Research Scientist and AI professional working at the intersection of foundation models, multimodal AI, and computer vision, with over 13 years of experience in machine learning and a strong focus on translating advanced research into real-world impact. My updated CV is [here](https://drive.google.com/file/d/1pUHEq6EwZ4pQVt87uQLDAk5J7M3nX3ua/view?usp=sharing).
 
 He completed his PhD in Machine Learning from Luleå University of Technology, Sweden, in 2025, advised by <a href='https://www.ltu.se/en/staff/m/marcus-liwicki'>Prof. Marcus Liwicki</a>. His research focused on self-supervised learning, robustness, and multimodal systems, applied to real-world tasks such as object detection, crowd analytics, and person re-identification. It further extended to reinforcement learning–driven adversarial attacks and the adaptation of self-supervised methods across domains, ranging from industrial mines to medical imaging. During his PhD, he was a visiting researcher at the Center for Research in Computer Vision (CRCV), University of Central Florida, USA, collaborating with  <a href='https://www.ucf.edu/expert/mubarak-shah/'>Prof. Mubarak Shah</a>, a prominent and widely recognized leader in the field of computer vision. He was also a recipient of the DAAD AI-NET Fellowship.
 
@@ -39,7 +39,7 @@ Prior to his PhD, Prakash spent over a decade in industrial R&D, building and de
 Currently, Prakash works as an AI Expert at RISE, contributing to the MIMER AIF. The Mimer AI Factory is part of an EU program that builds a network of supercomputing-powered hubs across Europe to accelerate the development of trustworthy, cutting-edge AI models and support innovation for researchers, startups, and industry. Prakash's work focuses on enabling AI transformation across industry, the public sector, and research by designing, adapting, and deploying foundation models and multimodal systems on high-performance computing infrastructure. He actively bridges the gap between cutting-edge research and scalable, production-ready AI solutions.
 
 He is always open to discussing new ideas, identifying critical gaps, and collaborating on building impactful solutions that can evolve into tomorrow’s products and companies.
-Please check his updated CV [here](https://drive.google.com/file/d/1pzAf7G9xs9IzwEk3AyRk8VnPJsVlNH6V/view?usp=sharing).
+Please check his updated CV [here](https://drive.google.com/file/d/1pUHEq6EwZ4pQVt87uQLDAk5J7M3nX3ua/view?usp=sharing).
 
 > **AskMeAnythingInCharts – Qwen2.5-VL-7B (LoRA) for Chart QA** - get your question answered on charts and plots. [Opensourced and released on Oct 2025] - [Open-source model on Hugging Face](https://github.com/prakashchhipa/AskAnythingInCharts-Qwen2.5-7B) [Try the live demo](https://huggingface.co/spaces/prakashchhipa/chart-qa-demo-qwen2.5) [Training code](https://github.com/prakashchhipa/AskAnythingInCharts-Qwen2.5-7B) 
 

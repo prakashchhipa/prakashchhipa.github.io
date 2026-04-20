@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 Paper titled ['VidTAG: Temporally Aligned Video to GPS Geolocalization with Denoising Sequence Prediction at a Global Scale']('') accepted in CVPR 2026. 🎉
+🎉 Paper titled ['VidTAG: Temporally Aligned Video to GPS Geolocalization with Denoising Sequence Prediction at a Global Scale']('https://parthpk.github.io/vidtag_webpage/') accepted in CVPR 2026. 🎉

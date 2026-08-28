@@ -4,11 +4,11 @@
 
 - image: "assets/img/RISE_logo.png"
   name: "RISE Logo"
-  description: "[2026 - Present] Enabling AI transformation across industry, the public sector, and research by designing, adapting, and deploying foundation models and multimodal systems on high-performance computing infrastructure under MIMER AIF—part of an EU initiative building a network of supercomputing-powered hubs across Europe to accelerate the development of trustworthy, cutting-edge AI models and support innovation for researchers, startups, and industry."
+  description: "[2026 - Present] Enabling AI transformation across industry, the public sector, and research by designing, adapting, and deploying foundation models and multimodal systems on high-performance computing infrastructure under Sweden AIF—part of an EU initiative building a network of supercomputing-powered hubs across Europe to accelerate the development of trustworthy, cutting-edge AI models and support innovation for researchers, startups, and industry."
 
 - image: "assets/img/ltu.png"
   name: "LTU Logo"
-  description: "[2020 - 26] Recieved PhD in Machine Learning from <a href='https://www.ltu.se/en/research/research-subjects/machine-learning'>Luleå tekniska universitet, Sweden</a> in April 2025. Thesis focused on robustness and domain-aware self-supervised representation learning. Published <a href='https://prakashchhipa.github.io/publications/'>rsearch works</a> in top conferences including ICLR, ECCV, WACV, ICIP and ICCV/ECCV workshops. Has been Posdoctoral Researcher funded by Wallenberg AI, Autonomous Systems, and Software Program (WASP) until March 2026." 
+  description: "[2020 - 26] Recieved PhD in Machine Learning from <a href='https://www.ltu.se/en/research/research-subjects/machine-learning'>Luleå tekniska universitet, Sweden</a> in April 2025. Thesis focused on robustness and domain-aware self-supervised representation learning. Published <a href='https://prakashchhipa.github.io/publications/'>rsearch works</a> in top conferences including CVPR, ICLR, ECCV, WACV, ICIP and ICCV/ECCV workshops. Has been Posdoctoral Researcher funded by Wallenberg AI, Autonomous Systems, and Software Program (WASP) until March 2026." 
 
 - image: "assets/img/ucf_crcv.png"
   name: "CRCV Logo"

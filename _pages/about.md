@@ -2,7 +2,7 @@
 layout: about
 title: home
 permalink: /
-subtitle: Building AI at <a href='https://www.ri.se/en/artificial-intelligence'>RISE-Scalable Systems, Sweden</a> | Research Scientist – Foundation Models, Computer Vision, & Multimodal AI
+subtitle: Building AI at <a href='https://www.ri.se/en/artificial-intelligence'>RISE-Scalable Systems, Sweden</a> | Research Scientist – Foundation Models, Multimodal AI, Agentic Systems, & Computer Vision
 
 profile:
   align: right
@@ -17,8 +17,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 <p align="center">
-  <a href="https://wasp-sweden.org" target="_blank">
-    <img src="/assets/RISE_AIF.jpg" alt="RISE Logo" width="450"/>
+  <a href="https://www.ri.se/en/artificial-intelligence" target="_blank">
+    <img src="/assets/RISE_AIF_1.jpg" alt="RISE Logo" width="450"/>
   </a>
 </p>
 <p align="center">
@@ -28,7 +28,7 @@ social: true # includes social icons at the bottom of the page
 </p>
 
 
-Prakash is a Research Scientist and AI professional working at the intersection of foundation models, multimodal AI, and computer vision, with over 13 years of experience in machine learning and a strong focus on translating advanced research into real-world impact. My updated CV is [here](https://drive.google.com/file/d/1pUHEq6EwZ4pQVt87uQLDAk5J7M3nX3ua/view?usp=sharing).
+Prakash is a Research Scientist and AI professional working at the intersection of foundation models, multimodal AI, agentic systems and computer vision, with over 13 years of experience in machine learning and a strong focus on translating advanced research into real-world impact. My updated CV is [here](https://drive.google.com/file/d/1pUHEq6EwZ4pQVt87uQLDAk5J7M3nX3ua/view?usp=sharing).
 
 He completed his PhD in Machine Learning from Luleå University of Technology, Sweden, in 2025, advised by <a href='https://www.ltu.se/en/staff/m/marcus-liwicki'>Prof. Marcus Liwicki</a>. His research focused on self-supervised learning, robustness, and multimodal systems, applied to real-world tasks such as object detection, crowd analytics, and person re-identification. It further extended to reinforcement learning–driven adversarial attacks and the adaptation of self-supervised methods across domains, ranging from industrial mines to medical imaging. During his PhD, he was a visiting researcher at the Center for Research in Computer Vision (CRCV), University of Central Florida, USA, collaborating with  <a href='https://www.ucf.edu/expert/mubarak-shah/'>Prof. Mubarak Shah</a>, a prominent and widely recognized leader in the field of computer vision. He was also a recipient of the DAAD AI-NET Fellowship.
 
@@ -36,7 +36,7 @@ His work has been published at top-tier venues including ICLR, ECCV, CVPR, and W
 
 Prior to his PhD, Prakash spent over a decade in industrial R&D, building and deploying large-scale AI systems across domains. At Samsung Research (2012–2018), he developed and scaled audio-visual recognition and recommendation systems used by millions of devices, while contributing to innovation through multiple international patents with citations from major technology companies. He later joined ARKRAY R&D (2018–2020), where he led the development of AI-driven medical imaging systems, resulting in the commercialization of the Aution Eye AI 4510 for urine sediment analysis.
 
-Currently, Prakash works as an AI Expert at RISE, contributing to the MIMER AIF. The Mimer AI Factory is part of an EU program that builds a network of supercomputing-powered hubs across Europe to accelerate the development of trustworthy, cutting-edge AI models and support innovation for researchers, startups, and industry. Prakash's work focuses on enabling AI transformation across industry, the public sector, and research by designing, adapting, and deploying foundation models and multimodal systems on high-performance computing infrastructure. He actively bridges the gap between cutting-edge research and scalable, production-ready AI solutions.
+Currently, Prakash works as an AI Expert at RISE, contributing to the Sweden AI Factory (formerly MIMER AIF). The Sweden AI Factory is part of an EU program that builds a network of supercomputing-powered hubs across Europe to accelerate the development of trustworthy, cutting-edge AI models and support innovation for researchers, startups, and industry. Prakash's work focuses on enabling AI transformation across industry, the public sector, and research by designing, adapting, and deploying foundation models and multimodal systems on high-performance computing infrastructure. He actively bridges the gap between cutting-edge research and scalable, production-ready AI solutions.
 
 He is always open to discussing new ideas, identifying critical gaps, and collaborating on building impactful solutions that can evolve into tomorrow’s products and companies.
 Please check his updated CV [here](https://drive.google.com/file/d/1pUHEq6EwZ4pQVt87uQLDAk5J7M3nX3ua/view?usp=sharing).

@@ -4,7 +4,7 @@
 
 - image: "assets/img/RISE_logo.png"
   name: "RISE Logo"
-  description: "[2026 - Present] Enabling AI transformation across industry, the public sector, and research by designing, adapting, and deploying foundation models and multimodal systems on high-performance computing infrastructure under Sweden AIF—part of an EU initiative building a network of supercomputing-powered hubs across Europe to accelerate the development of trustworthy, cutting-edge AI models and support innovation for researchers, startups, and industry."
+  description: "[2026 - Present] Enabling AI transformation across industry, the public sector, and research by designing, adapting, and deploying foundation models and multimodal systems on high-performance computing infrastructure under Sweden AIF—part of an EU initiative building a network of supercomputing-powered hubs across Europe to accelerate the development of trustworthy, cutting-edge AI models and support innovation for researchers, startups, and industry. Built agentic AI platform PlaysenseAI for gaming domain. Published new method DiA directional adapter in NeurIPS'26."
 
 - image: "assets/img/ltu.png"
   name: "LTU Logo"

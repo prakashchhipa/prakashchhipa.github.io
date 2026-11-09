@@ -27,6 +27,7 @@ social: true # includes social icons at the bottom of the page
   </a>
 </p>
 
+"Intelligence isn’t memory. It’s the small cognitive core that reasons beyond it. That’s where I place my bet, today and for the future."
 
 Prakash is a Research Scientist and AI professional working at the intersection of foundation models, multimodal AI, agentic systems and computer vision, with over 13 years of experience in machine learning and a strong focus on translating advanced research into real-world impact. My updated CV is [here](https://drive.google.com/file/d/1XwR4v-HNOL1y45uWeZSWbyu2Zi20KIlI/view?usp=sharing).
 

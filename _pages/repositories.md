@@ -47,21 +47,9 @@ nav_order: 6
       </a>
     {% endfor %}
   </div>
-</section>
-
-<section>
-  <div class="eyebrow">03 — Earlier work</div>
-  <h2>Before the PhD: <em>engineering projects</em>.</h2>
-  <div class="pf-path" style="margin-top: 22px">
-    {% for r in site.data.code.earlier %}
-      <div style="grid-template-columns: 1fr auto">
-        <div class="org" style="font-size: 18px">{{ r.title }}</div>
-        <a class="link quiet" href="https://github.com/{{ r.repo }}" target="_blank" rel="noopener">GitHub →</a>
-      </div>
-    {% endfor %}
-  </div>
   <p class="links-row" style="margin-top: 32px">
     <a class="link" href="https://github.com/prakashchhipa" target="_blank" rel="noopener">github.com/prakashchhipa →</a>
     <a class="link quiet" href="https://huggingface.co/prakashchhipa" target="_blank" rel="noopener">huggingface.co/prakashchhipa →</a>
   </p>
 </section>
+

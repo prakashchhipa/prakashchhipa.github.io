@@ -40,13 +40,3 @@ papers:
   - { venue: WACV 2023, title: "Magnification Prior: self-supervised learning on breast-cancer histopathology", repo: prakashchhipa/Magnification-Prior-Self-Supervised-Method, lang: Python, tag: Medical }
   - { venue: ECCV-W 2022, title: "Depth Contrast: self-supervised pretraining on 3DPM images for mining", repo: prakashchhipa/Depth-Contrast-Self-Supervised-Method, lang: Python, tag: Industrial }
 
-earlier:
-  - { title: "Text sentiment, summarization and translation pipeline", repo: prakashchhipa/text-sentimental-summarization-translation }
-  - { title: "MNIST digit recognizer (CNN, Kaggle)", repo: prakashchhipa/MNIST-Digit-Recognizer }
-  - { title: "Song genre prediction from listening history", repo: prakashchhipa/Song-Genre-Prediction }
-  - { title: "Educational blockchain implementation in Python", repo: prakashchhipa/NiNu-Blockchain-Solution }
-  - { title: "Large-corpus document-similarity design", repo: prakashchhipa/document-similarity-design-approach }
-  - { title: "SPAM vs HAM message classifier", repo: prakashchhipa/SPAM-vs-HAM }
-  - { title: "Algorithms and data structures in Java", repo: prakashchhipa/NiNu-problem-solving-skills }
-  - { title: "Conference scheduling design", repo: prakashchhipa/Conference-Management- }
-  - { title: "Zoo design: design principles and patterns in Java", repo: prakashchhipa/Zoo-Desiging }

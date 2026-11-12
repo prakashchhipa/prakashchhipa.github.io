@@ -1,4 +1,9 @@
-<!-- Editorial founder theme (shared with the prakashchhipa.ai portfolio). Loaded on every page. -->
+<!-- Editorial founder theme (shared with the prakashchhipa.ai portfolio). Loaded on every page. Dark only. -->
+<script>
+  try { localStorage.setItem('theme', 'dark'); } catch (e) {}
+  document.documentElement.setAttribute('data-theme-setting', 'dark');
+  document.documentElement.setAttribute('data-theme', 'dark');
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link
@@ -8,15 +13,15 @@
 <style>
   /* ---------- Tokens (light = warm paper, dark = warm near-black) ---------- */
   html, html body {
-    --pf-bg: #f7f3ec;
-    --pf-elev: #efe8dc;
-    --pf-ink: #1b1916;
-    --pf-soft: rgba(27, 25, 22, 0.74);
-    --pf-mute: rgba(27, 25, 22, 0.58);
-    --pf-rule: rgba(27, 25, 22, 0.14);
-    --pf-accent: #9a5b22;
-    --pf-accent-soft: rgba(154, 91, 34, 0.12);
-    --pf-glow: rgba(196, 128, 64, 0.16);
+    --pf-bg: #0e0d0c;
+    --pf-elev: #1a1816;
+    --pf-ink: #f4f1eb;
+    --pf-soft: rgba(244, 241, 235, 0.72);
+    --pf-mute: rgba(244, 241, 235, 0.58);
+    --pf-rule: rgba(244, 241, 235, 0.12);
+    --pf-accent: #d4a574;
+    --pf-accent-soft: rgba(212, 165, 116, 0.15);
+    --pf-glow: rgba(212, 165, 116, 0.15);
     --pf-serif: 'Fraunces', Georgia, serif;
     --pf-sans: 'Inter', system-ui, -apple-system, sans-serif;
     --pf-mono: 'JetBrains Mono', ui-monospace, monospace;
@@ -48,6 +53,8 @@
   }
 
   /* ---------- Site chrome ---------- */
+  html { color-scheme: dark; }
+  .toggle-container, #light-toggle { display: none !important; }
   html body { background: var(--pf-bg); color: var(--pf-ink); font-family: var(--pf-sans); overflow-x: clip; -webkit-font-smoothing: antialiased; }
   ::selection { background: var(--pf-accent-soft); }
   a { color: var(--pf-accent); }
@@ -268,10 +275,33 @@
   .pf-prose iframe { max-width: 100%; border: 1px solid var(--pf-rule); }
   .pf-refs { padding-top: 48px !important; }
 
+
+  .pf-feature.pf-thesis { grid-template-columns: 0.85fr 1.15fr; }
+  .pf-feature.pf-ucf { grid-template-columns: 1fr 1fr; align-items: center; }
+
+  /* ---------- Thesis books ---------- */
+  .pf-books { position: relative; height: 470px; perspective: 1400px; }
+  .pf-book { position: absolute; width: 270px; height: 390px; padding: 34px 26px 26px 34px; display: flex; flex-direction: column; color: #f4f1eb !important; text-decoration: none !important; border-radius: 2px 6px 6px 2px; transform-style: preserve-3d; transition: transform 0.5s ease; box-shadow: 18px 22px 40px rgba(0, 0, 0, 0.55), inset 6px 0 0 rgba(0, 0, 0, 0.35), inset 9px 0 0 rgba(255, 255, 255, 0.08); }
+  .pf-book::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 14px; background: linear-gradient(to right, rgba(0, 0, 0, 0.45), rgba(255, 255, 255, 0.06) 70%, transparent); }
+  .pf-book .kind { font-family: var(--pf-mono); font-size: 9.5px; letter-spacing: 0.18em; text-transform: uppercase; color: #d4a574; }
+  .pf-book .t { font-family: var(--pf-serif); font-weight: 300; font-size: 25px; line-height: 1.15; margin: 22px 0 auto; letter-spacing: -0.01em; }
+  .pf-book .a { font-family: var(--pf-sans); font-size: 13px; font-weight: 500; }
+  .pf-book .u { font-family: var(--pf-mono); font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.65; margin-top: 6px; }
+  .pf-book.phd { left: 110px; top: 40px; background: linear-gradient(150deg, #2b2620 0%, #171411 60%, #0f0d0b 100%); border: 1px solid rgba(212, 165, 116, 0.35); transform: rotateY(-14deg) rotateZ(1.5deg); z-index: 2; }
+  .pf-book.phd .t { font-size: 27px; }
+  .pf-book.lic { left: 0; top: 0; width: 240px; height: 350px; background: linear-gradient(150deg, #4a3826 0%, #2c2117 100%); transform: rotateY(-20deg) rotateZ(-3deg); opacity: 0.92; }
+  .pf-book.lic .t { font-size: 21px; }
+  .pf-book:hover { transform: rotateY(-4deg) rotateZ(0deg) translateY(-6px); z-index: 3; }
+  @media (max-width: 575px) {
+    .pf-books { height: 420px; }
+    .pf-book.phd { left: 60px; width: 240px; height: 350px; }
+    .pf-book.lic { width: 210px; height: 310px; }
+  }
+
   /* ---------- Responsive ---------- */
   .pf-hero > *, .pf-feature > *, .pf-research > *, .pf-chapter > * { min-width: 0; }
   @media (max-width: 991px) {
-    .pf-hero, .pf-feature, .pf-research, .pf-chapter { grid-template-columns: 1fr; gap: 40px; }
+    .pf-hero, .pf-feature, .pf-feature.pf-thesis, .pf-feature.pf-ucf, .pf-research, .pf-chapter { grid-template-columns: 1fr; gap: 40px; }
     .pf-chapter { gap: 24px; }
     .pf-chapter .side { position: static; }
     .pf-hero .pf-portrait { max-width: 440px; }

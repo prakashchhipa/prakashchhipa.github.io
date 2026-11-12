@@ -1,0 +1,10 @@
+# Photos for the "work travels" strip on the homepage, in display order.
+# To add one: put the image in assets/img/pf/ and add an entry below.
+- { img: embl.jpg, title: EMBL-EBI, meta: "Cambridge, UK · Invited talk · 2022", alt: "Invited talk at EMBL-EBI, Cambridge" }
+- { img: ucf.jpg, title: UCF · CRCV, meta: "Orlando · Visiting researcher · 2024", alt: "Visiting researcher at the UCF Center for Research in Computer Vision" }
+- { img: iclr.jpg, title: ICLR 2025, meta: "Singapore · ASTrA", alt: "Presenting ASTrA at ICLR 2025 in Singapore" }
+- { img: eccv24.jpg, title: ECCV 2024, meta: "Milan · Möbius-MPD", alt: "Möbius-MPD poster at ECCV 2024, Milan" }
+- { img: iccv23.jpg, title: ICCV 2023 · OOD-CV, meta: "Paris · Workshop talk", alt: "Talk at the ICCV 2023 OOD-CV workshop, Paris" }
+- { img: wacv23.jpg, title: WACV 2023, meta: "Waikoloa, Hawaii · Magnification Prior", alt: "Presenting Magnification Prior at WACV 2023" }
+- { img: eccv22.jpg, title: ECCV 2022, meta: "Tel Aviv · Depth Contrast", alt: "Depth Contrast poster at ECCV 2022, Tel Aviv" }
+- { img: eurips.jpg, title: EurIPS, meta: "Copenhagen", alt: "At EurIPS in Copenhagen" }

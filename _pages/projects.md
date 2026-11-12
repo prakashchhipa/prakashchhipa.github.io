@@ -11,6 +11,46 @@ nav: true
 nav_order: 3
 ---
 
+<section id="thesis">
+  <div class="eyebrow">00 — Doctoral thesis · Luleå University of Technology · 2025</div>
+  <h2>Five years on one question: <em>why do models that win benchmarks fail in the world?</em></h2>
+  <div class="pf-feature pf-thesis" style="margin-top: 30px">
+    <div>
+      <div class="pf-books" aria-label="Thesis covers">
+        <a class="pf-book lic" href="https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1732072" target="_blank" rel="noopener">
+          <span class="kind">Licentiate thesis · 2023</span>
+          <span class="t">Self-supervised Representation Learning for Visual Domains Beyond Natural Scenes</span>
+          <span class="a">Prakash Chandra Chhipa</span>
+          <span class="u">Luleå University of Technology</span>
+        </a>
+        <a class="pf-book phd" href="https://ltu.diva-portal.org/smash/record.jsf?pid=diva2%3A1935727" target="_blank" rel="noopener">
+          <span class="kind">Doctoral thesis · 2025</span>
+          <span class="t">Towards Robust and Domain-aware Self-supervised Representation Learning</span>
+          <span class="a">Prakash Chandra Chhipa</span>
+          <span class="u">Luleå University of Technology</span>
+        </a>
+      </div>
+    </div>
+    <div>
+      <p style="font-size: 16px">My PhD in Machine Learning at Luleå University of Technology, advised by <strong>Prof. Marcus Liwicki</strong> and defended publicly in April 2025, studied how self-supervised representations break under real-world shift — and how to train them so they don't.</p>
+      <p>It followed two threads. <strong>Robustness:</strong> adaptive adversarial self-supervision (ASTrA, ICLR 2025), the first camera-parameter-free model of perspective distortion (Möbius-MPD, ECCV 2024) and its lightweight successor (LCM, ACCV 2024), and systematic robustness audits of self-supervised and open-vocabulary models. <strong>Domain awareness:</strong> label-efficient self-supervision built for the structure of a domain — histopathology, mining, remote sensing and retinal imaging.</p>
+      <div class="pf-statrow">
+        <div><b>2</b><span>theses · licentiate 2023, doctorate 2025</span></div>
+        <div><b>6</b><span>venues · ICLR · ECCV · ACCV · WACV · ICCV-W · ECCV-W</span></div>
+        <div><b>UCF</b><span>visiting researcher with Prof. Mubarak Shah</span></div>
+      </div>
+      <figure class="pf-shot" style="margin-top: 22px">
+        <img src="{{ '/assets/img/pf/thesis-talk.jpg' | relative_url }}" alt="Presenting contrastive self-supervised representation learning at Luleå University of Technology" loading="lazy">
+        <figcaption class="pf-cap">Thesis presentation · Luleå University of Technology</figcaption>
+      </figure>
+      <p class="links-row">
+        <a class="link" href="https://ltu.diva-portal.org/smash/record.jsf?pid=diva2%3A1935727" target="_blank" rel="noopener">Read the doctoral thesis →</a>
+        <a class="link quiet" href="https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1732072" target="_blank" rel="noopener">Licentiate thesis →</a>
+      </p>
+    </div>
+  </div>
+</section>
+
 <section>
   <div class="eyebrow">01 — Now · Multimodal &amp; video foundation models</div>
   <h2>Adapting frozen models to <em>time and place</em>.</h2>

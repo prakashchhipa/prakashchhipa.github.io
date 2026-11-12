@@ -14,7 +14,7 @@ nav_order: 4
 <section class="pf-numbers n4" aria-label="Industry in numbers">
   <div><div class="pf-num">2</div><div class="label">AI products shipped</div><div class="detail">Samsung ACR · AUTION EYE AI-4510</div></div>
   <div><div class="pf-num">1.2<span>K</span></div><div class="label">nodes in production</div><div class="detail">Samsung ACR &amp; Ads, 15+ countries</div></div>
-  <div><div class="pf-num">13</div><div class="label">engineers led</div><div class="detail">plus a 6-person team built at ARKRAY</div></div>
+  <div><div class="pf-num">13</div><div class="label">engineers &amp; researchers led</div><div class="detail">plus a 6-person team built at ARKRAY</div></div>
   <div><div class="pf-num">5</div><div class="label">granted patents</div><div class="detail">Cited by Apple, Google, Meta, NVIDIA</div></div>
 </section>
 
@@ -80,7 +80,7 @@ nav_order: 4
   <div>
     <h2>Content recognition on <em>millions of smart TVs</em>.</h2>
     <p>I architected the visual-media recognition engine behind <strong>Samsung ACR</strong> — CNN and LSTM models for object and action recognition on live TV content, built on Samsung's fingerprinting — and reinforcement-learning ad recommendation for <strong>Samsung Ads</strong>.</p>
-    <p>The system scaled to 1,200 nodes on AWS and was deployed on millions of smart TVs in more than 15 countries. Over six years I grew from individual contributor to leading 13 R&amp;D engineers, with three promotions along the way.</p>
+    <p>The system scaled to 1,200 nodes on AWS and was deployed on millions of smart TVs in more than 15 countries. Over six years I grew from individual contributor to leading a team of 13 engineers and researchers, with three promotions along the way.</p>
     <ul>
       <li>Live TV program and channel identification, plus a family of computer-vision applications on broadcast content.</li>
       <li>MDP/POMDP-based ad targeting for commercial displays.</li>
@@ -91,7 +91,7 @@ nav_order: 4
     <div class="pf-statrow">
       <div><b>1.2K</b><span>nodes in production</span></div>
       <div><b>15+</b><span>countries deployed</span></div>
-      <div><b>13</b><span>engineers led</span></div>
+      <div><b>13</b><span>engineers &amp; researchers led</span></div>
       <div><b>3</b><span>promotions</span></div>
       <div><b>2017</b><span>Innovator of the Year</span></div>
     </div>

@@ -85,13 +85,15 @@ nav_order: 4
       <li>Live TV program and channel identification, plus a family of computer-vision applications on broadcast content.</li>
       <li>MDP/POMDP-based ad targeting for commercial displays.</li>
       <li>Real-time streaming on high-availability big-data pipelines (Hadoop, Kafka, AWS).</li>
-      <li>Dozens of patent applications and five granted patents, valued at USD 1.4M; Samsung Innovator of the Year 2017.</li>
+      <li>Dozens of patent applications and five granted patents, valued at USD 1.4M.</li>
+      <li>Samsung Innovator of the Year 2017; Samsung Outstanding Performance awards 2015 and 2018.</li>
     </ul>
     <div class="pf-statrow">
       <div><b>1.2K</b><span>nodes in production</span></div>
       <div><b>15+</b><span>countries deployed</span></div>
       <div><b>13</b><span>engineers led</span></div>
       <div><b>3</b><span>promotions</span></div>
+      <div><b>2017</b><span>Innovator of the Year</span></div>
     </div>
     <p class="links-row"><a class="link" href="{{ '/patents/' | relative_url }}">Granted patents →</a><a class="link quiet" href="https://image-us.samsung.com/SamsungUS/samsungbusiness/samsung-ads/resources/total-tv-watcher/samsung-ads-resources-2019-total-tv-watcher.pdf" target="_blank" rel="noopener">ACR overview (PDF) →</a></p>
   </div>

@@ -53,7 +53,7 @@
   }
 
   /* ---------- Site chrome ---------- */
-  html { color-scheme: dark; }
+  html { color-scheme: dark; overflow-x: clip; }
   .toggle-container, #light-toggle { display: none !important; }
   html body { background: var(--pf-bg); color: var(--pf-ink); font-family: var(--pf-sans); overflow-x: clip; -webkit-font-smoothing: antialiased; }
   ::selection { background: var(--pf-accent-soft); }
@@ -301,6 +301,8 @@
   /* ---------- Responsive ---------- */
   .pf-hero > *, .pf-feature > *, .pf-research > *, .pf-chapter > * { min-width: 0; }
   @media (max-width: 991px) {
+    .pf-head, .pf-hero { overflow-x: clip; }
+    .pf-head::before, .pf-hero::before { width: 420px; height: 420px; top: -160px; right: -160px; }
     .pf-hero, .pf-feature, .pf-feature.pf-thesis, .pf-feature.pf-ucf, .pf-research, .pf-chapter { grid-template-columns: 1fr; gap: 40px; }
     .pf-chapter { gap: 24px; }
     .pf-chapter .side { position: static; }

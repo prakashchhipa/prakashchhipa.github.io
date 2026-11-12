@@ -5,6 +5,7 @@ description: European Conference on Computer Vision Workshops 2024
 img: assets/ovod_robustness/ovod_robustness.jpg
 importance: 5
 category: work
+program: robust
 related_publications: true
 ---
 <p align="center">

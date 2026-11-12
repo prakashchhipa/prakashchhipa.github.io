@@ -2,6 +2,9 @@ github_users:
   - prakashchhipa
 
 github_repos:
+  - prakashchhipa/MATA-Motion-aligned-Temporal-Adapter
+  - prakashchhipa/DiA-Directional-Adapter
+  - prakashchhipa/mobius-mpd
   - prakashchhipa/AskAnythingInCharts-Qwen2.5-7B
   - prakashchhipa/ASTrA
   - prakashchhipa/MPD

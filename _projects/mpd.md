@@ -5,6 +5,7 @@ description: European Conference on Computer Vision 2024
 img: assets/mpd/project_main.jpg
 importance: 2
 category: work
+program: robust
 related_publications: true
 ---
 <p align="center">

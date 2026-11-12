@@ -5,6 +5,7 @@ description: CVF Winter Conference on Applications of Computer Vision 2023
 img: assets/mpcs/mpcs.png
 importance: 3
 category: work
+program: efficient
 related_publications: true
 ---
 <p align="center">

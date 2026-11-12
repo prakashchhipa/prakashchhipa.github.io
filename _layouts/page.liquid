@@ -1,21 +1,41 @@
 ---
 layout: default
 ---
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-description">{{ page.description }}</p>
-  </header>
-
-  <article>
-    {{ content }}
-  </article>
-
-  {% if page.related_publications %}
-    <h2>References</h2>
-    <div class="publications">
-      {% bibliography --cited_in_order %}
+{% assign is_project = false %}
+{% if page.collection == 'projects' %}{% assign is_project = true %}{% endif %}
+<div class="pf">
+  <section class="pf-head{% if is_project %} long{% endif %}">
+    <div class="eyebrow">
+      {%- if page.eyebrow -%}
+        {{ page.eyebrow }}
+      {%- elsif is_project -%}
+        Research · {{ page.description }}
+      {%- else -%}
+        {{ page.title }}
+      {%- endif -%}
     </div>
+    <h1>{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
+    {% if page.lede %}
+      <p class="lede">{{ page.lede }}</p>
+    {% elsif is_project == false and page.description and page.description != ' ' and page.description != '' %}
+      <p class="lede">{{ page.description }}</p>
+    {% endif %}
+    {% if is_project %}
+      <p class="links-row"><a class="link quiet" href="{{ '/projects/' | relative_url }}">← All research</a></p>
+    {% endif %}
+  </section>
+
+  {% if page.full_width %}
+    {{ content }}
+  {% else %}
+    <article class="pf-prose">{{ content }}</article>
+  {% endif %}
+
+  {% if page.related_publications and content contains 'class="citation"' %}
+    <section class="pf-refs">
+      <div class="eyebrow" style="margin-bottom: 14px">→ References</div>
+      <div class="publications">{% bibliography --cited_in_order %}</div>
+    </section>
   {% endif %}
 
   {% if site.giscus and page.giscus_comments %}

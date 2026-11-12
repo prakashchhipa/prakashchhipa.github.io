@@ -5,106 +5,55 @@ description: International Conference on Computer Vision Workshops 2023
 img: assets/ssl_robustness/ssl_robustness.JPG
 importance: 7
 category: work
+program: robust
 related_publications: true
 ---
 <p align="center">
-    <a href="https://arxiv.org/pdf/2405.02296" style="margin-right: 20px;">Read Paper</a>
-    <a href="https://github.com/prakashchhipa/MPD" style="margin-right: 20px;">Source Code @ Github</a>
-    <a href="https://github.com/prakashchhipa/MPD/blob/main/mpd_poster.JPG" style="margin-right: 20px;">Check poster</a>
-    <a href="https://huggingface.co/prakashchhipa/MPD_SSL" style="margin-right: 20px;">Download Pretrained Models</a>
-    <a href="https://huggingface.co/datasets/prakashchhipa/ImageNet-PD">Download ImageNet-PD</a>
+    <a href="https://arxiv.org/pdf/2308.02525">Read paper</a>
+    <a href="https://openaccess.thecvf.com/content/ICCV2023W/OODCV/html/Chhipa_Can_Self-Supervised_Representation_Learning_MethodsWithstand_Distribution_Shifts_and_Corruptions_ICCVW_2023_paper.html">ICCV Workshops proceedings</a>
+    <a href="https://github.com/prakashchhipa/Robsutness-Evaluation-of-Self-supervised-Methods-Distribution-Shifts-and-Corruptions">Code on GitHub</a>
+    <a href="{{ '/assets/pdf/ICCV_OOD_Workshop_Presentation_SSL_robustness.pdf' | relative_url }}">Slides</a>
 </p>
 
+> Self-supervised methods are often assumed to learn invariant, robust representations. This work tests that assumption under real distribution shift — and finds that robustness drops sharply as shifts and corruptions grow more severe.
 
-**Perspective distortion** significantly alters the appearance of objects in images. It can change their shape, size, orientation, angles, and the spatial relationships between them in ways that might not be expected.
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/mpd/PDexample1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/mpd/PDexample2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/mpd/PDexample3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Example images showing the effect of distortion 
-</div>
+Presented at the **Out-of-Distribution Generalization in Computer Vision (OOD-CV) workshop at ICCV 2023**, Paris.
 
-**How perspective distortion alters the appearance?** When same object captured from different viewpoints due to different location of camera, it captures the shape of image differently and distortion takes places naturally. Look at the visual here. Changes in shape of the object, changes the underlying distrutions. There are many such parameters like camera location has role in it.
+## The question
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/mpd/explain_pd.PNG" title="MPD" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+Self-supervised learning learns from the structure of data itself, without human labels. Its main paradigms — contrastive learning, knowledge distillation, mutual-information maximization and clustering — are widely credited with learning invariant representations. But are those representations actually robust when the input distribution shifts, or when images are corrupted the way real cameras corrupt them?
 
-**What are the challenges?** 
-1. Data on which vison models are trained do not have exposure to intented perspectively distorted examples so no robustness against unprecedent perspective disrotion.
-2. Estimating camera's intrinsic and extrinsic parameters are challenging and doing it precisely is next to impossible so it prevents synthesizing perspective distortion
-3. Distortion correction methods makes computer vision tasks a multi-step approach, first correction then vision task learning so its not efficient for real-world applications
-   
-**Proposed methodology**- This work focus on mittigating perspective distortion by exposing vision models to perspectively distorted examples. These examples are neither created using camera parameters nor naturally collected but synthesized by mathematically modelling the perspective distortion.
+## What we did
 
-**How MPD works?** This work shares mitigating perspective distortion (MPD) method by first underatanding the non-linear nature of perspective distortion then employing a fine-grained parameter control on a specific family of Möbius transform to model real-world distortion without estimating camera intrinsic and extrinsic parameters and without the need for actual distorted data. MPD leaverages Möbius's conformal and non-linear nature in complex space. MPD takes images to complex space, transform, and then get it back to pixel space.
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/mpd/mobius_mpd.jpg" title="MPD" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+We ran a systematic robustness study of six self-supervised methods on **ImageNet-C**, across every corruption type and every severity level, measuring mean corruption error and inspecting class activations.
 
-**Integrating MPD**- MPD gets easily integrated as augmentation method into learning pipline, be it supervsied training or self-supervised pretraining. In this work MPD explored with two self-supervsied methods SimCLR and DINO.
-<div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/mpd/DINO_MPD.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/mpd/simclr_MPD.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-When it comes to adapting MPD to other real-world applications, MPD gets adapted easily with multiple computer vision applications including crowd counting, person re-identificaiton, fisheye view, and object detection.
-<div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/mpd/mpd_cc.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/mpd/mpd_od.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+- **SimCLR** — contrastive learning
+- **SimSiam** and **BYOL** — siamese and bootstrap methods
+- **Barlow Twins** — redundancy reduction
+- **SwAV** — clustering
+- **DINO** — self-distillation with vision transformers
 
-**MPD offers robustness**- The proposed method MPD outperforms on existing perspective distortion affected benchmarks, ImageNet-E and ImageNet-X. MPD significantly improves performance on ImageNet-PD (check it down) while consistently performing on standard data distribution. MPD improves performance on **three PD-affected real-world applications**: crowd counting, fisheye image recognition, and person re-identification and one PD-affected challenging CV task: object detection.
-<div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/mpd/ImageNet-E-plot.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/mpd/ImageNet-X-plot.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/mpd/linear_eval_MPD_SSL_DINO.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/mpd/CC_plot.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+## What we found
 
-
-**A dedicated perspectively distorted benchmark dataset** This work shares a new benchmark **ImageNet-PD**  to evaluate the robustness of computer vision models against perspective distortion and address the non-availability of a suitable benchmark. ImageNet-PD derived from the original ImageNet\cite validation set, has eight subsets, four corresponding to four orientations (left, right, top, bottom) with black background and other four subsets with the same orientations but with integrated padding background. 
+There is a clear relationship between how severe a shift or corruption is and how much the learned representations degrade. At higher severities, robustness falls significantly across all paradigms — no method is immune.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/mpd/pd_datasets.png" title="MPD" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm mt-3 mt-md-0">
+    <figure><img src="{{ '/assets/ssl_robustness/all_corruptions.png' | relative_url }}" alt="Robustness on ImageNet-C" class="img-fluid" loading="lazy"></figure>
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    <figure><img src="{{ '/assets/ssl_robustness/glass_visual_results.png' | relative_url }}" alt="Class activations under glass blur" class="img-fluid" loading="lazy"></figure>
+  </div>
 </div>
+<div class="caption">Left: robustness across all ImageNet-C corruptions. Right: class activations on a dog image under glass-blur corruption.</div>
 
-<p align="center">
-    <a href="https://arxiv.org/pdf/2405.02296" style="margin-right: 20px;">Read Paper</a>
-    <a href="https://github.com/prakashchhipa/MPD" style="margin-right: 20px;">Source Code @ Github</a>
-    <a href="https://huggingface.co/prakashchhipa/MPD_SSL" style="margin-right: 20px;">Download Pretrained Models</a>
-    <a href="https://huggingface.co/datasets/prakashchhipa/ImageNet-PD">Download ImageNet-PD</a>
-</p>
+## Why it matters
 
-Prakash Chandra Chhipa, Johan Rodahl Holmgren, Kanjar De, Rajkumar Saini, Marcus Liwicki; Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops, 2023, pp. 4467-4476
+Benchmarks on clean data overstate how self-supervised models will behave in deployment. The study argues that safety and robustness should be first-class objectives in self-supervised representation learning — the motivation for the later work on [Möbius-MPD]({{ '/projects/mpd/' | relative_url }}) and [ASTrA]({{ '/projects/ASTrA/' | relative_url }}).
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-8 mt-3 mt-md-0">
+    <figure><img src="{{ '/assets/ssl_robustness/poster.jpg' | relative_url }}" alt="ICCV 2023 OOD-CV workshop poster" class="img-fluid" loading="lazy"></figure>
+  </div>
+</div>
+<div class="caption">Workshop poster, ICCV 2023 OOD-CV.</div>

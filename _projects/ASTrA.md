@@ -5,6 +5,7 @@ description: International Conference on Learning Representations 2025
 img: assets/astra/main_project.jpg
 importance: 1
 category: work
+program: robust
 related_publications: true
 ---
 _Chhipa, P.C.*_, _Vashishtha, G.*_, _Settur, J.*_, _Saini, R._, _Shah, M._, _Liwicki, M._ _ASTrA: Adversarial Self-Supervised Training with Adaptive Attacks. International Conference on Learning Representations. (ICLR 2025)_
@@ -12,7 +13,7 @@ _Chhipa, P.C.*_, _Vashishtha, G.*_, _Settur, J.*_, _Saini, R._, _Shah, M._, _Liw
 **Prakash Chandra Chhipa, Gautam Vashishtha, and Jithamanyu Settur  - equal contribution.**
  
 <p align="center">
-    <a href=" https://openreview.net/forum?id=ZbkqhKbggH&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2025%2FConference%2FAuthors%23your-submissions)" style="margin-right: 20px;">Read Paper</a>
+    <a href="https://openreview.net/forum?id=ZbkqhKbggH" style="margin-right: 20px;">Read Paper</a>
     <a href="https://github.com/prakashchhipa/ASTrA" style="margin-right: 20px;">Source Code @ Github</a>
     <a href="https://iclr.cc/virtual/2025/poster/29209" style="margin-right: 20px;">Check Poster</a>
     <a href="https://www.youtube.com/watch?v=hY34Eq4KtZE" style="margin-right: 20px;">Watch Video @ Youtube</a>
@@ -100,9 +101,9 @@ ASTrA introduces a learnable adversarial attack strategy, enabling the generatio
 
 We encpurage reader to read the full paper and watch video for more details.
 <p align="center">
-    <a href=" https://openreview.net/forum?id=ZbkqhKbggH&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2025%2FConference%2FAuthors%23your-submissions)" style="margin-right: 20px;">Read Paper</a>
+    <a href="https://openreview.net/forum?id=ZbkqhKbggH" style="margin-right: 20px;">Read Paper</a>
     <a href="https://github.com/prakashchhipa/ASTrA" style="margin-right: 20px;">Source Code @ Github</a>
-    <a href="" style="margin-right: 20px;">Check Poster</a>
+    <a href="https://iclr.cc/virtual/2025/poster/29209" style="margin-right: 20px;">Check Poster</a>
     <a href="https://www.youtube.com/watch?v=hY34Eq4KtZE" style="margin-right: 20px;">Watch Video @ Youtube</a>
 </p>
 

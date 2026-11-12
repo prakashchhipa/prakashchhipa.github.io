@@ -1,0 +1,9 @@
+{% assign p = include.project %}
+<a class="pf-card" href="{% if p.redirect %}{{ p.redirect }}{% else %}{{ p.url | relative_url }}{% endif %}">
+  {% if p.img %}
+    <div class="pf-thumb"><img src="{{ p.img | prepend: '/' | relative_url }}" alt="{{ p.title | strip_html | escape }}" loading="lazy"></div>
+  {% endif %}
+  <div class="pf-cap">{{ p.description }}</div>
+  <h3 style="font-size: 20px; line-height: 1.3">{{ p.title }}</h3>
+  <span class="more">Read the deep dive →</span>
+</a>

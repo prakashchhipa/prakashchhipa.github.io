@@ -5,6 +5,7 @@ description: IEEE International Conference on Image Processing, 2023
 img: assets/fkt/fkt.png
 importance: 4
 category: work
+program: efficient
 giscus_comments: true
 ---
 <p align="center">

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 Paper titled ['DiA: Directional Adapter']('https://github.com/prakashchhipa/DiA-Directional-Adapter') accepted in NeurIPS 2026. 🎉
+🎉 Paper titled ['DiA: Directional Adapter'](https://github.com/prakashchhipa/DiA-Directional-Adapter) accepted in NeurIPS 2026. 🎉

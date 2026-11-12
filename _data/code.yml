@@ -1,0 +1,52 @@
+# Open-source releases shown on /repositories/. Add new repos here.
+
+releases:
+  - name: Möbius-MPD
+    kind: Library · PyPI
+    desc: Möbius perspective-distortion augmentation for PyTorch and Albumentations. Train perspective-robust models without camera parameters.
+    cmd: pip install mobius-mpd
+    links:
+      - { label: PyPI, url: "https://pypi.org/project/mobius-mpd/" }
+      - { label: GitHub, url: "https://github.com/prakashchhipa/mobius-mpd" }
+  - name: AskAnythingInCharts
+    kind: Model · Hugging Face
+    desc: Qwen2.5-VL-7B fine-tuned with LoRA for chart question answering. ChartQA accuracy from 57.5% to 66.0%, with a live demo.
+    links:
+      - { label: Model, url: "https://huggingface.co/prakashchhipa/Qwen2.5-VL-7B-ChartQA-LoRA" }
+      - { label: Demo, url: "https://huggingface.co/spaces/prakashchhipa/chart-qa-demo-qwen2.5" }
+      - { label: Code, url: "https://github.com/prakashchhipa/AskAnythingInCharts-Qwen2.5-7B" }
+  - name: ImageNet-PD
+    kind: Dataset · Hugging Face
+    desc: A perspectively distorted ImageNet benchmark that measures how vision models cope with real-world viewpoint change.
+    links:
+      - { label: Dataset, url: "https://huggingface.co/datasets/prakashchhipa/ImageNet-PD" }
+  - name: MPD-SSL
+    kind: Pretrained models · Hugging Face
+    desc: Self-supervised checkpoints trained with Möbius-MPD (ECCV 2024), ready for robust downstream fine-tuning.
+    links:
+      - { label: Models, url: "https://huggingface.co/prakashchhipa/MPD_SSL" }
+
+papers:
+  - { venue: WACV 2027, title: "MATA: Motion-aligned Temporal Adapter", repo: prakashchhipa/MATA-Motion-aligned-Temporal-Adapter, lang: Python, tag: Video }
+  - { venue: NeurIPS 2026, title: "DiA: Directional Adapter for fine-grained action recognition", repo: prakashchhipa/DiA-Directional-Adapter, lang: Python, tag: Video }
+  - { venue: ICLR 2025, title: "ASTrA: Adversarial Self-supervised Training with Adaptive Attacks", repo: prakashchhipa/ASTrA, lang: Python, tag: Robustness }
+  - { venue: ECCV 2024, title: "Möbius Transform for Mitigating Perspective Distortions", repo: prakashchhipa/MPD, lang: Python, tag: Robustness }
+  - { venue: ACCV 2024, title: "LCM: Log Conformal Maps for robust representation learning", repo: meenakshi23/Log-Conformal-Maps, lang: Python, tag: Robustness }
+  - { venue: ECCV-W 2024, title: "Open-Vocabulary Object Detectors: robustness under distribution shift", repo: prakashchhipa/OVOD_Robustness, lang: Python, tag: Robustness }
+  - { venue: ICCV-W 2023, title: "Can self-supervised methods withstand distribution shifts and corruptions?", repo: prakashchhipa/Robsutness-Evaluation-of-Self-supervised-Methods-Distribution-Shifts-and-Corruptions, lang: Jupyter, tag: Robustness }
+  - { venue: ICIP 2023, title: "Functional Knowledge Transfer with self-supervised representation learning", repo: prakashchhipa/Functional_Knowledge_Transfer_SSL, lang: Python, tag: Label-efficient }
+  - { venue: IJCNN 2023, title: "Label-efficient cross-domain transfer on diabetic retinopathy fundus images", repo: prakashchhipa/Learning-Self-Supervised-Representations-for-Label-Efficient-Cross-Domain-Knowledge-Transfer-on-DRF, lang: Python, tag: Medical }
+  - { venue: IJCNN 2023, title: "Domain-adaptable self-supervised learning on remote-sensing imagery", repo: muskaan712/Domain-Adaptable-Self-Supervised-Representation-Learning-on-Remote-Sensing-Satellite-Imagery, lang: Python, tag: Remote sensing }
+  - { venue: WACV 2023, title: "Magnification Prior: self-supervised learning on breast-cancer histopathology", repo: prakashchhipa/Magnification-Prior-Self-Supervised-Method, lang: Python, tag: Medical }
+  - { venue: ECCV-W 2022, title: "Depth Contrast: self-supervised pretraining on 3DPM images for mining", repo: prakashchhipa/Depth-Contrast-Self-Supervised-Method, lang: Python, tag: Industrial }
+
+earlier:
+  - { title: "Text sentiment, summarization and translation pipeline", repo: prakashchhipa/text-sentimental-summarization-translation }
+  - { title: "MNIST digit recognizer (CNN, Kaggle)", repo: prakashchhipa/MNIST-Digit-Recognizer }
+  - { title: "Song genre prediction from listening history", repo: prakashchhipa/Song-Genre-Prediction }
+  - { title: "Educational blockchain implementation in Python", repo: prakashchhipa/NiNu-Blockchain-Solution }
+  - { title: "Large-corpus document-similarity design", repo: prakashchhipa/document-similarity-design-approach }
+  - { title: "SPAM vs HAM message classifier", repo: prakashchhipa/SPAM-vs-HAM }
+  - { title: "Algorithms and data structures in Java", repo: prakashchhipa/NiNu-problem-solving-skills }
+  - { title: "Conference scheduling design", repo: prakashchhipa/Conference-Management- }
+  - { title: "Zoo design: design principles and patterns in Java", repo: prakashchhipa/Zoo-Desiging }

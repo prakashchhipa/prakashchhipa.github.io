@@ -5,6 +5,7 @@ description: European Conference on Computer Vision Workshops 2022
 img: assets/dc/dc.JPG
 importance: 6
 category: work
+program: efficient
 related_publications: true
 ---
 <p align="center">

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 Paper titled ['MATA: Motion-aligned Temporal Adapter']('https://github.com/prakashchhipa/MATA-Motion-aligned-Temporal-Adapter') accepted in WACV 2027. 🎉
+🎉 Paper titled ['MATA: Motion-aligned Temporal Adapter'](https://github.com/prakashchhipa/MATA-Motion-aligned-Temporal-Adapter) accepted in WACV 2027. 🎉

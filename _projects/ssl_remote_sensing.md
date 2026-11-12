@@ -5,107 +5,56 @@ description: International Joint Conference on Neural Networks 2023
 img: assets/ssl_remote_sensing/ssl_rs.JPG
 importance: 8
 category: work
+program: efficient
 related_publications: true
 ---
 <p align="center">
-    <a href="https://arxiv.org/pdf/2405.02296" style="margin-right: 20px;">Read Paper</a>
-    <a href="https://github.com/prakashchhipa/MPD" style="margin-right: 20px;">Source Code @ Github</a>
-    <a href="https://github.com/prakashchhipa/MPD/blob/main/mpd_poster.JPG" style="margin-right: 20px;">Check poster</a>
-    <a href="https://huggingface.co/prakashchhipa/MPD_SSL" style="margin-right: 20px;">Download Pretrained Models</a>
-    <a href="https://huggingface.co/datasets/prakashchhipa/ImageNet-PD">Download ImageNet-PD</a>
+    <a href="https://arxiv.org/pdf/2304.09874">Read paper</a>
+    <a href="https://ieeexplore.ieee.org/abstract/document/10191249">IEEE Xplore</a>
+    <a href="https://github.com/muskaan712/Domain-Adaptable-Self-Supervised-Representation-Learning-on-Remote-Sensing-Satellite-Imagery">Code &amp; models on GitHub</a>
+    <a href="https://www.youtube.com/watch?v=NOjXK1_cdhA">Watch the talk</a>
+    <a href="{{ '/assets/pdf/Self-supervised_learning_on_Remote_Sensing_Imgery_Prakash.pdf' | relative_url }}">Slides</a>
 </p>
 
+> Labels for satellite imagery are scarce and expensive. Can a self-supervised representation learned on one remote-sensing dataset transfer to another — and beat full supervision with a fraction of the labels?
 
-**Perspective distortion** significantly alters the appearance of objects in images. It can change their shape, size, orientation, angles, and the spatial relationships between them in ways that might not be expected.
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/mpd/PDexample1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/mpd/PDexample2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/mpd/PDexample3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Example images showing the effect of distortion 
-</div>
+## The problem
 
-**How perspective distortion alters the appearance?** When same object captured from different viewpoints due to different location of camera, it captures the shape of image differently and distortion takes places naturally. Look at the visual here. Changes in shape of the object, changes the underlying distrutions. There are many such parameters like camera location has role in it.
+Most remote-sensing vision work relies on fully supervised learning. But annotating satellite imagery takes domain expertise and is costly, so labelled data is always limited. That makes knowledge transfer — pretraining once and adapting to new data — a practical necessity.
+
+## Approach
+
+We study contrastive self-supervised pretraining (SimCLR, ResNet-50) and how its representations transfer across **distinct source and target distributions** within remote sensing. Pretraining runs on a source dataset; downstream classification runs on each target dataset in a round-robin, across different label budgets.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/mpd/explain_pd.PNG" title="MPD" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm mt-3 mt-md-0">
+    <figure><img src="{{ '/assets/ssl_remote_sensing/contrastive_ssl_on_remote_sensing.png' | relative_url }}" alt="Contrastive self-supervised learning on remote sensing imagery" class="img-fluid" loading="lazy"></figure>
+  </div>
 </div>
+<div class="caption">Contrastive self-supervised pretraining on satellite imagery.</div>
 
-**What are the challenges?** 
-1. Data on which vison models are trained do not have exposure to intented perspectively distorted examples so no robustness against unprecedent perspective disrotion.
-2. Estimating camera's intrinsic and extrinsic parameters are challenging and doing it precisely is next to impossible so it prevents synthesizing perspective distortion
-3. Distortion correction methods makes computer vision tasks a multi-step approach, first correction then vision task learning so its not efficient for real-world applications
-   
-**Proposed methodology**- This work focus on mittigating perspective distortion by exposing vision models to perspectively distorted examples. These examples are neither created using camera parameters nor naturally collected but synthesized by mathematically modelling the perspective distortion.
-
-**How MPD works?** This work shares mitigating perspective distortion (MPD) method by first underatanding the non-linear nature of perspective distortion then employing a fine-grained parameter control on a specific family of Möbius transform to model real-world distortion without estimating camera intrinsic and extrinsic parameters and without the need for actual distorted data. MPD leaverages Möbius's conformal and non-linear nature in complex space. MPD takes images to complex space, transform, and then get it back to pixel space.
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/mpd/mobius_mpd.jpg" title="MPD" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-**Integrating MPD**- MPD gets easily integrated as augmentation method into learning pipline, be it supervsied training or self-supervised pretraining. In this work MPD explored with two self-supervsied methods SimCLR and DINO.
 <div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/mpd/DINO_MPD.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/mpd/simclr_MPD.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm-7 mt-3 mt-md-0">
+    <figure><img src="{{ '/assets/ssl_remote_sensing/ssl_domain_adpation_framework.png' | relative_url }}" alt="Domain adaptation framework" class="img-fluid" loading="lazy"></figure>
+  </div>
 </div>
-When it comes to adapting MPD to other real-world applications, MPD gets adapted easily with multiple computer vision applications including crowd counting, person re-identificaiton, fisheye view, and object detection.
-<div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/mpd/mpd_cc.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/mpd/mpd_od.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+<div class="caption">Round-robin domain-adaptation framework across source and target datasets.</div>
 
-**MPD offers robustness**- The proposed method MPD outperforms on existing perspective distortion affected benchmarks, ImageNet-E and ImageNet-X. MPD significantly improves performance on ImageNet-PD (check it down) while consistently performing on standard data distribution. MPD improves performance on **three PD-affected real-world applications**: crowd counting, fisheye image recognition, and person re-identification and one PD-affected challenging CV task: object detection.
-<div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/mpd/ImageNet-E-plot.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/mpd/ImageNet-X-plot.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/mpd/linear_eval_MPD_SSL_DINO.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/mpd/CC_plot.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+## Datasets
 
+| Dataset | Classes | Images | Notes |
+|---|---|---|---|
+| UC Merced Land Use (UCMD) | 21 | 2,100 | USGS urban imagery, 1-ft resolution |
+| SIRI-WHU | 12 | 2,400 | Google Earth, metropolitan China |
+| MLRSNet | 46 | 109,161 | 10 m to 0.1 m resolution |
 
-**A dedicated perspectively distorted benchmark dataset** This work shares a new benchmark **ImageNet-PD**  to evaluate the robustness of computer vision models against perspective distortion and address the non-availability of a suitable benchmark. ImageNet-PD derived from the original ImageNet\cite validation set, has eight subsets, four corresponding to four orientations (left, right, top, bottom) with black background and other four subsets with the same orientations but with integrated padding background. 
+## Results
+
+Self-supervised knowledge transfer reaches **state-of-the-art performance with high label efficiency** and outperforms the fully supervised setting. Qualitative analysis shows consistent evidence of explainable representations.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/mpd/pd_datasets.png" title="MPD" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm mt-3 mt-md-0">
+    <figure><img src="{{ '/assets/ssl_remote_sensing/ucmd_results.png' | relative_url }}" alt="Results on UC Merced" class="img-fluid" loading="lazy"></figure>
+  </div>
 </div>
-
-<p align="center">
-    <a href="https://arxiv.org/pdf/2405.02296" style="margin-right: 20px;">Read Paper</a>
-    <a href="https://github.com/prakashchhipa/MPD" style="margin-right: 20px;">Source Code @ Github</a>
-    <a href="https://huggingface.co/prakashchhipa/MPD_SSL" style="margin-right: 20px;">Download Pretrained Models</a>
-    <a href="https://huggingface.co/datasets/prakashchhipa/ImageNet-PD">Download ImageNet-PD</a>
-</p>
-
-
-M. Chopra, P. C. Chhipa, G. Mengi, V. Gupta and M. Liwicki, "Domain Adaptable Self-supervised Representation Learning on Remote Sensing Satellite Imagery," 2023 International Joint Conference on Neural Networks (IJCNN), Gold Coast, Australia, 2023, pp. 1-8, doi: 10.1109/IJCNN54540.2023.10191249.
+<div class="caption">Downstream results on UC Merced across label budgets.</div>

@@ -3,8 +3,8 @@ layout: page
 title: research
 permalink: /projects/
 eyebrow: Research
-headline: Three questions, <em>one agenda</em>.
-lede: How do we make learned representations reliable under real-world shift? How do we adapt foundation models to video and structure efficiently? And how do we turn both into systems people can trust? Each project below is a deep dive into one paper — method, results and code.
+headline: The research journey <em>so far</em>.
+lede: It started with a PhD on one question — can self-supervised representations hold up in the real world? — and has grown into adapting multimodal and video foundation models efficiently. Each project below is a deep dive into one paper — method, results and code.
 description: Research projects by Prakash Chandra Chhipa on robust, label-efficient and multimodal representation learning.
 full_width: true
 nav: true
@@ -31,6 +31,17 @@ nav_order: 3
           <span class="u">Luleå University of Technology</span>
         </a>
       </div>
+      <div class="pf-reclist" aria-label="Recognition during the PhD">
+        <div class="pf-cap">Recognition during the PhD</div>
+        <div class="rr hl"><b>2024</b><p><strong>DAAD AI-NET Fellowship</strong> — German Academic Exchange Service fellowship for AI research collaboration in Germany.</p></div>
+        <div class="rr"><b>2024</b><p><strong>Visiting researcher, UCF CRCV</strong> — hosted by Prof. Mubarak Shah. <a href="https://ssba.org.se/wpssba/wp-content/uploads/Jun24.pdf" target="_blank" rel="noopener">SSBA magazine →</a></p></div>
+        <div class="rr"><b>2024</b><p><strong>STARS member feature</strong> — Swedish Trans-Atlantic Researchers and Scholars network, for Möbius-MPD. <a href="https://www.starsnetwork.org/member-features/november-2024-stars-member-feature" target="_blank" rel="noopener">Read →</a></p></div>
+        <div class="rr"><b>2024</b><p><strong>Wallenberg grant</strong></p></div>
+        <div class="rr"><b>2023</b><p><strong>SASUF grant</strong> — South Africa – Sweden University Forum.</p></div>
+        <div class="rr"><b>2022</b><p><strong>Machine Learning Summer School</strong> — University of Cambridge, UK (ELLIS).</p></div>
+        <div class="rr"><b>2022</b><p><strong>INTSAM grant</strong></p></div>
+        <div class="rr"><b>ELLIS</b><p><strong>Member</strong> — European Laboratory for Learning and Intelligent Systems.</p></div>
+      </div>
     </div>
     <div>
       <p style="font-size: 16px">My PhD in Machine Learning at Luleå University of Technology, advised by <strong>Prof. Marcus Liwicki</strong> and defended publicly in April 2025, showed that self-supervised representations degrade sharply under real-world shift — and introduced methods that build robustness into pretraining itself instead of patching it afterwards.</p>
@@ -38,7 +49,7 @@ nav_order: 3
       <div class="pf-statrow">
         <div><b>2</b><span>theses · licentiate 2023, doctorate 2025</span></div>
         <div><b>6</b><span>venues · ICLR · ECCV · ACCV · WACV · ICCV-W · ECCV-W</span></div>
-        <div><b>UCF</b><span>visiting researcher with Prof. Mubarak Shah</span></div>
+        <div><b>4</b><span>grants &amp; fellowships · DAAD AI-NET · Wallenberg · SASUF · INTSAM</span></div>
       </div>
       <figure class="pf-shot" style="margin-top: 22px">
         <img src="{{ '/assets/img/pf/thesis-talk.jpg' | relative_url }}" alt="Presenting contrastive self-supervised representation learning at Luleå University of Technology" loading="lazy">
@@ -51,19 +62,6 @@ nav_order: 3
     </div>
   </div>
 
-  <div class="eyebrow" style="margin: 56px 0 16px">→ Recognition during the PhD</div>
-  <div class="pf-grid g4 pf-honors">
-    <div class="pf-card feature"><div class="pf-cap venue">Fellowship · 2024</div><h3>DAAD AI-NET Fellowship</h3><p>German Academic Exchange Service fellowship to visit and collaborate with a German research institute on artificial intelligence.</p></div>
-    <div class="pf-card"><div class="pf-cap venue">Summer school · 2022</div><h3>Machine Learning Summer School, University of Cambridge</h3><p>Selected for the ELLIS machine learning summer school at the University of Cambridge, UK.</p></div>
-    <div class="pf-card"><div class="pf-cap venue">Feature · 2024</div><h3>STARS researcher network</h3><p>Featured by the Swedish Trans-Atlantic Researchers and Scholars Network for the Möbius-MPD work.</p><a class="more" href="https://www.starsnetwork.org/member-features/november-2024-stars-member-feature" target="_blank" rel="noopener">Read the feature →</a></div>
-    <div class="pf-card"><div class="pf-cap venue">Research visit · 2024</div><h3>UCF Center for Research in Computer Vision</h3><p>Visiting researcher hosted by Prof. Mubarak Shah, featured in the SSBA magazine.</p><a class="more" href="https://ssba.org.se/wpssba/wp-content/uploads/Jun24.pdf" target="_blank" rel="noopener">SSBA magazine →</a></div>
-  </div>
-  <div class="pf-statrow" style="margin-top: 1px">
-    <div><b>2024</b><span>Wallenberg grant</span></div>
-    <div><b>2023</b><span>SASUF grant</span></div>
-    <div><b>2022</b><span>INTSAM grant</span></div>
-    <div><b>ELLIS</b><span>member · European Laboratory for Learning and Intelligent Systems</span></div>
-  </div>
 </section>
 
 <section>

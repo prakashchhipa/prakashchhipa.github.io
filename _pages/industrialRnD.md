@@ -26,7 +26,7 @@ nav_order: 4
   </div>
   <div>
     <h2>Agentic and foundation-model systems on <em>Sweden's AI Factory</em>.</h2>
-    <p>At RISE I design and deploy foundation-model, multimodal and agentic-AI systems on HPC infrastructure in the Sweden AI Factory — part of the EU network of supercomputing hubs — supporting AI adoption across industry, research and the public sector.</p>
+    <p>At RISE I drive the AI transformation journey for startups and SMEs — from first use case to deployed system — and build agentic AI platforms on HPC infrastructure in the Sweden AI Factory, part of the EU network of supercomputing hubs.</p>
     <p>I am the architect and builder of <strong>PlayPrismAI</strong>, an on-premises platform where ten specialist agents turn game pitches and real Steam reviews into evidence-grounded player personas, predicted reactions and ranked product risks, with an authenticity gate validated against historical launch data.</p>
     <ul>
       <li>Own the multi-agent workflow, model stack, grounding architecture, evaluation gates and deployment.</li>

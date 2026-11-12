@@ -4,7 +4,7 @@ permalink: /cv/
 title: cv
 eyebrow: Curriculum vitae
 headline: The full record, <em>on one page</em>.
-lede: Research Scientist with 13+ years across industrial AI R&D and academic research — multimodal and video foundation models, robust representation learning and agentic AI.
+lede: Research Scientist with 13+ years across industrial AI R&D and academic research — self-supervised and robust representation learning, video and multimodal foundation models, and today agentic AI platforms for startups and SMEs.
 full_width: true
 nav: true
 nav_order: 7

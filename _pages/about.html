@@ -1,0 +1,301 @@
+---
+layout: portfolio
+title: home
+permalink: /
+description: Prakash Chandra Chhipa — research scientist and builder. Foundation models that hold up in the real world, and the systems that put them to work.
+news: true
+selected_papers: true
+social: true
+---
+
+<!-- ============ HERO ============ -->
+<section class="pf-hero">
+  <div>
+    <div class="eyebrow">Research Scientist, PhD · RISE · Sweden AI Factory · Sweden</div>
+    <h1>I build foundation models that <em>hold up in the real world</em> — and the systems that put them to work.</h1>
+    <p class="intro">
+      Robust representation learning, efficient multimodal and video models, and agentic AI.
+      <strong>Papers at NeurIPS, CVPR, ICLR and ECCV.</strong>
+      <strong>Two AI products shipped</strong> to millions of devices, <strong>five granted patents</strong>, and
+      <strong>teams of up to 13 led</strong> across 13 years at Samsung, ARKRAY, LTU and RISE.
+    </p>
+    <div class="pf-ctas">
+      <a class="link" href="#playprism">See what I'm building →</a>
+      <a class="link quiet" href="#research">Explore the research →</a>
+      <a class="link quiet" href="https://drive.google.com/file/d/1XwR4v-HNOL1y45uWeZSWbyu2Zi20KIlI/view?usp=sharing" target="_blank" rel="noopener">CV (PDF)</a>
+    </div>
+    <a class="pf-now" href="#playprism">
+      <span class="dot" aria-hidden="true"></span>
+      <span><strong>Now:</strong> PlayPrismAI — grounded player intelligence for game studios. Launching soon.</span>
+    </a>
+  </div>
+  <figure class="pf-portrait">
+    <img src="{{ '/assets/img/pf/portrait.jpg' | relative_url }}" alt="Prakash Chandra Chhipa presenting research on representation learning" loading="eager">
+    <figcaption>Robust representation learning · invited lecture</figcaption>
+  </figure>
+</section>
+
+<!-- ============ NUMBERS ============ -->
+<section class="pf-numbers" aria-label="Career in numbers">
+  <div><div class="pf-num">13<span>+</span></div><div class="label">years of AI R&amp;D</div><div class="detail">Samsung · ARKRAY · LTU · RISE</div></div>
+  <div><div class="pf-num">10<span>+</span></div><div class="label">peer-reviewed papers</div><div class="detail">NeurIPS · CVPR · ICLR · ECCV · WACV</div></div>
+  <div><div class="pf-num">5</div><div class="label">granted patents</div><div class="detail">Cited by Apple, Google, Meta, NVIDIA</div></div>
+  <div><div class="pf-num">2</div><div class="label">AI products shipped</div><div class="detail">Samsung ACR · ARKRAY AUTION EYE</div></div>
+  <div><div class="pf-num">13</div><div class="label">engineers led</div><div class="detail">Samsung Research · plus a 6-person team at ARKRAY</div></div>
+  <div><div class="pf-num">15<span>+</span></div><div class="label">countries deployed</div><div class="detail">Millions of Samsung smart TVs</div></div>
+</section>
+
+<!-- ============ PLAYPRISM AI ============ -->
+<section id="playprism">
+  <div class="eyebrow">01 — Now building · PlayPrismAI</div>
+  <h2>Meet your players <em>before you ship</em>.</h2>
+  <p class="lede">
+    PlayPrismAI reads thousands of real Steam reviews of games like yours and turns them into evidence-grounded player personas, predicted
+    reactions and a ranked map of risks and opportunities for your pitch — in minutes, not months.
+  </p>
+
+  <div class="pf-feature">
+    <div>
+      <div class="pf-problem">
+        <div><b>$100M+</b><span>to build a modern game</span></div>
+        <div><b>10 min</b><span>for a player to decide whether to refund</span></div>
+        <div><b>100M+</b><span>Steam reviews already say what players want</span></div>
+      </div>
+      <p class="pf-pull">No team can read them all. So studios rely on intuition and learn what players feel after launch. By then it's too late.</p>
+      <ol class="pf-steps">
+        <li>Finds the eight closest shipped peers on Steam by genre, mechanics and theme.</li>
+        <li>Harvests and embeds up to 1,000 real reviews per peer, then clusters them into cited player personas.</li>
+        <li>Each persona “plays” the pitch: predicted hook, bounce and late-game engagement.</li>
+        <li>An authenticity gate checks synthetic reactions against real launch data — if it fails, the pipeline stops.</li>
+        <li>Ranks risks and opportunities two ways: what design should fix, and what marketing should brag about.</li>
+      </ol>
+      <p><strong>Every claim cites the real reviews it came from.</strong> Ten specialist agents, a resumable LangGraph pipeline and on-premises
+        models, wrapped in a multi-user studio platform with drill-down chat and a one-page studio memo.</p>
+      <div class="pf-stack"><span>LangGraph</span><span>Qwen2.5-32B</span><span>BGE-M3</span><span>RAG</span><span>Next.js</span><span>On-prem · GDPR-ready</span></div>
+      <p class="pf-cap" style="margin-top: 22px; line-height: 1.8; display: block">
+        Designed, architected and built by me · provided by RISE Research Institutes of Sweden
+      </p>
+      <p style="margin-top: 10px"><a class="link" href="https://playprismai.se" target="_blank" rel="noopener">playprismai.se — launching soon →</a></p>
+    </div>
+    <div>
+      <figure class="pf-shot">
+        <img src="{{ '/assets/img/pf/playprism-landing_hero.jpg' | relative_url }}" alt="PlayPrismAI landing page: Meet your players before you ship" loading="lazy">
+      </figure>
+      <div class="pf-shots">
+        <figure class="pf-shot">
+          <img src="{{ '/assets/img/pf/playprism-personas.jpg' | relative_url }}" alt="Player personas with hook, bounce and late scores" loading="lazy">
+          <figcaption class="pf-cap">Player personas</figcaption>
+        </figure>
+        <figure class="pf-shot">
+          <img src="{{ '/assets/img/pf/playprism-risks.jpg' | relative_url }}" alt="Dual-orientation risks and opportunities, cited" loading="lazy">
+          <figcaption class="pf-cap">Risks · cited</figcaption>
+        </figure>
+        <figure class="pf-shot">
+          <img src="{{ '/assets/img/pf/playprism-chat.jpg' | relative_url }}" alt="Drill-down chat where the agent shows its sources" loading="lazy">
+          <figcaption class="pf-cap">Ask why</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROGRAMS ============ -->
+<section>
+  <div class="eyebrow">02 — Research programs</div>
+  <h2>Three questions, <em>one agenda</em>.</h2>
+  <p class="lede">
+    Every paper, product and patent I have worked on answers one of three questions: how to make representations reliable under shift, how
+    to adapt foundation models to video and structure efficiently, and how to deploy AI systems people can trust.
+  </p>
+  <div class="pf-grid g3">
+    <div class="pf-card">
+      <div class="pf-cap">01 · Robust representations</div>
+      <div class="q">Why do models that win benchmarks fail in the world — and how do we train representations that don't?</div>
+      <p>Robustness should be learned during pretraining, not patched afterwards. Adaptive adversaries (ASTrA, ICLR 2025), camera-free perspective
+        robustness (Möbius-MPD, ECCV 2024) and label-efficient learning for medicine and mining.</p>
+      <div class="pf-kr">
+        <div><b>+10%</b><span>Robustness for SimCLR, DINO &amp; CLIP · Möbius-MPD</span></div>
+        <div><b>+3–6%</b><span>Adversarial robustness · ASTrA</span></div>
+        <div><b>20%</b><span>Labels needed to match supervised · Magnification Prior</span></div>
+      </div>
+    </div>
+    <div class="pf-card">
+      <div class="pf-cap">02 · Multimodal &amp; video</div>
+      <div class="q">How do we adapt large vision-language models to time, place and structure — without retraining them?</div>
+      <p>Most capability already sits inside frozen foundation models; the research problem is the small, well-placed adapter that unlocks it.
+        DiA (NeurIPS 2026) for fine-grained video, VidTAG (CVPR 2026) for global-scale video geolocalization.</p>
+      <div class="pf-kr">
+        <div><b>92.8%</b><span>Top-1 on Diving48 with ~3.6M tunable params · DiA</span></div>
+        <div><b>2.17×</b><span>Throughput vs. AIM · DiA</span></div>
+        <div><b>+20%</b><span>Accuracy at 1 km vs. GeoCLIP · VidTAG</span></div>
+      </div>
+    </div>
+    <div class="pf-card">
+      <div class="pf-cap">03 · Agentic &amp; deployed AI</div>
+      <div class="q">What does it take for AI to be trusted inside real products and decisions?</div>
+      <p>Reliability is a property of the system, not the model. Grounding, evaluation gates and the right human checkpoints decide whether AI can
+        be deployed — from Samsung's recognition engine to PlayPrismAI's authenticity gate.</p>
+      <div class="pf-kr">
+        <div><b>10</b><span>Specialist agents orchestrated · PlayPrismAI</span></div>
+        <div><b>1.2K</b><span>Nodes in production · Samsung ACR</span></div>
+        <div><b>15+</b><span>Countries deployed · Samsung smart TVs</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SHIPPED ============ -->
+<section>
+  <div class="eyebrow">03 — Built and shipped</div>
+  <h2>Research that <em>left the lab</em>.</h2>
+  <p class="lede">
+    Two AI products in market — one on millions of smart TVs, one inside a medical device — and open-source tools other people build on.
+    Each was a team effort I led; each is backed by numbers.
+  </p>
+  <div class="pf-grid g3">
+    <div class="pf-card">
+      <div class="pf-cap">Shipped product · Samsung Research · 2012–2018</div>
+      <h3 style="margin-top: 10px">Samsung ACR &amp; Ads</h3>
+      <div class="q" style="font-size: 16px">Audio-visual content recognition running on millions of smart TVs.</div>
+      <p>Architected the visual-media recognition engine on Samsung's ACR fingerprinting — CNN and LSTM models on live TV content — plus RL-based
+        ad recommendation. Grew from individual contributor to leading 13 engineers, with three promotions.</p>
+      <div class="pf-kr">
+        <div><b>1.2K</b><span>Nodes in production</span></div>
+        <div><b>15+</b><span>Countries deployed</span></div>
+      </div>
+    </div>
+    <div class="pf-card">
+      <div class="pf-cap">Shipped product · ARKRAY R&amp;D · 2018–2020</div>
+      <h3 style="margin-top: 10px">AUTION EYE AI-4510</h3>
+      <div class="q" style="font-size: 16px">World-first on-device AI for automated urinalysis.</div>
+      <p>Built and led the six-person team behind the on-device vision in ARKRAY's analyzer — custom ResNet classifiers and GAN super-resolution
+        for sediment imaging — through to commercialization.</p>
+      <div class="pf-kr">
+        <div class="pf-delta" style="display: block">
+          <span>Classification accuracy</span>
+          <div class="bar"><i style="width: 94%; background: var(--pf-accent)"></i><i style="width: 82%; background: var(--pf-mute)"></i></div>
+          <div class="row"><span>82% before</span><span style="color: var(--pf-accent)">94% shipped</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="pf-card">
+      <div class="pf-cap">Open source · 2024–2025</div>
+      <h3 style="margin-top: 10px">Möbius-MPD &amp; ImageNet-PD</h3>
+      <div class="q" style="font-size: 16px">Perspective-distortion robustness as a pip install.</div>
+      <p>The ECCV 2024 method packaged for PyTorch and Albumentations, plus a benchmark for viewpoint robustness — train perspective-robust models
+        without camera parameters.</p>
+      <div class="pf-stack"><span>pip install mobius-mpd</span><span>PyTorch</span><span>Albumentations</span></div>
+      <div class="pf-kr" style="margin-top: 18px">
+        <a class="link" href="https://pypi.org/project/mobius-mpd/" target="_blank" rel="noopener">PyPI →</a>
+        <a class="link quiet" href="{{ '/projects/mpd' | relative_url }}">Project page →</a>
+      </div>
+    </div>
+  </div>
+  <div class="pf-card" style="border: 1px solid var(--pf-rule); margin-top: 28px; display: grid; grid-template-columns: 1fr auto; gap: 20px; align-items: center">
+    <div>
+      <div class="eyebrow" style="margin-bottom: 8px">→ Five granted patents</div>
+      <div class="serif" style="font-size: 21px; line-height: 1.4; color: var(--pf-ink)">
+        AR, VR and advertising systems from Samsung — cited by later patents from <em>Apple, Google, Meta and NVIDIA</em>.
+      </div>
+    </div>
+    <a class="link" href="{{ '/patents/' | relative_url }}">Patents →</a>
+  </div>
+</section>
+
+<!-- ============ PATH ============ -->
+<section>
+  <div class="eyebrow">04 — The path</div>
+  <h2>Thirteen years between research and product — and the next decade <em>building</em> where they meet.</h2>
+  <p class="lede">
+    Industry work fed the questions; the PhD answered them; today's work puts the answers back into systems.
+  </p>
+  <div class="pf-path">
+    <div>
+      <div class="yr">2026 — now</div>
+      <div class="org">RISE · Sweden AI Factory<small>Research Scientist / AI Expert</small></div>
+      <p>Designing and deploying foundation-model, multimodal and agentic systems on HPC infrastructure in the Sweden AI Factory — part of the EU
+        network of supercomputing hubs. Architect and builder of PlayPrismAI.</p>
+    </div>
+    <div>
+      <div class="yr">2025 — 2026</div>
+      <div class="org">Luleå University of Technology<small>Postdoctoral Research Scientist · WASP</small></div>
+      <p>Moved to vision-language and video models: DiA at NeurIPS 2026, VidTAG at CVPR 2026 with UCF CRCV, and an open chart-reasoning model on Qwen2.5.</p>
+    </div>
+    <div>
+      <div class="yr">2020 — 2025</div>
+      <div class="org">PhD, Machine Learning · LTU<small>Advised by Prof. Marcus Liwicki</small></div>
+      <p>Asked <em>why models that win benchmarks fail in the world</em>. Papers at ICLR, ECCV, ACCV and WACV; visiting researcher at UCF's Center for
+        Research in Computer Vision with Prof. Mubarak Shah; DAAD AI-Net Fellow.</p>
+    </div>
+    <div>
+      <div class="yr">2018 — 2020</div>
+      <div class="org">ARKRAY R&amp;D<small>Lead Data Scientist</small></div>
+      <p>Built and led a six-person team that took on-device medical vision from 82% to 94% accuracy and into a commercial analyzer.</p>
+    </div>
+    <div>
+      <div class="yr">2012 — 2018</div>
+      <div class="org">Samsung Research<small>Staff Engineer, AI &amp; Data Intelligence</small></div>
+      <p>Content recognition and ad recommendation on millions of smart TVs; five granted patents; Innovator of the Year 2017.</p>
+    </div>
+  </div>
+  <blockquote class="pf-pull" style="margin-top: 40px; font-size: 22px; max-width: 820px">
+    “Intelligence isn't memory. It's the small cognitive core that reasons beyond it. That's where I place my bet, today and for the future.”
+  </blockquote>
+</section>
+
+<!-- ============ RESEARCH (selected papers + news) ============ -->
+{% include pf_research.liquid %}
+
+<!-- ============ TRAVELS ============ -->
+<section>
+  <div class="eyebrow">06 — The work travels</div>
+  <h2>Based in Sweden, <em>presented everywhere</em>.</h2>
+  <p class="lede">
+    Invited talks at MBZUAI, EMBL-EBI and MIRAI; a research visit to UCF CRCV; papers presented at ICLR, ECCV, ICCV, WACV and EurIPS across five continents.
+  </p>
+  <div class="pf-tiles">
+    <figure><div class="img"><img src="{{ '/assets/img/pf/mbzuai.jpg' | relative_url }}" alt="Invited talk at MBZUAI, Abu Dhabi" loading="lazy"></div>
+      <figcaption><b>MBZUAI</b><span class="pf-cap">Abu Dhabi · Invited talk · 2025</span></figcaption></figure>
+    <figure><div class="img"><img src="{{ '/assets/img/pf/ucf.jpg' | relative_url }}" alt="Visiting researcher at UCF CRCV" loading="lazy"></div>
+      <figcaption><b>UCF · CRCV</b><span class="pf-cap">Orlando · Visiting researcher · 2024</span></figcaption></figure>
+    <figure><div class="img"><img src="{{ '/assets/img/pf/iclr.jpg' | relative_url }}" alt="ICLR 2025 in Singapore" loading="lazy"></div>
+      <figcaption><b>ICLR 2025</b><span class="pf-cap">Singapore · ASTrA</span></figcaption></figure>
+    <figure><div class="img"><img src="{{ '/assets/img/pf/eccv24.jpg' | relative_url }}" alt="Möbius Transform poster at ECCV 2024" loading="lazy"></div>
+      <figcaption><b>ECCV 2024</b><span class="pf-cap">Milan · Möbius-MPD</span></figcaption></figure>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="pf-contact">
+  <div class="eyebrow">07 — Get in touch</div>
+  <h2>If you're <em>building</em> in this neighborhood — say hello.</h2>
+  <p class="lede">
+    Next, I want to build: as a research leader on frontier multimodal systems, or as a founder taking robust, grounded AI into products.
+    If either resonates, I'd like to hear from you.
+  </p>
+  <div class="pf-paths">
+    <div>
+      <div class="pf-cap">Investors · founders · hiring</div>
+      <div class="serif" style="margin-top: 10px">Research leadership, or early founder conversations.</div>
+      <p>Co-founder, advisor, or trading notes on what you're seeing. Bring a concrete question; I'll have a concrete answer.</p>
+    </div>
+    <div>
+      <div class="pf-cap">Researchers</div>
+      <div class="serif" style="margin-top: 10px">Collaborate, or talk about the work.</div>
+      <p>Joint projects in robustness, multimodal or agentic systems. Reviewer for CVPR, NeurIPS, ICLR, ICML and AAAI; ELLIS member.</p>
+    </div>
+    <div>
+      <div class="pf-cap">Talks · press</div>
+      <div class="serif" style="margin-top: 10px">Invited talks, panels and commentary.</div>
+      <p>On robust self-supervised learning, the gap between benchmark and deployment, and grounded agentic AI.</p>
+    </div>
+  </div>
+  <p style="margin-bottom: 18px"><a class="link" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+  {% if page.social %}
+    <div class="social"><div class="contact-icons">{% include social.liquid %}</div></div>
+  {% endif %}
+  <div class="pf-logos">
+    <a href="https://www.ri.se/en/artificial-intelligence" target="_blank" rel="noopener"><img src="{{ '/assets/RISE_AIF_1.jpg' | relative_url }}" alt="RISE · Sweden AI Factory"></a>
+    <a href="https://ellis.eu/person/prakash-chandra-chhipa" target="_blank" rel="noopener"><img src="{{ '/assets/ellis.png' | relative_url }}" alt="ELLIS member"></a>
+  </div>
+</section>

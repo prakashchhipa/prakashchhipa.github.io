@@ -27,11 +27,12 @@ nav_order: 4
   <div>
     <h2>Agentic and foundation-model systems on <em>Sweden's AI Factory</em>.</h2>
     <p>At RISE I drive the AI transformation journey for startups and SMEs — from first use case to deployed system — and build agentic AI platforms on HPC infrastructure in the Sweden AI Factory, part of the EU network of supercomputing hubs.</p>
-    <p>I am the architect and builder of <strong>PlayPrismAI</strong>, an on-premises platform where ten specialist agents turn game pitches and real Steam reviews into evidence-grounded player personas, predicted reactions and ranked product risks, with an authenticity gate validated against historical launch data.</p>
+    <p>I am the architect and builder of <strong>PlayPrism AI</strong>, an on-premises platform where ten specialist agents turn game pitches and real Steam reviews into evidence-grounded player personas, predicted reactions and ranked product risks, with an authenticity gate validated against historical launch data.</p>
     <ul>
       <li>Own the multi-agent workflow, model stack, grounding architecture, evaluation gates and deployment.</li>
       <li>Resumable LangGraph pipeline on Qwen2.5-32B and BGE-M3, running on-premises and GDPR-ready.</li>
       <li>Multi-user studio platform with drill-down chat, validation reports and a one-page studio memo.</li>
+      <li>Research alongside: DiA, a directional temporal adapter for video foundation models, at NeurIPS 2026.</li>
     </ul>
     <div class="pf-statrow">
       <div><b>10</b><span>specialist agents</span></div>
@@ -39,7 +40,7 @@ nav_order: 4
       <div><b>1,000</b><span>real reviews per peer</span></div>
     </div>
     <figure class="pf-figure" style="background: transparent; padding: 0">
-      <img src="{{ '/assets/img/pf/playprism-landing_hero.jpg' | relative_url }}" alt="PlayPrismAI: Meet your players before you ship" loading="lazy">
+      <img src="{{ '/assets/img/pf/playprism-landing_hero.jpg' | relative_url }}" alt="PlayPrism AI: Meet your players before you ship" loading="lazy">
     </figure>
     <p class="links-row"><a class="link" href="https://playprismai.se" target="_blank" rel="noopener">playprismai.se — launching soon →</a><a class="link quiet" href="{{ '/#playprism' | relative_url }}">More on the homepage →</a></p>
   </div>
@@ -66,7 +67,7 @@ nav_order: 4
       <div class="bar"><i style="width: 94%; background: var(--pf-accent)"></i><i style="width: 82%; background: var(--pf-mute)"></i></div>
       <div class="row"><span>82% before</span><span style="color: var(--pf-accent)">94% shipped</span></div>
     </div>
-    <p style="margin-top: 22px">It is also where the question behind my PhD came from: <em>why do models that pass validation fail on real samples?</em></p>
+    <p style="margin-top: 22px">It is also where my PhD began: models that pass validation can still break on real samples. <em>Can learned representations hold up in the real world?</em></p>
     <p class="links-row"><a class="link" href="http://www.arkray.co.jp/english/news/2019/release20190708_jp_en.html" target="_blank" rel="noopener">Product press release →</a></p>
   </div>
 </section>

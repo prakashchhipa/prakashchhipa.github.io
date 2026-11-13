@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: publications
 eyebrow: Publications
-headline: Twenty-plus papers on one question — <em>why models fail in the world</em>, and how to fix it.
+headline: Twenty-plus papers, from <em>robust self-supervised learning</em> to video foundation models.
 lede: From self-supervised robustness and label-efficient learning to parameter-efficient video and vision-language adapters. Selected papers below, grouped by year and newest first; the complete list is on Google Scholar.
 description: Peer-reviewed publications by Prakash Chandra Chhipa at NeurIPS, CVPR, ICLR, ECCV, WACV, ACCV and more.
 full_width: true
